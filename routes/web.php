@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 //depan
 Route::get('/', function () {
-    return view('welcome');
+    return view('depan.index');
 });
 
 //belakang

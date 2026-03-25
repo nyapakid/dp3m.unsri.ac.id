@@ -5,7 +5,7 @@
 
     @include('belakang.main-module-view.meta')
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>DP3M - Admin Dashboard</title>
 
     @include('belakang.main-module-view.css')
 
