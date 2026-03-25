@@ -6,7 +6,7 @@
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                <div class="sidebar-brand-text mx-3">dp3m.unsri</div>
             </a>
 
             <!-- Divider -->
@@ -24,42 +24,115 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Interface
+                Website
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
-                    aria-expanded="true" aria-controls="collapseTwo">
-                    <i class="fas fa-fw fa-cog"></i>
-                    <span>Components</span>
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsehome"
+                    aria-expanded="true" aria-controls="collapsehome">
+                    <i class="fa fa-home"></i>
+                    <span>Home</span>
                 </a>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+                <div id="collapsehome" class="collapse" aria-labelledby="headinghome" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Components:</h6>
-                        <a class="collapse-item" href="buttons.html">Buttons</a>
-                        <a class="collapse-item" href="cards.html">Cards</a>
+                        <a class="collapse-item" href="#">module1</a>
+                        <a class="collapse-item" href="#">module2</a>
+                        <a class="collapse-item" href="#">module3</a>
+                        <a class="collapse-item" href="#">module4</a>
+                        <a class="collapse-item" href="#">module5</a>
                     </div>
                 </div>
             </li>
 
-            <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
-                    aria-expanded="true" aria-controls="collapseUtilities">
-                    <i class="fas fa-fw fa-wrench"></i>
-                    <span>Utilities</span>
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsetentang"
+                    aria-expanded="true" aria-controls="collapsetentang">
+                    <i class="fa fa-info-circle"></i>
+                    <span>Tentang</span>
                 </a>
-                <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
-                    data-parent="#accordionSidebar">
+                <div id="collapsetentang" class="collapse" aria-labelledby="headingtentang" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Custom Utilities:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Colors</a>
-                        <a class="collapse-item" href="utilities-border.html">Borders</a>
-                        <a class="collapse-item" href="utilities-animation.html">Animations</a>
-                        <a class="collapse-item" href="utilities-other.html">Other</a>
+                        <a class="collapse-item" href="#">Visi dan Misi</a>
+                        <a class="collapse-item" href="#">Fungsi dan Tugas</a>
+                        <a class="collapse-item" href="#">Struktur Organisasi</a>
                     </div>
                 </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseakreditasinasional"
+                    aria-expanded="true" aria-controls="collapseakreditasinasional">
+                    <i class="fa fa-book"></i>
+                    <span>Akreditasi Nasional</span>
+                </a>
+                <div id="collapseakreditasinasional" class="collapse" aria-labelledby="headingakreditasinasional" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="#">Status Akreditasi <br>Nasional</a>
+                        <a class="collapse-item" href="#">BAN-PT</a>
+                        <a class="collapse-item" href="#">LAM-PTkes</a>
+                        <a class="collapse-item" href="#">LAM Teknik</a>
+                        <a class="collapse-item" href="#">LAMSAMA</a>
+                        <a class="collapse-item" href="#">LAM-Infokom</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseakreditasiinternasional"
+                    aria-expanded="true" aria-controls="collapseakreditasiinternasional">
+                    <i class="fa fa-book"></i>
+                    <span>Akreditasi Internasional</span>
+                </a>
+                <div id="collapseakreditasiinternasional" class="collapse" aria-labelledby="headingakreditasiinternasional" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="#">Status Akreditasi <br>Internasional</a>
+                        <a class="collapse-item" href="#">ASIIN</a>
+                        <a class="collapse-item" href="#">IABEE</a>
+                        <a class="collapse-item" href="#">JABEE</a>
+                        <a class="collapse-item" href="#">ABET</a>
+                        <a class="collapse-item" href="#">ABEST21</a>
+                        <a class="collapse-item" href="#">KAAB</a>
+                        <a class="collapse-item" href="#">RSC</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsepemeringkatan"
+                    aria-expanded="true" aria-controls="collapsepemeringkatan">
+                    <i class="fa fa-signal"></i>
+                    <span>Pemeringkatan</span>
+                </a>
+                <div id="collapsepemeringkatan" class="collapse" aria-labelledby="headingpemeringkatan" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="#">module1</a>
+                        <a class="collapse-item" href="#">module2</a>
+                        <a class="collapse-item" href="#">module3</a>
+                        <a class="collapse-item" href="#">module4</a>
+                        <a class="collapse-item" href="#">module5</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseperaturan"
+                    aria-expanded="true" aria-controls="collapseperaturan">
+                    <i class="fa fa-university"></i>
+                    <span>Peraturan</span>
+                </a>
+                <div id="collapseperaturan" class="collapse" aria-labelledby="headingperaturan" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="#">Peraturan dan <br>Undang-Undang</a>
+                        <a class="collapse-item" href="#">Statuta dan Peraturan <br>Turunan Statuta</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">
+                    <i class="fas fa-fw fa-folder"></i>
+                    <span>Berita</span></a>
             </li>
 
             <!-- Divider -->
@@ -67,42 +140,34 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Addons
+                Aplikasi A
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseaplikasiA"
+                    aria-expanded="true" aria-controls="collapseaplikasiA">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Pages</span>
+                    <span>judul</span>
                 </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+                <div id="collapseaplikasiA" class="collapse" aria-labelledby="headingaplikasiA" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Login Screens:</h6>
-                        <a class="collapse-item" href="login.html">Login</a>
-                        <a class="collapse-item" href="register.html">Register</a>
-                        <a class="collapse-item" href="forgot-password.html">Forgot Password</a>
+                        <h6 class="collapse-header">menu 1:</h6>
+                            <a class="collapse-item" href="#">sub menu 1</a>
+                            <a class="collapse-item" href="#">sub menu 2</a>
                         <div class="collapse-divider"></div>
-                        <h6 class="collapse-header">Other Pages:</h6>
-                        <a class="collapse-item" href="404.html">404 Page</a>
-                        <a class="collapse-item" href="blank.html">Blank Page</a>
+                        <h6 class="collapse-header">menu 2</h6>
+                            <a class="collapse-item" href="#">sub menu 1</a>
+                            <a class="collapse-item" href="#">sub menu 2</a>
                     </div>
                 </div>
             </li>
 
             <!-- Nav Item - Charts -->
             <li class="nav-item">
-                <a class="nav-link" href="charts.html">
+                <a class="nav-link" href="#">
                     <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Charts</span></a>
-            </li>
-
-            <!-- Nav Item - Tables -->
-            <li class="nav-item">
-                <a class="nav-link" href="tables.html">
-                    <i class="fas fa-fw fa-table"></i>
-                    <span>Tables</span></a>
+                    <span>menu item</span></a>
             </li>
 
             <!-- Divider -->
