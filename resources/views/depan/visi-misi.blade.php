@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>DP3M UNSRI</title>
+    <title>DP3M UNSRI - Visi dan Misi</title>
       @include('depan.main-module-view.meta')
     
       @include('depan.main-module-view.css')
@@ -14,17 +14,12 @@
 
       </header>
       
-        @include('depan.home-module-view.carusel')
-
-        @include('depan.home-module-view.sejarah')
-
-        @include('depan.home-module-view.cekakreditasi')
-
-        @include('depan.home-module-view.grafik')
-
-        @include('depan.home-module-view.layanan')
-
-        @include('depan.home-module-view.galery')
+        @include('depan.visi-misi-module-view.sekapursirih')
+        @include('depan.visi-misi-module-view.visi')
+        @include('depan.visi-misi-module-view.misi')
+        @include('depan.visi-misi-module-view.tujuan')
+        @include('depan.visi-misi-module-view.startegi')
+        <br>
 
         <!-- Page Footer-->
         @include('depan.main-module-view.footer')

@@ -12,14 +12,13 @@
             <ul class="navbar-nav ms-auto">
 
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
+                    <a class="nav-link active" href="{{ route('index') }}">Home</a>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Tentang</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Visi dan Misi</a></li>
-                        <li><a class="dropdown-item" href="#">Fungsi dan Tugas</a></li>
+                        <li><a class="dropdown-item" href="{{ route('visi-misi') }}">Visi, Misi, Tujuan, dan Strategi</a></li>
                         <li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
                     </ul>
                 </li>
