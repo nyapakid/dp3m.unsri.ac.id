@@ -19,7 +19,7 @@
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Tentang</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{ route('visi-misi') }}">Visi, Misi, Tujuan, dan Strategi</a></li>
-                        <li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
+                        <li><a class="dropdown-item" href="{{ route('struktur-organisasi') }}">Struktur Organisasi</a></li>
                     </ul>
                 </li>
 
