@@ -54,6 +54,24 @@ Route::get('/', function () {
             return view('depan.akreditasi-nasional-banpt-pembukaan-prodi');
         })->name('akreditasi-nasional-banpt-pembukaan-prodi');
 
+        //LAM-PTKes
+        Route::get('/akreditasi-lamptkes', function () {
+            return view('depan.akreditasi-nasional-lamptkes');
+        })->name('akreditasi-nasional-lamptkes');
+
+        Route::get('/akreditasi-lamptkes', function () {
+            return view('depan.akreditasi-nasional-lamptkes');
+        })->name('akreditasi-nasional-lamptkes');
+
+        Route::get('/akreditasi-lamptkes/instrumen-akreditasi', function () {
+            return view('depan.akreditasi-nasional-lamptkes-instrumen-akreditasi');
+        })->name('akreditasi-nasional-lamptkes-instrumen-akreditasi');
+
+        Route::get('/akreditasi-lamptkes/informasi-surveilans', function () {
+            return view('depan.akreditasi-nasional-lamptkes-informasi-surveilans');
+        })->name('akreditasi-nasional-lamptkes-informasi-surveilans');
+
+
 //belakang
 Route::get('/belakang', function () {
     return view('belakang.index');

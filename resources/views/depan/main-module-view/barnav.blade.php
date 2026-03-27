@@ -24,7 +24,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{ route('akreditasi-nasional-status') }}">Status Akreditasi Nasional</a></li>
                         <li><a class="dropdown-item" href="{{ route('akreditasi-nasional-banpt') }}">BAN-PT</a></li>
-                        <li><a class="dropdown-item" href="#">LAM-PTKes</a></li>
+                        <li><a class="dropdown-item" href="{{ route('akreditasi-nasional-lamptkes') }}">LAM-PTKes</a></li>
                         <li><a class="dropdown-item" href="#">LAM TEKNIK</a></li>
                         <li><a class="dropdown-item" href="#">LAMSAMA</a></li>
                         <li><a class="dropdown-item" href="#">LAM Infokom</a></li>
