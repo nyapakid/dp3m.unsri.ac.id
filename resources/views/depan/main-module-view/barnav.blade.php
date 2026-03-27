@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
 
-        <a class="navbar-brand" href="#">MyWebsite</a>
+        <a class="navbar-brand" href="{{ route('index') }}">DP3M Universitas Sriwijaya</a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
             <span class="navbar-toggler-icon"></span>
@@ -10,10 +10,6 @@
         <div class="collapse navbar-collapse" id="navbarMenu">
 
             <ul class="navbar-nav ms-auto">
-
-                <li class="nav-item">
-                    <a class="nav-link active" href="{{ route('index') }}">Home</a>
-                </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Tentang</a>
@@ -26,8 +22,8 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Akreditasi Nasional</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Status Akreditasi Nasional</a></li>
-                        <li><a class="dropdown-item" href="#">BAN-PT</a></li>
+                        <li><a class="dropdown-item" href="{{ route('akreditasi-nasional-status') }}">Status Akreditasi Nasional</a></li>
+                        <li><a class="dropdown-item" href="{{ route('akreditasi-nasional-banpt') }}">BAN-PT</a></li>
                         <li><a class="dropdown-item" href="#">LAM-PTKes</a></li>
                         <li><a class="dropdown-item" href="#">LAM TEKNIK</a></li>
                         <li><a class="dropdown-item" href="#">LAMSAMA</a></li>

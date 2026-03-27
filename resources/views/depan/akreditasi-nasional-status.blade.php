@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
     <head>
-        <title>DP3M UNSRI - Struktur Organisasi</title>
+        <title>DP3M UNSRI - Status Akreditasi</title>
         @include('depan.main-module-view.meta')
         
         @include('depan.main-module-view.css')
@@ -15,16 +15,7 @@
 
             </header>
 
-            <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
-                <div class="container-fluid">
-                    <br>
-                    <h3>Struktur Organisasi</h3>
-                
-                    <div><img src="assets/depan/images/struktur-org.png" width="1300" height="1300"></div>
-
-                </div>
-            </section>
-        
+            <br>
 
             <!-- Page Footer-->
             @include('depan.main-module-view.footer')

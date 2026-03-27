@@ -1,0 +1,28 @@
+.button-w {
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-b {
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 27px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button-ijo {background-color: #04AA6D;} /* Green */
+.button-biru {background-color: #008CBA;} /* Blue */
+.button-abu {background-color: #B2BEB5;} /* white */
+.button-abang {background-color: #FF0000;} /* red */
