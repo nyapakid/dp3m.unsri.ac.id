@@ -83,6 +83,16 @@ Route::get('/belakang', function () {
     return view('belakang.website.home.home-edit-slide-banner');
     })->name('home-edit-slide-banner');
 
+        //home-page-edit-banner-slide
+        Route::get('/belakang/website/home/edit-slide-banner/page-edit-banner', function () {
+        return view('belakang.website.home.home-page-edit-banner');
+        })->name('home-page-edit-banner');
+
+        //home-page-tambah-banner-slide
+        Route::get('/belakang/website/home/edit-slide-banner/page-tambah-banner', function () {
+        return view('belakang.website.home.home-page-tambah-banner');
+        })->name('home-page-tambah-banner');
+
     //home-edit-profile
     Route::get('/belakang/website/home/edit-profile', function () {
     return view('belakang.website.home.home-edit-profile');

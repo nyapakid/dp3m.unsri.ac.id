@@ -28,7 +28,7 @@
 
                     <div class="d-flex justify-content-between mb-3">
                         <h3>Edit Slide Banner</h3>
-                        <a href="#" class="btn btn-primary">Tambah Gambar Slide Banner</a>
+                        <a href="{{ route('home-page-tambah-banner') }}" class="btn btn-primary">Tambah Gambar Slide Banner</a>
                     </div>
 
                     <table class="table table-bordered table-striped">
@@ -46,7 +46,7 @@
                                 <td>gambar 1</td>
                                 <td>gambar tampil disini</td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-warning">Edit</a>
+                                    <a href="{{ route('home-page-edit-banner') }}" class="btn btn-sm btn-warning">Edit</a>
                                     <a href="#" class="btn btn-sm btn-danger">Hapus</a>
                                 </td>
                             </tr>
@@ -55,7 +55,7 @@
                                 <td>gambar 2</td>
                                 <td>gambar tampil disini</td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-warning">Edit</a>
+                                    <a href="{{ route('home-page-edit-banner') }}" class="btn btn-sm btn-warning">Edit</a>
                                     <a href="#" class="btn btn-sm btn-danger">Hapus</a>
                                 </td>
                             </tr>
