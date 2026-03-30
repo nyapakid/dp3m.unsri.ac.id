@@ -36,11 +36,10 @@
                 </a>
                 <div id="collapsehome" class="collapse" aria-labelledby="headinghome" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="#">module1</a>
-                        <a class="collapse-item" href="#">module2</a>
-                        <a class="collapse-item" href="#">module3</a>
-                        <a class="collapse-item" href="#">module4</a>
-                        <a class="collapse-item" href="#">module5</a>
+                        <a class="collapse-item" href="#">Edit Slide Banner</a>
+                        <a class="collapse-item" href="#">Edit Profile</a>
+                        <a class="collapse-item" href="#">Edit Infografis</a>
+                        <a class="collapse-item" href="#">Edit Galery</a>
                     </div>
                 </div>
             </li>
@@ -53,9 +52,8 @@
                 </a>
                 <div id="collapsetentang" class="collapse" aria-labelledby="headingtentang" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="#">Visi dan Misi</a>
-                        <a class="collapse-item" href="#">Fungsi dan Tugas</a>
-                        <a class="collapse-item" href="#">Struktur Organisasi</a>
+                        <a class="collapse-item" href="#">Edit Visi, Misi, Tujuan, <br>dan Strategi</a>
+                        <a class="collapse-item" href="#">Edit Struktur Organisasi</a>
                     </div>
                 </div>
             </li>
