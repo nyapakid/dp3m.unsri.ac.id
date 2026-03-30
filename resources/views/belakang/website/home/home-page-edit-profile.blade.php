@@ -5,7 +5,7 @@
 
     @include('belakang.main-module-view.meta')
 
-    <title>DP3M - Home - Halaman Edit Banner Slide</title>
+    <title>DP3M - Home - Halaman Edit Profile</title>
 
     @include('belakang.main-module-view.css')
 
@@ -25,27 +25,32 @@
             <div id="content">
 
                 @include('belakang.main-module-view.bartop')
-                
+
                 <div class="container-fluid">
 
-                    <h3>Edit Banner Slide</h3>
+                    <h3>Edit Profile</h3>
 
                     <form action="#" method="POST" enctype="multipart/form-data">
                         @csrf @method('PUT')
                         <div class="mb-3">
                             <label>Judul</label>
-                            <input type="text" name="judul_gambar_slide" class="form-control" value="Nanti diambil dari database" required>
+                            <input type="text" name="judul_profile" class="form-control" value="Nanti diambil dari database" required>
                         </div>
                         
                         <div class="mb-3">
                             <label>Gambar</label>
-                            <input type="file" name="gambar_gambar_slide" class="form-control">
+                            <input type="file" name="gambar_profile" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                            <label>Konten</label>
+                            <textarea name="deskripsi_profile" id="summernote" class="form-control" rows="20">Nanti diambil dari database</textarea>
                         </div>
                         <button class="btn btn-success">Update</button>
-                        <a href="{{ route('home-edit-slide-banner') }}" class="btn btn-secondary">Batal</a>
+                        <a href="{{ route('home-edit-profile') }}" class="btn btn-secondary">Batal</a>
                     </form>
+
                 </div>
-    
+
             </div>    
 
         </div>

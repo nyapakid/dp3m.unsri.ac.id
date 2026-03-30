@@ -98,6 +98,11 @@ Route::get('/belakang', function () {
     return view('belakang.website.home.home-edit-profile');
     })->name('home-edit-profile');
 
+        //home-page-edit-profile
+        Route::get('/belakang/website/home/edit-profile/page-edit-profile', function () {
+        return view('belakang.website.home.home-page-edit-profile');
+        })->name('home-page-edit-profile');
+
     //home-edit-infografis
     Route::get('/belakang/website/home/edit-infografis', function () {
     return view('belakang.website.home.home-edit-infografis');

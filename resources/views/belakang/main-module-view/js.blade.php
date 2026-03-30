@@ -14,3 +14,7 @@
     <!-- Page level custom scripts -->
     <script src="{{ asset('assets/belakang/js/demo/chart-area-demo.js') }}"></script>
     <script src="{{ asset('assets/belakang/js/demo/chart-pie-demo.js') }}"></script>
+
+    <!-- include summernote css/js -->
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.9.0/dist/summernote.min.js"></script>
+    <script src="{{ asset('assets/belakang/js/summernote.js') }}"></script>

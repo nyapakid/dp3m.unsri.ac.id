@@ -26,6 +26,8 @@
 
                 @include('belakang.main-module-view.bartop')
 
+                <div class="container-fluid">
+
                     <h3>Tambah Banner Slide</h3>
 
                     <form action="#" method="POST" enctype="multipart/form-data">
@@ -40,8 +42,10 @@
                             <input type="file" name="gambar_gambar_slide" class="form-control">
                         </div>
                         <button class="btn btn-success">Tambah</button>
-                        <a href="#" class="btn btn-secondary">Batal</a>
+                        <a href="{{ route('home-edit-slide-banner') }}" class="btn btn-secondary">Batal</a>
                     </form>
+
+                </div>
 
             </div>    
 

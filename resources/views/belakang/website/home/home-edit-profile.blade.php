@@ -26,6 +26,8 @@
 
                 @include('belakang.main-module-view.bartop')
 
+                <div class="container-fluid">
+
                     <div class="d-flex justify-content-between mb-3">
                         <h3>Edit Profile Singkat</h3>
                     </div>
@@ -36,7 +38,6 @@
                                 <th width="50">No</th>
                                 <th>Judul</th>
                                 <th>deskripsi</th>
-                                <th>Gambar</th>
                                 <th width="150">Aksi</th>
                             </tr>
                         </thead>
@@ -46,14 +47,13 @@
                                 <td>Judul</td>
                                 <td>deskripsi</td>
                                 <td>
-                                    <img src="#" width="100" height="100">
-                                </td>
-                                <td>
-                                    <a href="#" class="btn btn-sm btn-warning">Edit</a>
+                                    <a href="{{ route('home-page-edit-profile') }}" class="btn btn-sm btn-warning">Edit</a>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
+
+                </div>
 
             </div>    
 

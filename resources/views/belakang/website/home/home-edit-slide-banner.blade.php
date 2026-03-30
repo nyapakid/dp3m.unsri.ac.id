@@ -25,7 +25,7 @@
             <div id="content">
 
                 @include('belakang.main-module-view.bartop')
-
+                <div class="container-fluid">
                     <div class="d-flex justify-content-between mb-3">
                         <h3>Edit Slide Banner</h3>
                         <a href="{{ route('home-page-tambah-banner') }}" class="btn btn-primary">Tambah Gambar Slide Banner</a>
@@ -61,6 +61,7 @@
                             </tr>
                         </tbody>
                     </table>
+                </div>
 
             </div>    
 
