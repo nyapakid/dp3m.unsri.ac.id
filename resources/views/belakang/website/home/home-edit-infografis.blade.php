@@ -26,9 +26,11 @@
 
                 @include('belakang.main-module-view.bartop')
 
+                <div class="container-fluid">
+
                     <div class="d-flex justify-content-between mb-3">
                         <h3>Edit Infografis</h3>
-                        <a href="#" class="btn btn-primary">Tambah Infografis</a>
+                        <a href="{{ route('home-page-tambah-infografis') }}" class="btn btn-primary">Tambah Infografis</a>
                     </div>
 
                     <table class="table table-bordered table-striped">
@@ -46,7 +48,7 @@
                                 <td>gambar 1</td>
                                 <td>gambar tampil disini</td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-warning">Edit</a>
+                                    <a href="{{ route('home-page-edit-infografis') }}" class="btn btn-sm btn-warning">Edit</a>
                                     <a href="#" class="btn btn-sm btn-danger">Hapus</a>
                                 </td>
                             </tr>
@@ -55,12 +57,31 @@
                                 <td>gambar 2</td>
                                 <td>gambar tampil disini</td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-warning">Edit</a>
+                                    <a href="{{ route('home-page-edit-infografis') }}" class="btn btn-sm btn-warning">Edit</a>
+                                    <a href="#" class="btn btn-sm btn-danger">Hapus</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>gambar 3</td>
+                                <td>gambar tampil disini</td>
+                                <td>
+                                    <a href="{{ route('home-page-edit-infografis') }}" class="btn btn-sm btn-warning">Edit</a>
+                                    <a href="#" class="btn btn-sm btn-danger">Hapus</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>gambar 4</td>
+                                <td>gambar tampil disini</td>
+                                <td>
+                                    <a href="{{ route('home-page-edit-infografis') }}" class="btn btn-sm btn-warning">Edit</a>
                                     <a href="#" class="btn btn-sm btn-danger">Hapus</a>
                                 </td>
                             </tr>
                         </tbody>
                     </table>
+                </div>
 
             </div>    
 

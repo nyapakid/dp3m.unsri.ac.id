@@ -26,9 +26,11 @@
 
                 @include('belakang.main-module-view.bartop')
 
+                <div class="container-fluid">
+
                     <div class="d-flex justify-content-between mb-3">
                         <h3>Edit Galery</h3>
-                        <a href="#" class="btn btn-primary">Tambah Gambar Galery</a>
+                        <a href="{{ route('home-page-tambah-galery') }}" class="btn btn-primary">Tambah Gambar Galery</a>
                     </div>
 
                     <table class="table table-bordered table-striped">
@@ -46,7 +48,7 @@
                                 <td>gambar 1</td>
                                 <td>gambar tampil disini</td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-warning">Edit</a>
+                                    <a href="{{ route('home-page-edit-galery') }}" class="btn btn-sm btn-warning">Edit</a>
                                     <a href="#" class="btn btn-sm btn-danger">Hapus</a>
                                 </td>
                             </tr>
@@ -55,12 +57,14 @@
                                 <td>gambar 2</td>
                                 <td>gambar tampil disini</td>
                                 <td>
-                                    <a href="#" class="btn btn-sm btn-warning">Edit</a>
+                                    <a href="{{ route('home-page-edit-galery') }}" class="btn btn-sm btn-warning">Edit</a>
                                     <a href="#" class="btn btn-sm btn-danger">Hapus</a>
                                 </td>
                             </tr>
                         </tbody>
-                    </table>  
+                    </table> 
+                    
+                </div>
 
             </div>    
 

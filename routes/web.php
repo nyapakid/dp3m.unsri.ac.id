@@ -108,10 +108,30 @@ Route::get('/belakang', function () {
     return view('belakang.website.home.home-edit-infografis');
     })->name('home-edit-infografis');
 
+        //home-page-edit-infografis
+        Route::get('/belakang/website/home/edit-infografis/page-edit-infografis', function () {
+        return view('belakang.website.home.home-page-edit-infografis');
+        })->name('home-page-edit-infografis');
+
+        //home-page-tambah-infografis
+        Route::get('/belakang/website/home/edit-infografis/page-tambah-infografis', function () {
+        return view('belakang.website.home.home-page-tambah-infografis');
+        })->name('home-page-tambah-infografis');
+
     //home-edit-galery
     Route::get('/belakang/website/home/edit-galery', function () {
     return view('belakang.website.home.home-edit-galery');
     })->name('home-edit-galery');
+
+        //home-page-edit-galery
+        Route::get('/belakang/website/home/edit-galery/page-edit-galery', function () {
+        return view('belakang.website.home.home-page-edit-galery');
+        })->name('home-page-edit-galery');
+
+        //home-page-tambah-galery
+        Route::get('/belakang/website/home/edit-galery/page-tambah-galery', function () {
+        return view('belakang.website.home.home-page-tambah-galery');
+        })->name('home-page-tambah-galery');
 //home end
 
 //tentang start
