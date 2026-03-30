@@ -26,6 +26,31 @@
 
                 @include('belakang.main-module-view.bartop')
 
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th width="50">No</th>
+                                <th>Judul</th>
+                                <th>deskripsi</th>
+                                <th>Gambar</th>
+                                <th width="150">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Judul</td>
+                                <td>deskripsi</td>
+                                <td>
+                                    <img src="#" width="100" height="100">
+                                </td>
+                                <td>
+                                    <a href="#" class="btn btn-sm btn-warning">Edit</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
             </div>    
 
         </div>

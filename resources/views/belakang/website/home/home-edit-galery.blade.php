@@ -26,6 +26,42 @@
 
                 @include('belakang.main-module-view.bartop')
 
+                    <div class="d-flex justify-content-between mb-3">
+                        <h3></h3>
+                        <a href="#" class="btn btn-primary">Tambah Gambar Galery</a>
+                    </div>
+
+                    <table class="table table-bordered table-striped">
+                        <thead>
+                            <tr>
+                                <th width="50">No</th>
+                                <th>Judul</th>
+                                <th>Preview</th>
+                                <th width="150">Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>gambar 1</td>
+                                <td>gambar tampil disini</td>
+                                <td>
+                                    <a href="#" class="btn btn-sm btn-warning">Edit</a>
+                                    <a href="#" class="btn btn-sm btn-danger">Hapus</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>gambar 2</td>
+                                <td>gambar tampil disini</td>
+                                <td>
+                                    <a href="#" class="btn btn-sm btn-warning">Edit</a>
+                                    <a href="#" class="btn btn-sm btn-danger">Hapus</a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>  
+
             </div>    
 
         </div>
