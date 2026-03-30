@@ -26,6 +26,11 @@
 
                 @include('belakang.main-module-view.bartop')
 
+                    <div class="d-flex justify-content-between mb-3">
+                        <h3>Edit Infografis</h3>
+                        <a href="#" class="btn btn-primary">Tambah Infografis</a>
+                    </div>
+
                     <table class="table table-bordered table-striped">
                         <thead>
                             <tr>

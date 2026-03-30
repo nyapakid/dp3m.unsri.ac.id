@@ -27,7 +27,7 @@
                 @include('belakang.main-module-view.bartop')
 
                     <div class="d-flex justify-content-between mb-3">
-                        <h3></h3>
+                        <h3>Edit Slide Banner</h3>
                         <a href="#" class="btn btn-primary">Tambah Gambar Slide Banner</a>
                     </div>
 

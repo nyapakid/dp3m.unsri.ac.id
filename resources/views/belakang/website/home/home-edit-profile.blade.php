@@ -26,6 +26,10 @@
 
                 @include('belakang.main-module-view.bartop')
 
+                    <div class="d-flex justify-content-between mb-3">
+                        <h3>Edit Profile Singkat</h3>
+                    </div>
+
                     <table class="table table-bordered table-striped">
                         <thead>
                             <tr>
