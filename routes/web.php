@@ -75,4 +75,37 @@ Route::get('/', function () {
 //belakang
 Route::get('/belakang', function () {
     return view('belakang.index');
-});
+})->name('belakang');
+
+//home start
+    //home-edit-banner-slide
+    Route::get('/belakang/website/home/edit-slide-banner', function () {
+    return view('belakang.website.home.home-edit-slide-banner');
+    })->name('home-edit-slide-banner');
+
+    //home-edit-profile
+    Route::get('/belakang/website/home/edit-profile', function () {
+    return view('belakang.website.home.home-edit-profile');
+    })->name('home-edit-profile');
+
+    //home-edit-infografis
+    Route::get('/belakang/website/home/edit-infografis', function () {
+    return view('belakang.website.home.home-edit-infografis');
+    })->name('home-edit-infografis');
+
+    //home-edit-galery
+    Route::get('/belakang/website/home/edit-galery', function () {
+    return view('belakang.website.home.home-edit-galery');
+    })->name('home-edit-galery');
+//home end
+
+//tentang start
+    //tentant-edit-visi-misi
+    Route::get('/belakang/website/tentang/edit-visi-misi-tujuan-startegi', function () {
+    return view('belakang.website.tentang.tentang-edit-visi-misi');
+    })->name('tentang-edit-visi-misi');
+
+    //tentant-edit-struktur-organisasi
+    Route::get('/belakang/website/tentang/edit-struktur-organisasi', function () {
+    return view('belakang.website.tentang.tentang-edit-struktur-organisasi');
+    })->name('tentang-edit-struktur-organisasi');

@@ -2,7 +2,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('belakang') }}">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <i class="fas fa-laugh-wink"></i>
                 </div>
@@ -14,7 +14,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="{{ route('belakang') }}">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
@@ -36,10 +36,10 @@
                 </a>
                 <div id="collapsehome" class="collapse" aria-labelledby="headinghome" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="#">Edit Slide Banner</a>
-                        <a class="collapse-item" href="#">Edit Profile</a>
-                        <a class="collapse-item" href="#">Edit Infografis</a>
-                        <a class="collapse-item" href="#">Edit Galery</a>
+                        <a class="collapse-item" href="{{ route('home-edit-slide-banner') }}">Edit Slide Banner</a>
+                        <a class="collapse-item" href="{{ route('home-edit-profile') }}">Edit Profile</a>
+                        <a class="collapse-item" href="{{ route('home-edit-infografis') }}">Edit Infografis</a>
+                        <a class="collapse-item" href="{{ route('home-edit-galery') }}">Edit Galery</a>
                     </div>
                 </div>
             </li>
@@ -52,8 +52,8 @@
                 </a>
                 <div id="collapsetentang" class="collapse" aria-labelledby="headingtentang" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="#">Edit Visi, Misi, Tujuan, <br>dan Strategi</a>
-                        <a class="collapse-item" href="#">Edit Struktur Organisasi</a>
+                        <a class="collapse-item" href="{{ route('tentang-edit-visi-misi') }}">Edit Visi, Misi, Tujuan, <br>dan Strategi</a>
+                        <a class="collapse-item" href="{{ route('tentang-edit-struktur-organisasi') }}">Edit Struktur Organisasi</a>
                     </div>
                 </div>
             </li>
