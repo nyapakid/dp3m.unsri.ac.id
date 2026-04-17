@@ -16,6 +16,11 @@ Route::get('/', function () {
         return view('depan.struktur-organisasi');
     })->name('struktur-organisasi');
 
+    //SPMI
+    Route::get('/spmi', function () {
+        return view('depan.spmi');
+    })->name('spmi');
+
     //akreditasi
     Route::get('/akreditas-status', function () {
         return view('depan.akreditasi-nasional-status');
