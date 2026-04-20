@@ -2,6 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 
+//under constructon
+Route::get('/underconstruction', function () {
+    return view('underconstruction');
+})->name('perbaikan');
+
 //depan
 Route::get('/', function () {
     return view('depan.index');

@@ -26,19 +26,22 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Akreditasi Nasional</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ route('akreditasi-nasional-status') }}">Status Akreditasi Nasional</a></li>
+                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Status Akreditasi Nasional</a></li>
+                        <!--
                         <li><a class="dropdown-item" href="{{ route('akreditasi-nasional-banpt') }}">BAN-PT</a></li>
                         <li><a class="dropdown-item" href="{{ route('akreditasi-nasional-lamptkes') }}">LAM-PTKes</a></li>
                         <li><a class="dropdown-item" href="#">LAM TEKNIK</a></li>
                         <li><a class="dropdown-item" href="#">LAMSAMA</a></li>
                         <li><a class="dropdown-item" href="#">LAM Infokom</a></li>
+                        -->
                     </ul>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Akreditasi Internasional</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Status Akreditasi Internasional</a></li>
+                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Status Akreditasi Internasional</a></li>
+                        <!--
                         <li><a class="dropdown-item" href="#">ASIIN</a></li>
                         <li><a class="dropdown-item" href="#">IABEE</a></li>
                         <li><a class="dropdown-item" href="#">JABEE</a></li>
@@ -46,23 +49,24 @@
                         <li><a class="dropdown-item" href="#">ABEST21</a></li>
                         <li><a class="dropdown-item" href="#">KAAB</a></li>
                         <li><a class="dropdown-item" href="#">RSC</a></li>
+                        -->
                     </ul>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Pemeringkatan</a>
+                    <a class="nav-link" href="https://wcu.unsri.ac.id/">Pemeringkatan</a>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Peraturan</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Peraturan dan Undang-Undang</a></li>
-                        <li><a class="dropdown-item" href="#">Statuta dan Peraturan Turunan Statuta</a></li>
+                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Peraturan dan Undang-Undang</a></li>
+                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Statuta dan Peraturan Turunan Statuta</a></li>
                     </ul>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Berita</a>
+                    <a class="nav-link" href="{{ route('perbaikan') }}">Berita</a>
                 </li>
 
             </ul>
