@@ -19,21 +19,29 @@
                     </ul>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('spmi') }}">SPMI</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">SPMI & AMI</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Tentang SPMI</a></li>
+                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Strategi & Ruang Lingkup SPMI</a></li>
+                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Standar Universitas SRiwijaya</a></li>
+                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">AMI</a></li>
+                    </ul>
                 </li>
 
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Akreditasi Nasional</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Status Akreditasi Nasional</a></li>
-                        <!--
-                        <li><a class="dropdown-item" href="{{ route('akreditasi-nasional-banpt') }}">BAN-PT</a></li>
-                        <li><a class="dropdown-item" href="{{ route('akreditasi-nasional-lamptkes') }}">LAM-PTKes</a></li>
-                        <li><a class="dropdown-item" href="#">LAM TEKNIK</a></li>
-                        <li><a class="dropdown-item" href="#">LAMSAMA</a></li>
-                        <li><a class="dropdown-item" href="#">LAM Infokom</a></li>
-                        -->
+                        <li><a class="dropdown-item" href="https://www.banpt.or.id/prosedur-dan-instrumen/unduh-instrumen/">Instrumen BAN-PT</a></li>
+                        <li><a class="dropdown-item" href="https://lamptkes.org/File-Unduhan-Instrumen-9-kriteria">Instrumen LAM-PTKes</a></li>
+                        <li><a class="dropdown-item" href="https://lamemba.or.id/instrumen-akreditasi/">Instrumen LAM-EMBA</a></li>
+                        <li><a class="dropdown-item" href="https://lamteknik.or.id/akreditasi/instrumen-akreditasi">Instrumen LAM-TEKNIK</a></li>
+                        <li><a class="dropdown-item" href="https://lamsama.or.id/unduh-instrumen/">Instrumen LAM-SAMA</a></li>
+                        <li><a class="dropdown-item" href="https://laminfokom.or.id/official/instrumen1.html">Instrumen LAM-Infokom</a></li>
+                        <li><a class="dropdown-item" href="https://lamdik.or.id/instrumen-akreditasi/">Instrumen LAM-DIK</a></li>
+                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Instrumen LAM-PTIP</a></li>
+                        <li><a class="dropdown-item" href="https://www.lamspak.id/akreditasi/instrumen/">Instrumen LAM-SPAK</a></li>
                     </ul>
                 </li>
 
@@ -58,8 +66,9 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Peraturan</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Peraturan dan Dokumen</a>
                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ route('spmi') }}">Dokumen SPMI</a></li>
                         <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Peraturan dan Undang-Undang</a></li>
                         <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Statuta dan Peraturan Turunan Statuta</a></li>
                     </ul>
