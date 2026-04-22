@@ -16,10 +16,10 @@
             </header>
 
             <!-- Swiper-->
-            SPMI TENTANG
-            <div><img src="assets/depan/images/undercontrucktion.png" width="100%" height="100%"></div>
-
-
+            @include('depan.spmi-tentang-view-module.tentang')
+            @include('depan.spmi-tentang-view-module.kerangka-dasar')
+            @include('depan.spmi-tentang-view-module.prinsip-dasar')
+            
             <!-- Page Footer-->
             @include('depan.main-module-view.footer')
 
