@@ -13,8 +13,7 @@
         @include('depan.main-module-view.barnav')
 
       </header>
-      
-        @include('depan.home-module-view.carusel')
+        @include('depan.main-module-view.head-video')
 
         @include('depan.home-module-view.sejarah')
 
