@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
     <head>
-        <title>DP3M UNSRI - Akreditasi LAM-PTKes</title>
+        <title>DP3M UNSRI - Akreditasi AIPT</title>
         @include('depan.main-module-view.meta')
         
         @include('depan.main-module-view.css')
@@ -14,11 +14,12 @@
                 @include('depan.main-module-view.barnav')
 
             </header>
-            <br>
-            @include('depan.akreditasi-nasional-lamptkes-module-view.lamptkes-nav')
-            @include('depan.akreditasi-nasional-lamptkes-module-view.informasi-lamptkes')
+
+            AIPT here
+            <div><img src="assets/depan/images/undercontrucktion.png" width="100%" height="100%"></div>
 
             <br>
+
             <!-- Page Footer-->
             @include('depan.main-module-view.footer')
 

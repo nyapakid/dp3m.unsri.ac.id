@@ -30,34 +30,12 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Akreditasi Nasional</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Akreditasi</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Status Akreditasi Nasional</a></li>
-                        <li><a class="dropdown-item" href="https://www.banpt.or.id/prosedur-dan-instrumen/unduh-instrumen/">Instrumen BAN-PT</a></li>
-                        <li><a class="dropdown-item" href="https://lamptkes.org/File-Unduhan-Instrumen-9-kriteria">Instrumen LAM-PTKes</a></li>
-                        <li><a class="dropdown-item" href="https://lamemba.or.id/instrumen-akreditasi/">Instrumen LAM-EMBA</a></li>
-                        <li><a class="dropdown-item" href="https://lamteknik.or.id/akreditasi/instrumen-akreditasi">Instrumen LAM-TEKNIK</a></li>
-                        <li><a class="dropdown-item" href="https://lamsama.or.id/unduh-instrumen/">Instrumen LAM-SAMA</a></li>
-                        <li><a class="dropdown-item" href="https://laminfokom.or.id/official/instrumen1.html">Instrumen LAM-Infokom</a></li>
-                        <li><a class="dropdown-item" href="https://lamdik.or.id/instrumen-akreditasi/">Instrumen LAM-DIK</a></li>
-                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Instrumen LAM-PTIP</a></li>
-                        <li><a class="dropdown-item" href="https://www.lamspak.id/akreditasi/instrumen/">Instrumen LAM-SPAK</a></li>
-                    </ul>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Akreditasi Internasional</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Status Akreditasi Internasional</a></li>
-                        <!--
-                        <li><a class="dropdown-item" href="#">ASIIN</a></li>
-                        <li><a class="dropdown-item" href="#">IABEE</a></li>
-                        <li><a class="dropdown-item" href="#">JABEE</a></li>
-                        <li><a class="dropdown-item" href="#">ABET</a></li>
-                        <li><a class="dropdown-item" href="#">ABEST21</a></li>
-                        <li><a class="dropdown-item" href="#">KAAB</a></li>
-                        <li><a class="dropdown-item" href="#">RSC</a></li>
-                        -->
+                        <li><a class="dropdown-item" href="{{ route('akreditasi-AIPT') }}">Status Akreditasi AIPT</a></li>
+                        <li><a class="dropdown-item" href="{{ route('akreditasi-inter-status') }}">Status Akreditasi Internasional</a></li>
+                        <li><a class="dropdown-item" href="{{ route('akreditasi-nasional-status') }}">Status Akreditasi Nasional</a></li>
+                        <li><a class="dropdown-item" href="{{ route('akreditasi-instrumen') }}">Instrumen Akreditasi</a></li>
                     </ul>
                 </li>
 

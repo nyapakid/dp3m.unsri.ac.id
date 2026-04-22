@@ -22,64 +22,26 @@ Route::get('/', function () {
     })->name('struktur-organisasi');
 
     //SPMI
-    Route::get('/spmi', function () {
-        return view('depan.spmi');
+    Route::get('/peraturan-dokumen-spmi', function () {
+        return view('depan.peraturan-dokumen-spmi');
     })->name('spmi');
 
     //akreditasi
+    Route::get('/akreditas-aipt', function () {
+        return view('depan.akreditasi-AIPT');
+    })->name('akreditasi-AIPT');
+
     Route::get('/akreditas-status', function () {
         return view('depan.akreditasi-nasional-status');
     })->name('akreditasi-nasional-status');
 
-        //banPT
-        Route::get('/akreditasi-banpt', function () {
-            return view('depan.akreditasi-nasional-banpt');
-        })->name('akreditasi-nasional-banpt');
+    Route::get('/akreditas-inter-status', function () {
+        return view('depan.akreditasi-inter-status');
+    })->name('akreditasi-inter-status');
 
-        Route::get('/akreditasi-banpt/instrumen-akreditasi-banpt', function () {
-            return view('depan.akreditasi-nasional-banpt-instrumen-akreditasi');
-        })->name('akreditasi-nasional-banpt-instrumen-akreditasi');
-
-        Route::get('/akreditasi-banpt/instrumen-akreditasi-banpt', function () {
-            return view('depan.akreditasi-nasional-banpt-instrumen-akreditasi');
-        })->name('akreditasi-nasional-banpt-instrumen-akreditasi');
-
-        Route::get('/akreditasi-banpt/instrumen-suplemen-konversi', function () {
-            return view('depan.akreditasi-nasional-banpt-instrumen-suplemen-konversi');
-        })->name('akreditasi-nasional-banpt-instrumen-suplemen-konversi');
-
-        Route::get('/akreditasi-banpt/instrumen-suplemen-konversi', function () {
-            return view('depan.akreditasi-nasional-banpt-instrumen-suplemen-konversi');
-        })->name('akreditasi-nasional-banpt-instrumen-suplemen-konversi');
-
-        Route::get('/akreditasi-banpt/pemantauan-evaluasi-peringkat', function () {
-            return view('depan.akreditasi-nasional-banpt-pemantauan-evaluasi-peringkat');
-        })->name('akreditasi-nasional-banpt-pemantauan-evaluasi-peringkat');
-
-        Route::get('/akreditasi-banpt/pemantauan-evaluasi-peringkat', function () {
-            return view('depan.akreditasi-nasional-banpt-pemantauan-evaluasi-peringkat');
-        })->name('akreditasi-nasional-banpt-pemantauan-evaluasi-peringkat');
-
-        Route::get('/akreditasi-banpt/pembukaan-prodi', function () {
-            return view('depan.akreditasi-nasional-banpt-pembukaan-prodi');
-        })->name('akreditasi-nasional-banpt-pembukaan-prodi');
-
-        //LAM-PTKes
-        Route::get('/akreditasi-lamptkes', function () {
-            return view('depan.akreditasi-nasional-lamptkes');
-        })->name('akreditasi-nasional-lamptkes');
-
-        Route::get('/akreditasi-lamptkes', function () {
-            return view('depan.akreditasi-nasional-lamptkes');
-        })->name('akreditasi-nasional-lamptkes');
-
-        Route::get('/akreditasi-lamptkes/instrumen-akreditasi', function () {
-            return view('depan.akreditasi-nasional-lamptkes-instrumen-akreditasi');
-        })->name('akreditasi-nasional-lamptkes-instrumen-akreditasi');
-
-        Route::get('/akreditasi-lamptkes/informasi-surveilans', function () {
-            return view('depan.akreditasi-nasional-lamptkes-informasi-surveilans');
-        })->name('akreditasi-nasional-lamptkes-informasi-surveilans');
+    Route::get('/akreditas-instrumen', function () {
+        return view('depan.akreditasi-instrumen');
+    })->name('akreditasi-instrumen');
 
 
 //belakang

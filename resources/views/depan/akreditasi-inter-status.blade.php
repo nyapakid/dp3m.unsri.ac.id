@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
     <head>
-        <title>DP3M UNSRI - Pemantauan dan Evaluasi Peringkat Akreditasi</title>
+        <title>DP3M UNSRI - Status Akreditasi Interasional</title>
         @include('depan.main-module-view.meta')
         
         @include('depan.main-module-view.css')
@@ -14,11 +14,12 @@
                 @include('depan.main-module-view.barnav')
 
             </header>
-            <br>
-            @include('depan.akreditasi-nasional-banpt-module-view.banpt-nav')
-            
 
-            <br>
+            <!-- Swiper-->
+
+            internasional here
+            <div><img src="assets/depan/images/undercontrucktion.png" width="100%" height="100%"></div>
+
             <!-- Page Footer-->
             @include('depan.main-module-view.footer')
 

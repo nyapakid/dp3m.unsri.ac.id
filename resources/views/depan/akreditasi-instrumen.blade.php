@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
     <head>
-        <title>DP3M UNSRI - Instrumen Suplemen Konversi APT dan APS BAN-PT 2020</title>
+        <title>DP3M UNSRI - Download Instrumen Akreditasi</title>
         @include('depan.main-module-view.meta')
         
         @include('depan.main-module-view.css')
@@ -14,11 +14,11 @@
                 @include('depan.main-module-view.barnav')
 
             </header>
-            <br>
-            @include('depan.akreditasi-nasional-banpt-module-view.banpt-nav')
-            
+
+            @include('depan.akreditasi-instrumen-view-module.akreditasi-instrumen-tabel')
 
             <br>
+
             <!-- Page Footer-->
             @include('depan.main-module-view.footer')
 

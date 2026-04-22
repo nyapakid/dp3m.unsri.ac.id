@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
     <head>
-        <title>DP3M UNSRI - Status Akreditasi</title>
+        <title>DP3M UNSRI - Status Akreditasi Nasional</title>
         @include('depan.main-module-view.meta')
         
         @include('depan.main-module-view.css')
@@ -14,6 +14,10 @@
                 @include('depan.main-module-view.barnav')
 
             </header>
+
+            nasional here
+            @include('depan.akreditasi-nasional-status-view-module.akreditasi-nasional-resume-tabel')
+            <div><img src="assets/depan/images/undercontrucktion.png" width="100%" height="100%"></div>
 
             <br>
 

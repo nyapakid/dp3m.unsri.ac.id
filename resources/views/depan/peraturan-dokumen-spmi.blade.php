@@ -15,7 +15,7 @@
 
             </header>
 
-            @include('depan.spmi-module-view.spmi-bartab')
+            @include('depan.peraturan-dokumen-spmi-module-view.spmi-bartab')
             <br>
 
             <!-- Page Footer-->

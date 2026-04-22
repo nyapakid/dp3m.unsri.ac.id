@@ -8,15 +8,15 @@
         </div>
 
         <div id="1" class="tabcontent">
-            @include('depan.spmi-module-view.spmi-bartab2-kebijakan-spmi')
+            @include('depan.peraturan-dokumen-spmi-module-view.spmi-bartab2-kebijakan-spmi')
         </div>
 
         <div id="2" class="tabcontent">
-            @include('depan.spmi-module-view.spmi-bartab2-standar-penjamin-mutu') 
+            @include('depan.peraturan-dokumen-spmi-module-view.spmi-bartab2-standar-penjamin-mutu') 
         </div>
 
         <div id="3" class="tabcontent">
-            @include('depan.spmi-module-view.spmi-bartab2-manual-penjamin-mutu')
+            @include('depan.peraturan-dokumen-spmi-module-view.spmi-bartab2-manual-penjamin-mutu')
         </div>
 
     </div>
