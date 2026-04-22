@@ -12,7 +12,7 @@
 
             <!-- TEXT -->
             <div>
-                <h6 class="text-uppercase">SELAMAT DATANG DI</h6>
+                <h3 class="text-uppercase">SELAMAT DATANG DI</h3>
                 <h1 class="fw-bold">
                     Direktorat Pengembangan Pendidikan<br>
                     dan Penjaminan Mutu Universitas Sriwijaya<br>
