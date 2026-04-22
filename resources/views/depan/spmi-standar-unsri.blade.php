@@ -17,6 +17,7 @@
 
             <!-- Swiper-->
             STANDAR UNIVERSITAS SRIWIJAYA
+            
             <div><img src="assets/depan/images/undercontrucktion.png" width="100%" height="100%"></div>
 
 

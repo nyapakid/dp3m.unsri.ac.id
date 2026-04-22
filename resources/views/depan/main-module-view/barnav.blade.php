@@ -24,7 +24,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{ route('spmi-tentang') }}">Tentang SPMI</a></li>
                         <li><a class="dropdown-item" href="{{ route('spmi-strategi-lingkup') }}">Strategi & Ruang Lingkup SPMI</a></li>
-                        <li><a class="dropdown-item" href="{{ route('spmi-standar-unsri') }}">Standar Universitas SRIWIJAYA</a></li>
+                        <li><a class="dropdown-item" href="{{ route('spmi-standar-unsri') }}">Standar Universitas Sriwijaya</a></li>
                         <li><a class="dropdown-item" href="{{ route('spmi-ami') }}">Audit Mutu Internal</a></li>
                     </ul>
                 </li>

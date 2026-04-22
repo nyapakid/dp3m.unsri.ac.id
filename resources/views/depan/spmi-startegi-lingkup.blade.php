@@ -16,9 +16,8 @@
             </header>
 
             <!-- Swiper-->
-            STRATEGI & RUANG LINGKUP SPMI
-            <div><img src="assets/depan/images/undercontrucktion.png" width="100%" height="100%"></div>
-
+            @include('depan.spmi-starategi-lingkup-view-module.strategi')
+            @include('depan.spmi-starategi-lingkup-view-module.lingkup')
 
             <!-- Page Footer-->
             @include('depan.main-module-view.footer')
