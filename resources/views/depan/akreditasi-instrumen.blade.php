@@ -16,6 +16,7 @@
             </header>
 
             @include('depan.akreditasi-instrumen-view-module.akreditasi-instrumen-tabel')
+            @include('depan.akreditasi-instrumen-view-module.akreditasi-internasional-instrumen-tabel')
 
             <br>
 

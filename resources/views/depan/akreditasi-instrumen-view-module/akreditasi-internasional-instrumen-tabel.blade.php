@@ -1,5 +1,5 @@
 <div class="container mt-4">
-    <h3>Instrumen Akreditasi Nasional</h3>
+    <h3>Instrumen Akreditasi Internasional</h3>
 
     <table class="table table-bordered table-striped table-hover">
         <thead class="table-dark">
