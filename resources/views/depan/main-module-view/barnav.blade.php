@@ -22,10 +22,10 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">SPMI & AMI</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Tentang SPMI</a></li>
-                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Strategi & Ruang Lingkup SPMI</a></li>
-                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Standar Universitas SRiwijaya</a></li>
-                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">AMI</a></li>
+                        <li><a class="dropdown-item" href="{{ route('spmi-tentang') }}">Tentang SPMI</a></li>
+                        <li><a class="dropdown-item" href="{{ route('spmi-strategi-lingkup') }}">Strategi & Ruang Lingkup SPMI</a></li>
+                        <li><a class="dropdown-item" href="{{ route('spmi-standar-unsri') }}">Standar Universitas SRIWIJAYA</a></li>
+                        <li><a class="dropdown-item" href="{{ route('spmi-ami') }}">Audit Mutu Internal</a></li>
                     </ul>
                 </li>
 
@@ -47,8 +47,8 @@
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Peraturan dan Dokumen</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="{{ route('spmi') }}">Dokumen SPMI</a></li>
-                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Peraturan dan Undang-Undang</a></li>
-                        <li><a class="dropdown-item" href="{{ route('perbaikan') }}">Statuta dan Peraturan Turunan Statuta</a></li>
+                        <li><a class="dropdown-item" href="{{ route('peraturan-uu') }}">Peraturan dan Undang-Undang</a></li>
+                        <li><a class="dropdown-item" href="{{ route('peraturan-statuta-turunan') }}">Statuta dan Peraturan Turunan Statuta</a></li>
                     </ul>
                 </li>
 

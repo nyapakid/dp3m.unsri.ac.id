@@ -22,9 +22,21 @@ Route::get('/', function () {
     })->name('struktur-organisasi');
 
     //SPMI
-    Route::get('/peraturan-dokumen-spmi', function () {
-        return view('depan.peraturan-dokumen-spmi');
-    })->name('spmi');
+    Route::get('/tentang-spmi', function () {
+        return view('depan.spmi-tentang');
+    })->name('spmi-tentang');
+
+    Route::get('/strategi-lingkup-spmi', function () {
+        return view('depan.spmi-startegi-lingkup');
+    })->name('spmi-strategi-lingkup');
+
+    Route::get('/standar-unsri', function () {
+        return view('depan.spmi-standar-unsri');
+    })->name('spmi-standar-unsri');
+
+    Route::get('/ami', function () {
+        return view('depan.spmi-ami');
+    })->name('spmi-ami');
 
     //akreditasi
     Route::get('/akreditas-aipt', function () {
@@ -42,6 +54,19 @@ Route::get('/', function () {
     Route::get('/akreditas-instrumen', function () {
         return view('depan.akreditasi-instrumen');
     })->name('akreditasi-instrumen');
+
+    //peraturan dan dokumen
+    Route::get('/peraturan-dokumen-spmi', function () {
+        return view('depan.peraturan-dokumen-spmi');
+    })->name('spmi');
+
+    Route::get('/peraturan-dan-undang-undang', function () {
+        return view('depan.peraturan-uu');
+    })->name('peraturan-uu');
+
+    Route::get('/statuta-dan-peraturan-turunan-statuta', function () {
+        return view('depan.peraturan-statuta-turunan');
+    })->name('peraturan-statuta-turunan');
 
 
 //belakang
