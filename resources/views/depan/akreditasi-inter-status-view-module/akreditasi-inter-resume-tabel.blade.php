@@ -2,7 +2,7 @@
     <div class="container">
 
         <h4 class="section-title text-center">
-            STATUS AKREDITASI DAN SERTIFIKASI NASIONAL PROGRAM STUDI
+            STATUS AKREDITASI DAN SERTIFIKASI INTERNASIONAL PROGRAM STUDI
         </h4>
 
         <div class="title-line"></div>

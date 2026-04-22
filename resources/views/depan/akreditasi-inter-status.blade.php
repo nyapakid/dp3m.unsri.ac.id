@@ -17,8 +17,9 @@
 
             <!-- Swiper-->
 
-            internasional here
-            <div><img src="assets/depan/images/undercontrucktion.png" width="100%" height="100%"></div>
+            @include('depan.akreditasi-inter-status-view-module.akreditasi-inter-resume-tabel')
+            @include('depan.akreditasi-inter-status-view-module.akreditasi-inter-tabel-prodi')
+            @include('depan.akreditasi-inter-status-view-module.akreditasi-inter-tabel-sertifikasi')
 
             <!-- Page Footer-->
             @include('depan.main-module-view.footer')

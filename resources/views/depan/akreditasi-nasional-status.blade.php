@@ -15,9 +15,9 @@
 
             </header>
 
-            nasional here
             @include('depan.akreditasi-nasional-status-view-module.akreditasi-nasional-resume-tabel')
-            <div><img src="assets/depan/images/undercontrucktion.png" width="100%" height="100%"></div>
+            @include('depan.akreditasi-nasional-status-view-module.akreditasi-nasional-tabel-prodi')
+            @include('depan.akreditasi-nasional-status-view-module.akreditasi-nasional-tabel-sertifikasi')
 
             <br>
 
