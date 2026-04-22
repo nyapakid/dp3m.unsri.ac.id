@@ -7,43 +7,28 @@
             
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="assets/depan/images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/></div>
-                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="assets/depan/images/gallery-image-1-1200x800-original.jpg" data-lightgallery="item"><img src="assets/depan/images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/></a></div>
+                <div class="thumbnail-mary-figure"><img src="assets/depan/images/01.jpg" alt="" width="270" height="195"/></div>
+                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="assets/depan/images/01.jpg" data-lightgallery="item"><img src="assets/depan/images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/></a></div>
             </article>
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="assets/depan/images/gallery-image-2-270x195.jpg" alt="" width="270" height="195"/></div>
-                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="assets/depan/images/gallery-image-2-1200x800-original.jpg" data-lightgallery="item"><img src="assets/depan/images/gallery-image-2-270x195.jpg" alt="" width="270" height="195"/></a></div>
+                <div class="thumbnail-mary-figure"><img src="assets/depan/images/02.jpg" alt="" width="270" height="195"/></div>
+                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="assets/depan/images/02.jpg" data-lightgallery="item"><img src="assets/depan/images/gallery-image-2-270x195.jpg" alt="" width="270" height="195"/></a></div>
             </article>
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="assets/depan/images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/></div>
-                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="assets/depan/images/gallery-image-1-1200x800-original.jpg" data-lightgallery="item"><img src="assets/depan/images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/></a></div>
+                <div class="thumbnail-mary-figure"><img src="assets/depan/images/03.jpg" alt="" width="270" height="195"/></div>
+                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="assets/depan/images/03.jpg" data-lightgallery="item"><img src="assets/depan/images/gallery-image-3-270x195.jpg" alt="" width="270" height="195"/></a></div>
             </article>
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="assets/depan/images/gallery-image-2-270x195.jpg" alt="" width="270" height="195"/></div>
-                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="assets/depan/images/gallery-image-2-1200x800-original.jpg" data-lightgallery="item"><img src="assets/depan/images/gallery-image-2-270x195.jpg" alt="" width="270" height="195"/></a></div>
+                <div class="thumbnail-mary-figure"><img src="assets/depan/images/04.jpg" alt="" width="270" height="195"/></div>
+                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="assets/depan/images/04.jpg" data-lightgallery="item"><img src="assets/depan/images/gallery-image-4-270x195.jpg" alt="" width="270" height="195"/></a></div>
             </article>
             <!-- Thumbnail Classic-->
             <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="assets/depan/images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/></div>
-                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="assets/depan/images/gallery-image-1-1200x800-original.jpg" data-lightgallery="item"><img src="assets/depan/images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/></a></div>
-            </article>
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="assets/depan/images/gallery-image-2-270x195.jpg" alt="" width="270" height="195"/></div>
-                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="assets/depan/images/gallery-image-2-1200x800-original.jpg" data-lightgallery="item"><img src="assets/depan/images/gallery-image-2-270x195.jpg" alt="" width="270" height="195"/></a></div>
-            </article>
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="assets/depan/images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/></div>
-                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="assets/depan/images/gallery-image-1-1200x800-original.jpg" data-lightgallery="item"><img src="assets/depan/images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/></a></div>
-            </article>
-            <!-- Thumbnail Classic-->
-            <article class="thumbnail thumbnail-mary">
-                <div class="thumbnail-mary-figure"><img src="assets/depan/images/gallery-image-2-270x195.jpg" alt="" width="270" height="195"/></div>
-                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="assets/depan/images/gallery-image-2-1200x800-original.jpg" data-lightgallery="item"><img src="assets/depan/images/gallery-image-2-270x195.jpg" alt="" width="270" height="195"/></a></div>
+                <div class="thumbnail-mary-figure"><img src="assets/depan/images/05.jpg" alt="" width="270" height="195"/></div>
+                <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="assets/depan/images/05.jpg" data-lightgallery="item"><img src="assets/depan/images/gallery-image-1-270x195.jpg" alt="" width="270" height="195"/></a></div>
             </article>
             
         </div>
