@@ -15,8 +15,7 @@
 
             </header>
 
-            AIPT here
-            <div><img src="assets/depan/images/undercontrucktion.png" width="100%" height="100%"></div>
+            @include('depan.akreditasi-AIPT-view-module.aipt-tabel')
 
             <br>
 

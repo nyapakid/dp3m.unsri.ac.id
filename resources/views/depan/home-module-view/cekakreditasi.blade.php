@@ -19,17 +19,11 @@
                         <div class="tab-content">
 
                             <div class="tab-pane fade show active" id="tabs-7-1">
-                                <p>
-                                    cek status akreditasi internasional prodi anda disini
-                                </p>
-                                <div class="group-md group-middle"><a class="button button-black-outline button-md" href="#">Cek disini</a></div>
+                                <div class="group-md group-middle"><a class="button button-black-outline button-md" href="{{ route('akreditasi-inter-status') }}">Cek disini</a></div>
                             </div>
 
                             <div class="tab-pane fade" id="tabs-7-2">
-                                <p>
-                                    cek status akreditasi nasional prodi anda disini
-                                </p>
-                                <div class="group-md group-middle"><a class="button button-black-outline button-md" href="#">Cek disini</a></div>
+                                <div class="group-md group-middle"><a class="button button-black-outline button-md" href="{{ route('akreditasi-nasional-status') }}">Cek disini</a></div>
                             </div>
 
                         </div>

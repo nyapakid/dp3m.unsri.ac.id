@@ -1,6 +1,8 @@
 <div class="container mt-4">
     <h3>Instrumen Akreditasi Internasional</h3>
+    <div><img src="assets/depan/images/module-underconstruction.png" width="90%" height="90%"></div>
 
+    <!--
     <table class="table table-bordered table-striped table-hover">
         <thead class="table-dark">
             <tr>
@@ -57,4 +59,5 @@
             </tr>
         </tbody>
     </table>
+    -->
 </div>
