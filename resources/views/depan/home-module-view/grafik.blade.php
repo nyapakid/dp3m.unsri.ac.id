@@ -15,12 +15,12 @@
 
             <!-- Thumbnail Classic-->
             <article>
-                <div><img src="assets/depan/images/gallery-image-1-270x195.jpg" width="620" height="400"></div>
+                <div><img src="assets/depan/images/akre-fak.png" width="620" height="400"></div>
             </article>
 
             <!-- Thumbnail Classic-->
             <article>
-                <div><img src="assets/depan/images/gallery-image-1-270x195.jpg" width="620" height="400"></div>
+                <div><img src="assets/depan/images/akre-tot.png" width="620" height="400"></div>
             </article>
             
         </div>
