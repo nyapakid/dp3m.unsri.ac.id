@@ -19,6 +19,12 @@
                 </h1>
             </div>
 
+            <div class="hero-buttons mt-4">
+                    <a href="{{ route('akreditasi-AIPT') }}" class="btn btn-primary">Sertifikat AIPT</a>
+                    <a href="{{ route('akreditasi-nasional-status') }}" class="btn btn-primary">Akreditasi Nasional</a>
+                    <a href="{{ route('akreditasi-inter-status') }}" class="btn btn-primary">Akreditasi Internasional</a>
+            </div>
+
         </div>
     </div>
 

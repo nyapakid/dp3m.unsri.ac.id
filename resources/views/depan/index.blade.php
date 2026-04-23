@@ -17,8 +17,6 @@
 
         @include('depan.home-module-view.sejarah')
 
-        @include('depan.home-module-view.cekakreditasi')
-
         @include('depan.home-module-view.grafik')
 
         @include('depan.home-module-view.layanan')
