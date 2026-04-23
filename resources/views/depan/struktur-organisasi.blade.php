@@ -20,7 +20,7 @@
                     <br>
                     <h3>Struktur Organisasi</h3>
                 
-                    <div><img src="assets/depan/images/struktur-org.png" width="1300" height="1300"></div>
+                    <div><img src="assets/depan/images/dp3m-struktur.png" width="1300" height="1300"></div>
 
                 </div>
             </section>
