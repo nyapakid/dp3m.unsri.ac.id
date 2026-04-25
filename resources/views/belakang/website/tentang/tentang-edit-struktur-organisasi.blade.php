@@ -26,6 +26,29 @@
 
                 @include('belakang.main-module-view.bartop')
 
+                
+                <div class="container mt-4">
+                    <h3>Edit Struktur Organisasi</h3>
+
+                    <table class="table table-bordered table-striped table-hover">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Konten</th>
+                                <th>Aksi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Preview konten dari bloob db</td>
+                                <td>
+                                    <button class="btn btn-warning btn-sm">Edit</button>
+                                    <button class="btn btn-danger btn-sm">Hapus</button>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                
+
             </div>    
 
         </div>
