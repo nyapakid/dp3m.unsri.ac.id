@@ -56,6 +56,22 @@
             </li>
 
             <li class="nav-item">
+                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsespmiami"
+                    aria-expanded="true" aria-controls="collapsespmiami">
+                    <i class="fa fa-rss"></i>
+                    <span>SPMI & AMI</span>
+                </a>
+                <div id="collapsespmiami" class="collapse" aria-labelledby="headingspmiami" data-parent="#accordionSidebar">
+                    <div class="bg-white py-2 collapse-inner rounded">
+                        <a class="collapse-item" href="#">Edit Tentang SPMI</a>
+                        <a class="collapse-item" href="#">Edit Startegi & Ruang <br>Lingkup</a>
+                        <a class="collapse-item" href="#">Edit Standar Universitas <br> Sriwijaya</a>
+                        <a class="collapse-item" href="#">Edit Audit Mutu Internal</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseakreditasinasional"
                     aria-expanded="true" aria-controls="collapseakreditasinasional">
                     <i class="fa fa-book"></i>
