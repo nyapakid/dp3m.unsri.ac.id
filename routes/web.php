@@ -74,62 +74,26 @@ Route::get('/belakang', function () {
     return view('belakang.index');
 })->name('belakang');
 
-//home start
-    //home-edit-banner-slide
-    Route::get('/belakang/website/home/edit-slide-banner', function () {
-    return view('belakang.website.home.home-edit-slide-banner');
-    })->name('home-edit-slide-banner');
-
-        //home-page-edit-banner-slide
-        Route::get('/belakang/website/home/edit-slide-banner/page-edit-banner', function () {
-        return view('belakang.website.home.home-page-edit-banner');
-        })->name('home-page-edit-banner');
-
-        //home-page-tambah-banner-slide
-        Route::get('/belakang/website/home/edit-slide-banner/page-tambah-banner', function () {
-        return view('belakang.website.home.home-page-tambah-banner');
-        })->name('home-page-tambah-banner');
+//home
+    //home-edit-banner
+    Route::get('/belakang/website/home/edit-banner', function () {
+    return view('belakang.website.home.home-edit-banner');
+    })->name('home-edit-banner');
 
     //home-edit-profile
     Route::get('/belakang/website/home/edit-profile', function () {
     return view('belakang.website.home.home-edit-profile');
     })->name('home-edit-profile');
 
-        //home-page-edit-profile
-        Route::get('/belakang/website/home/edit-profile/page-edit-profile', function () {
-        return view('belakang.website.home.home-page-edit-profile');
-        })->name('home-page-edit-profile');
-
     //home-edit-infografis
     Route::get('/belakang/website/home/edit-infografis', function () {
     return view('belakang.website.home.home-edit-infografis');
     })->name('home-edit-infografis');
 
-        //home-page-edit-infografis
-        Route::get('/belakang/website/home/edit-infografis/page-edit-infografis', function () {
-        return view('belakang.website.home.home-page-edit-infografis');
-        })->name('home-page-edit-infografis');
-
-        //home-page-tambah-infografis
-        Route::get('/belakang/website/home/edit-infografis/page-tambah-infografis', function () {
-        return view('belakang.website.home.home-page-tambah-infografis');
-        })->name('home-page-tambah-infografis');
-
-    //home-edit-galery
-    Route::get('/belakang/website/home/edit-galery', function () {
-    return view('belakang.website.home.home-edit-galery');
-    })->name('home-edit-galery');
-
-        //home-page-edit-galery
-        Route::get('/belakang/website/home/edit-galery/page-edit-galery', function () {
-        return view('belakang.website.home.home-page-edit-galery');
-        })->name('home-page-edit-galery');
-
-        //home-page-tambah-galery
-        Route::get('/belakang/website/home/edit-galery/page-tambah-galery', function () {
-        return view('belakang.website.home.home-page-tambah-galery');
-        })->name('home-page-tambah-galery');
-//home end
+    //home-edit-gallery
+    Route::get('/belakang/website/home/edit-gallery', function () {
+    return view('belakang.website.home.home-edit-gallery');
+    })->name('home-edit-gallery');
 
 //tentang start
     //tentant-edit-visi-misi

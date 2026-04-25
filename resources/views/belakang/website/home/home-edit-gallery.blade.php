@@ -5,7 +5,7 @@
 
     @include('belakang.main-module-view.meta')
 
-    <title>DP3M - Home - Edit Profile</title>
+    <title>DP3M - Home - Edit Gallery</title>
 
     @include('belakang.main-module-view.css')
 
@@ -26,23 +26,46 @@
 
                 @include('belakang.main-module-view.bartop')
 
+
                 <div class="container mt-4">
-                    <h3>Edit Profile</h3>
+                    <h3>Edit Gallery</h3>
+                    <button class="btn btn-primary mb-3">+ Tambah Gambar</button>
 
                     <table class="table table-bordered table-striped table-hover">
                         <thead class="table-dark">
                             <tr>
-                                <th>Judul</th>
-                                <th>Konten</th>
+                                <th>no</th>
+                                <th>Judul Gambar</th>
+                                <th>Preview</th>
                                 <th>Aksi</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
+                                <td>1</td>
                                 <td>Judul dari db</td>
-                                <td>Konten dari db</td>
+                                <td>Preview dari bloob db</td>
                                 <td>
                                     <button class="btn btn-warning btn-sm">Edit</button>
+                                    <button class="btn btn-danger btn-sm">Hapus</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Judul dari db</td>
+                                <td>Preview dari bloob db</td>
+                                <td>
+                                    <button class="btn btn-warning btn-sm">Edit</button>
+                                    <button class="btn btn-danger btn-sm">Hapus</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Judul dari db</td>
+                                <td>Preview dari bloob db</td>
+                                <td>
+                                    <button class="btn btn-warning btn-sm">Edit</button>
+                                    <button class="btn btn-danger btn-sm">Hapus</button>
                                 </td>
                             </tr>
                         </tbody>

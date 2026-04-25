@@ -3,9 +3,6 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="{{ route('belakang') }}">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
-                </div>
                 <div class="sidebar-brand-text mx-3">dp3m.unsri</div>
             </a>
 
@@ -36,10 +33,10 @@
                 </a>
                 <div id="collapsehome" class="collapse" aria-labelledby="headinghome" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="{{ route('home-edit-slide-banner') }}">Edit Slide Banner</a>
+                        <a class="collapse-item" href="{{ route('home-edit-banner') }}">Edit Banner</a>
                         <a class="collapse-item" href="{{ route('home-edit-profile') }}">Edit Profile</a>
                         <a class="collapse-item" href="{{ route('home-edit-infografis') }}">Edit Infografis</a>
-                        <a class="collapse-item" href="{{ route('home-edit-galery') }}">Edit Galery</a>
+                        <a class="collapse-item" href="{{ route('home-edit-gallery') }}">Edit Gallery</a>
                     </div>
                 </div>
             </li>
