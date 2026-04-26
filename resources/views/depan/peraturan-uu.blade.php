@@ -16,8 +16,8 @@
             </header>
 
             <!-- Swiper-->
-            PERATURAN DAN UNDANG-UNDANG
-            <div><img src="assets/depan/images/undercontrucktion.png" width="100%" height="100%"></div>
+            @include('depan.peraturan-uu-module-view.tabel')
+            
 
 
             <!-- Page Footer-->
