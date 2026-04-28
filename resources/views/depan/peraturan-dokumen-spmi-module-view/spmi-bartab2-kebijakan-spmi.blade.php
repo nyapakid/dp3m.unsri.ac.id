@@ -181,7 +181,7 @@
             </div>
         </div>
 
-        <div class="tab-pane fade show active" id="pertor182024">
+        <div class="tab-pane fade" id="pertor182024">
             <div class="container py-4">
                 <div class="row g-4">
                     <!-- LEFT SIDE -->
