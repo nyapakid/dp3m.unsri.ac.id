@@ -1,0 +1,25 @@
+body {
+    background-color: #f5f6fa;
+}
+
+    .pdf-container {
+        height: 600px;
+        border-radius: 10px;
+        overflow: hidden;
+        border: 1px solid #ddd;       
+    }
+        
+frame {
+    width: 100%;
+    height: 100%;        
+    border: none;       
+}
+        
+    .label {            
+        color: #6c757d;            
+        font-size: 14px;        
+    }
+            
+    .value {
+        font-weight: 500;        
+    }
