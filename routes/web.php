@@ -30,6 +30,10 @@ Route::get('/', function () {
         return view('depan.spmi-startegi-lingkup');
     })->name('spmi-strategi-lingkup');
 
+    Route::get('/siklus-spmi', function () {
+        return view('depan.spmi-siklus');
+    })->name('spmi-siklus');
+
     Route::get('/standar-unsri', function () {
         return view('depan.spmi-standar-unsri');
     })->name('spmi-standar-unsri');
