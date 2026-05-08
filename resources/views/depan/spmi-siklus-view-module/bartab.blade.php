@@ -18,7 +18,6 @@
         </div>
 
         <div id="evaluasi" class="tabcontent">
-            evaluasi
             @include('depan.spmi-siklus-view-module.evaluasi')
         </div>
 
