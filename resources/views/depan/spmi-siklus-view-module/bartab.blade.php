@@ -10,28 +10,27 @@
         </div>
 
         <div id="penetapan" class="tabcontent">
-            penetapan
-            <div><img src="assets/depan/images/module-underconstruction.png" width="90%" height="90%"></div>
+            @include('depan.spmi-siklus-view-module.penetapan')
         </div>
 
         <div id="pelaksanaan" class="tabcontent">
             pelaksanaan
-            <div><img src="assets/depan/images/module-underconstruction.png" width="90%" height="90%"></div>
+            @include('depan.spmi-siklus-view-module.pelaksanaan')
         </div>
 
         <div id="evaluasi" class="tabcontent">
             evaluasi
-            <div><img src="assets/depan/images/module-underconstruction.png" width="90%" height="90%"></div>
+            @include('depan.spmi-siklus-view-module.evaluasi')
         </div>
 
         <div id="pengendalian" class="tabcontent">
             pengendalian
-            <div><img src="assets/depan/images/module-underconstruction.png" width="90%" height="90%"></div>
+            @include('depan.spmi-siklus-view-module.pengendalian')
         </div>
 
         <div id="peningkatan" class="tabcontent">
             peningkatan
-            <div><img src="assets/depan/images/module-underconstruction.png" width="90%" height="90%"></div>
+            @include('depan.spmi-siklus-view-module.peningkatan')
         </div>
 
     </div>
