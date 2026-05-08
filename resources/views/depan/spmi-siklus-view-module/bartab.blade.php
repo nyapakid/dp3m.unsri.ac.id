@@ -14,7 +14,6 @@
         </div>
 
         <div id="pelaksanaan" class="tabcontent">
-            pelaksanaan
             @include('depan.spmi-siklus-view-module.pelaksanaan')
         </div>
 
