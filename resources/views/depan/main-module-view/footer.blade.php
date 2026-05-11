@@ -9,16 +9,18 @@
                             <div class="wow slideInRight" data-wow-delay="0s">
                                 <h6 class="text-spacing-100 text-uppercase">Hubungi Kami</h6>
                                 <ul class="footer-contacts d-inline-block d-sm-block">
+                                    <!--
                                     <li>
                                         <div class="unit">
                                             <div class="unit-left"><span class="icon fa fa-phone"></span></div>
                                             <div class="unit-body"><a class="link-phone" href="tel:#">+1 323-913-4688</a></div>
                                         </div>
                                     </li>
+                                    -->
                                     <li>
                                         <div class="unit">
                                             <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
-                                            <div class="unit-body"><a class="link-aemail" href="mailto:#">lp3mp@unsri.ac.id</a></div>
+                                            <div class="unit-body"><a class="link-aemail" href="mailto:#">dp3m@unsri.ac.id</a></div>
                                         </div>
                                     </li>
                                     <li>
@@ -38,10 +40,10 @@
                             <div class="wow slideInLeft" data-wow-delay="0s">
                                 <h6 class="text-spacing-100 text-uppercase">Website Unsri Lainnya</h6>
                                 <ul class="row-6 list-0 list-marked list-marked-md list-marked-secondary list-custom-2">
-                                    <li><a href="#">Official Website Unsri</a></li>
-                                    <li><a href="#">PPID Unsri</a></li>
-                                    <li><a href="#">Helpdesk Layanan Unsri</a></li>
-                                    <li><a href="#">Digital Library</a></li>
+                                    <li><a href="https://www.unsri.ac.id" target="_blank">Official Website Unsri</a></li>
+                                    <li><a href="https://ppid.unsri.ac.id" target="_blank">PPID Unsri</a></li>
+                                    <li><a href="https://openticket.unsri.ac.id" target="_blank">Helpdesk Layanan Unsri</a></li>
+                                    <li><a href="https://digilib.unsri.ac.id" target="_blank">Digital Library</a></li>
                                 </ul>
                             </div>
                         </div>
