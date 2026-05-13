@@ -12,7 +12,7 @@
                         Pendirian Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/197779" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
                 </div>
             </article>
@@ -27,7 +27,7 @@
                         Statuta Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/197792" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -40,7 +40,7 @@
                         Organisasi dan Tata Kerja Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/197787" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
                 </div>
             </article>
@@ -55,7 +55,7 @@
                         Kebijakan Sistem Manajemen Mutu Internal Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/197799" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
                 </div>
             </article>
@@ -70,7 +70,7 @@
                         Standard Pendidikan Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/197800" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -83,7 +83,7 @@
                         Standard Penelitian dan Pengabdian Masyarakat Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/197805" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
                 </div>
             </article>
@@ -111,7 +111,7 @@
                         Kurikulum Program Studi Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/197813" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -124,7 +124,7 @@
                         Tahun Akademik dan Kalender Akademik Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/197818" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -137,7 +137,7 @@
                         Penyelenggaraan E-Learning di Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/197825" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
                 </div>
             </article>
@@ -148,7 +148,7 @@
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
                     <h2 class="box-icon-classic-title"><strong>Panduan Kurikulum Universitas Sriwijaya</strong></h2>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/197827" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
                 </div>
             </article>
@@ -162,7 +162,7 @@
                         Penunjukan Ketua dan Anggota Dewan Pengawas Pengelola Keuangan Badan Layanan Umum Universitas Sriwijaya Masa Tugas 2021-2025<br>
                     </strong></h5>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/197835" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -205,7 +205,7 @@
                                     <div class="unit-body">
                                         <h5 class="box-icon-classic-title">Kebijakan Mutu Universitas Sriwijaya</h5>
                                         <div class="hero-buttons mt-4">
-                                            <a href="#" target="_blank" class="btn btn-primary">Download File</a>
+                                            <a href="http://repository.unsri.ac.id/id/eprint/197871" target="_blank" class="btn btn-primary">Download File</a>
                                         </div>
                                     </div>
                                 </div>
@@ -218,7 +218,7 @@
                                     <div class="unit-body">
                                         <h5 class="box-icon-classic-title">Manual Mutu Universitas Sriwijaya</h5>
                                         <div class="hero-buttons mt-4">
-                                            <a href="#" target="_blank" class="btn btn-primary">Download File</a>
+                                            <a href="http://repository.unsri.ac.id/id/eprint/197878" target="_blank" class="btn btn-primary">Download File</a>
                                         </div>
                                     </div>
                                 </div>
@@ -231,7 +231,7 @@
                                     <div class="unit-body">
                                         <h5 class="box-icon-classic-title">Standard Mutu Universitas Sriwijaya</h5>
                                         <div class="hero-buttons mt-4">
-                                            <a href="#" target="_blank" class="btn btn-primary">Download File</a>
+                                            <a href="http://repository.unsri.ac.id/id/eprint/197882" target="_blank" class="btn btn-primary">Download File</a>
                                         </div>
                                     </div>
                                 </div>

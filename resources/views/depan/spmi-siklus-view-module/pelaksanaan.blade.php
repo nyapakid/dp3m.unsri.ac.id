@@ -68,10 +68,10 @@
                 <div class="unit-body">
                     <h4 class="box-icon-classic-title">Sistem Penjaminan Mutu Penddidikan Tinggi (SPM DIKTI)</h4>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DATA AKREDTASI NASIONAL PRODI</a>
+                        <a href="{{ route('akreditasi-nasional-status') }}" target="_blank" class="btn btn-primary">DATA AKREDTASI NASIONAL PRODI</a>
                     </div>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DATA AKREDTASI INTERNASIONAL PRODI</a>
+                        <a href="{{ route('akreditasi-inter-status') }}" target="_blank" class="btn btn-primary">DATA AKREDTASI INTERNASIONAL PRODI</a>
                     </div>
                 </div>
             </article>
