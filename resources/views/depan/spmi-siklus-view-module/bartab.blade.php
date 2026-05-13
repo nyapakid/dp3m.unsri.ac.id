@@ -22,12 +22,10 @@
         </div>
 
         <div id="pengendalian" class="tabcontent">
-            pengendalian
             @include('depan.spmi-siklus-view-module.pengendalian')
         </div>
 
         <div id="peningkatan" class="tabcontent">
-            peningkatan
             @include('depan.spmi-siklus-view-module.peningkatan')
         </div>
 
