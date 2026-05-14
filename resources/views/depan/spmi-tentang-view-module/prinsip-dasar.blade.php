@@ -22,7 +22,7 @@
                         <td class="text-block text-justify"><h5>TERSTANDAR</h5></td>
                         <td class="text-block text-justify"><h5>SPMI Universitas Sriwijaya menggunakan Standar Universitas Sriwijaya yang disusun dan ditetapkan 
                             Universitas Sriwijaya. SPMI Universitas Sriwijaya diterapkan menggunakan kriteria, tata cara, dan atau mekanisme baku yang dikembangkan oleh 
-                            LP3MP dan ditetapkan Rektor. Tata cara dan mekanisme dalam hal ini disusun sesuai Peraturan Menteri Riset, Teknologi dan Pendidikan Tinggi 
+                            DP3M dan ditetapkan Rektor. Tata cara dan mekanisme dalam hal ini disusun sesuai Peraturan Menteri Riset, Teknologi dan Pendidikan Tinggi 
                             Nomor 12 Tahun 2015 tentang Organisasi Tata Kerja Universitas Sriwijaya.</h5>
                         </td>
                     </tr>
