@@ -1,35 +1,45 @@
 <section class="section section-sm bg-default">
     <div class="container">
-        <div class="container mt-5">
-            <h3 class="section-title">Akreditasi Nasional Prodi</h3>
+        <!-- TABEL -->
+        <h3 class="section-title">
+            Data Akreditasi Program Studi
+        </h3>
+
         <div class="title-line"></div>
 
-        <table id="akreditasi" class="table table-striped table-hover">
-            <thead>
-                <tr>
-                    <th>No.</th>
-                    <th>Kode</th>
-                    <th>Fakultas/Sekolah</th>
-                    <th>Program Studi</th>
-                    <th>Jenjang</th>
-                    <th>Lembaga 1</th>
-                    <th>Awal</th>
-                    <th>Akhir</th>
-                </tr>
-            </thead>
+        <div class="table-responsive">
 
-            <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>46101</td>
-                    <td>Biologi</td>
-                    <td>Magister Biologi</td>
-                    <td>S2</td>
-                    <td>ASIIN</td>
-                    <td>22-Sep-23</td>
-                    <td>30-Sep-29</td>
-                </tr>
-            </tbody>
-        </table>
+            <table id="akreditasi"
+                class="table table-striped table-hover table-bordered align-middle">
+
+                <thead class="table-dark">
+
+                    <tr>
+                        <th>No</th>
+                        <th>Kode</th>
+                        <th>Program Studi</th>
+                        <th>Jenjang</th>
+                        <th>No SK</th>
+                        <th>Tahun</th>
+                        <th>Peringkat</th>
+                        <th>Kadaluarsa</th>
+                    </tr>
+
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td colspan="8" class="text-center">
+                            Memuat data...
+                        </td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </div>
+        
     </div>
 </section>
