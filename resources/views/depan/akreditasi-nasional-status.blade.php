@@ -38,10 +38,10 @@
             document.addEventListener("DOMContentLoaded", function () {
 
                 // TOKEN API
-                const token = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI1IiwianRpIjoiNmU4NWJmM2Y1NDg4Zjk4YmM0MmQ5MDBiZTNmOTU0NzY0MTQ4ZjdhYzI5MWY5MjdjOTdlOWNmMTg2MjZiMjQ4Y2E3NjNjYzkzNGU1YTA0YjQiLCJpYXQiOjE3NzkwODkzMjAuOTcyNTc2LCJuYmYiOjE3NzkwODkzMjAuOTcyNTc4LCJleHAiOjE4MTA2MjUzMjAuOTcwMjA0LCJzdWIiOiIxMCIsInNjb3BlcyI6W119.gFiVhu1pqzkt70rMagdAoWzyrgEmCyOE3F6BCMGsEdwOB740SSmfwTqmHc9_IVcMDp-XUh8zVt9596F1KtQ3vv2PpP3el7x110E7QJX7CcoAnR0S00Ms0G4v4LIBPyc_klTDyw0rgw2EIAk4qdOeIFkG9iGg62iYvD3Gp90yy5gXvvmIIgpOhhUy8-xnT5pQfZZPRmfxGr7aJyfbhaLDGu_2OeHyW5hBS1e4tz1izR2x2cw020JzkTNh1K8kGp2Ba3VMtFtKqK2Y1K356_fiZy7p_NMuakn99JcUjM4oHtCuqxic9yXzz5LpcX9gXcweQ_fBhE3DyiIp3-Q6xCL436GWieT79_YIdIrqawpK8E6jS0u4UQK39Xt8C-U_2FtmO8HhbStYgNcqLjCJNUb3XyBjdH4aA4O3QS6QQLQPgxarGpJkOsSsMuA-iItvhTtzX0k77RPscRk0BdKCCeFPRHdDWSTVm50oKTVgTZVvUyA75krxaThTl8RBddL5tO5rlEBXBZT_M3SkWrW0mQ9FaqQ0SVnsoXflsJ5wRhdI1BsgM7ilGJj929mGTVjALBEbHzt2boVpU7vjRXzDNsp4av-l9WTPMcyrkNer1zbdpvXpT1jlcloSNhbBQmr1aDQu2Qi9X6OuhtwgvFqV2iPMadk1_eKiM6oj0aSV1t5pKyA";
+                const token = "{{ env('TOKEN_PDUNSRI') }}";
 
                 // API
-                fetch("https://pangkalan-data.unsri.ac.id/api/akreditasi-prodi/all-prodi", {
+                fetch("{{ env('LINK_PDUNSRI') }}", {
 
                     method: "GET",
 
