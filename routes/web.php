@@ -1,5 +1,10 @@
 <?php
 
+//API AKreditasi start
+use App\Http\Controllers\AkreditasiController;
+Route::get('/api/akreditasi', [AkreditasiController::class, 'akreditasi']);
+//API Akreditasi end
+
 use Illuminate\Support\Facades\Route;
 
 //under constructon

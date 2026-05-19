@@ -33,20 +33,18 @@
         
         @include('depan.main-module-view.js')
         <!-- Script khusus halaman ini untuk narik data akreditasi nasional-->
+
+
         <script>
 
             document.addEventListener("DOMContentLoaded", function () {
 
-                // TOKEN API
-                const token = "{{ env('TOKEN_PDUNSRI') }}";
-
-                // API
-                fetch("{{ env('LINK_PDUNSRI') }}", {
+                // API DARI CONTROLLER LARAVEL
+                fetch("/api/akreditasi", {
 
                     method: "GET",
 
                     headers: {
-                        "Authorization": "Bearer " + token,
                         "Accept": "application/json"
                     }
 
@@ -68,26 +66,22 @@
                     let peringkatCount = {};
                     let jenjangCount = {};
 
+                    let rows = "";
+
                     data.forEach((item, index) => {
 
                         let peringkat = item.peringkat || "-";
                         let jenjang = item.jenjang || "-";
 
                         // Hitung peringkat
-                        if (peringkatCount[peringkat]) {
-                            peringkatCount[peringkat]++;
-                        } else {
-                            peringkatCount[peringkat] = 1;
-                        }
+                        peringkatCount[peringkat] =
+                            (peringkatCount[peringkat] || 0) + 1;
 
                         // Hitung jenjang
-                        if (jenjangCount[jenjang]) {
-                            jenjangCount[jenjang]++;
-                        } else {
-                            jenjangCount[jenjang] = 1;
-                        }
+                        jenjangCount[jenjang] =
+                            (jenjangCount[jenjang] || 0) + 1;
 
-                        tbody.innerHTML += `
+                        rows += `
                             <tr>
                                 <td>${index + 1}</td>
                                 <td>${item.kode_prodi ?? '-'}</td>
@@ -102,11 +96,14 @@
 
                     });
 
+                    tbody.innerHTML = rows;
+
                     // =========================
                     // TABEL PERINGKAT
                     // =========================
 
-                    let peringkatBody = document.getElementById("peringkat-body");
+                    let peringkatBody =
+                        document.getElementById("peringkat-body");
 
                     peringkatBody.innerHTML = "";
 
@@ -126,7 +123,8 @@
                     // TABEL JENJANG
                     // =========================
 
-                    let jenjangBody = document.getElementById("jenjang-body");
+                    let jenjangBody =
+                        document.getElementById("jenjang-body");
 
                     jenjangBody.innerHTML = "";
 
@@ -190,6 +188,8 @@
             });
 
         </script>
+
+
         
     </body>
 </html>

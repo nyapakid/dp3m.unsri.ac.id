@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'akreditasi' => [
+        'url' => env('LINK_PDUNSRI'),
+        'token' => env('TOKEN_PDUNSRI'),
+    ],
+
 ];
