@@ -19,9 +19,7 @@
                         <th>Kode</th>
                         <th>Program Studi</th>
                         <th>Jenjang</th>
-                        <th>No SK</th>
-                        <th>Tahun</th>
-                        <th>Peringkat</th>
+                        <th>Penyelenggara Akreditasi</th>
                         <th>Jenis Akreditasi</th>
                         <th>Kadaluarsa</th>
                     </tr>

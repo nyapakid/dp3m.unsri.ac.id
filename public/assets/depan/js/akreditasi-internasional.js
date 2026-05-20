@@ -52,9 +52,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>${item.kode_prodi ?? '-'}</td>
                     <td>${item.nama_prodi ?? '-'}</td>
                     <td>${item.jenjang ?? '-'}</td>
-                    <td>${item.no_sk ?? '-'}</td>
-                    <td>${item.tahun ?? '-'}</td>
-                    <td>${item.peringkat ?? '-'}</td>
+                    <td>${item.penyelenggara_akreditasi_internasional ?? '-'}</td>
                     <td>${item.jenis_akreditasi ?? '-'}</td>
                     <td>${formatTanggal(item.tanggal_kadaluarsa)}</td>
                 </tr>
