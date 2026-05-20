@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // FILTER HANYA AKREDITASI NASIONAL
         let data = (result.data || []).filter(item => 
             item.jenis_akreditasi &&
-            item.jenis_akreditasi.toLowerCase() === "nasional"
+            item.jenis_akreditasi.toLowerCase() === "internasional"
         );
 
         let tbody = document.querySelector("#akreditasi tbody");

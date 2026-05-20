@@ -22,6 +22,7 @@
                         <th>No SK</th>
                         <th>Tahun</th>
                         <th>Peringkat</th>
+                        <th>Jenis Akreditasi</th>
                         <th>Kadaluarsa</th>
                     </tr>
 

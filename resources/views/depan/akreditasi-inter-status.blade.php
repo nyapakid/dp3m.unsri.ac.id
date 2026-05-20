@@ -32,6 +32,8 @@
         <div class="snackbars" id="form-output-global"></div>
         
         @include('depan.main-module-view.js')
+
+        <script src="{{ asset('assets/depan/js/akreditasi-internasional.js') }}"></script>
         
     </body>
 </html>
