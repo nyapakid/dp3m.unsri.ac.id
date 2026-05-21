@@ -56,7 +56,7 @@
                         <div class="unit-body">
                             <h5 class="box-icon-classic-title"><a href="{{ route('perbaikan') }}">Survey Lulusan</a></h5>
                             <p class="box-icon-classic-text">Survey untuk alumni guna mengevaluasi kualitas pendidikan dan program studi D3, D4, S1, S2 dan S3.</p>
-                            <button><a href="https://alumni.unsri.ac.id/datasurvey/tracer_studi.php" target="_blank">Hasil Survey</a></button>
+                            <button><a href="https://alumni.unsri.ac.id/listtracerstudy" target="_blank">Hasil Survey</a></button>
                         </div>
                     </div>
                 </article>
