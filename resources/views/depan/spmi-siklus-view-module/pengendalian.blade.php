@@ -4,7 +4,7 @@
         <article class="box-icon-classic">
             <div class="unit-body">
                 <h4 class="box-icon-classic-title">Kriteria Akreditasi dengan Kerangka Pikir Input - Proses - Output/Outcome</h4>
-                <div><img src="assets/depan/images/module-underconstruction.png" width="100%" height="100%"></div>
+                <div><img src="assets/depan/images/Kriteria-Akreditasi-Input-Proses-Output-Outcome.png" width="100%" height="100%"></div>
             </div>
         </article>
 

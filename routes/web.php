@@ -118,3 +118,29 @@ Route::get('/belakang/pintu', function () {
     Route::get('/belakang/website/tentang/edit-struktur-organisasi', function () {
     return view('belakang.website.tentang.tentang-edit-struktur-organisasi');
     })->name('tentang-edit-struktur-organisasi');
+
+//SPMI AMI start
+    //SPMI-AMI-edit-Tentang SPMI
+    Route::get('/belakang/website/SPMI-AMI/edit-tentang-SPMI', function () {
+    return view('belakang.website.SPMI-AMI.SPMI-AMI-edit-tentang');
+    })->name('SPMI-AMI-edit-tentang');
+
+    //SPMI-AMI-edit-strategi-lingkup
+    Route::get('/belakang/website/SPMI-AMI/edit-strategi-lingkup', function () {
+    return view('belakang.website.SPMI-AMI.SPMI-AMI-edit-strategi-lingkup');
+    })->name('SPMI-AMI-edit-strategi-lingkup');
+
+    //SPMI-AMI-edit-siklus-SPMI
+    Route::get('/belakang/website/SPMI-AMI/edit-siklus-SPMI', function () {
+    return view('belakang.website.SPMI-AMI.SPMI-AMI-edit-siklus-SPMI');
+    })->name('SPMI-AMI-edit-siklus-SPMI');
+
+    //SPMI-AMI-edit-standar-UNSRI
+    Route::get('/belakang/website/SPMI-AMI/edit-standar-UNSRI', function () {
+    return view('belakang.website.SPMI-AMI.SPMI-AMI-edit-standar-UNSRI');
+    })->name('SPMI-AMI-edit-standar-UNSRI');
+
+    //SPMI-AMI-edit-AMI
+    Route::get('/belakang/website/SPMI-AMI/edit-AMI', function () {
+    return view('belakang.website.SPMI-AMI.SPMI-AMI-edit-AMI');
+    })->name('SPMI-AMI-edit-AMI');

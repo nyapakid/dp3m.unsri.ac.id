@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    @include('belakang.main-module-view.meta')
+
+    <title>DP3M - Home - Edit Standar Universitas Sriwijaya</title>
+
+    @include('belakang.main-module-view.css')
+
+</head>
+
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        @include('belakang.main-module-view.barside')
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                @include('belakang.main-module-view.bartop')
+
+                <div class="container mt-4">
+                    <h3>Edit Standar Universitas Sriwijaya</h3>
+
+                    <div><img src="{{ asset('assets/belakang/img/module-underconstruction.png') }}"" width="100%" height="100%"></div>
+                </div>
+
+            </div>    
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+    @include('belakang.main-module-view.logout')
+
+    @include('belakang.main-module-view.js')
+
+</body>
+
+</html>

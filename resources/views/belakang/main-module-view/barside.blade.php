@@ -63,10 +63,11 @@
                 </a>
                 <div id="collapsespmiami" class="collapse" aria-labelledby="headingspmiami" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <a class="collapse-item" href="#">Edit Tentang SPMI</a>
-                        <a class="collapse-item" href="#">Edit Startegi & Ruang <br>Lingkup</a>
-                        <a class="collapse-item" href="#">Edit Standar Universitas <br> Sriwijaya</a>
-                        <a class="collapse-item" href="#">Edit Audit Mutu Internal</a>
+                        <a class="collapse-item" href="{{ route('SPMI-AMI-edit-tentang') }}">Edit Tentang SPMI</a>
+                        <a class="collapse-item" href="{{ route('SPMI-AMI-edit-strategi-lingkup') }}">Edit Startegi & Ruang <br>Lingkup</a>
+                        <a class="collapse-item" href="{{ route('SPMI-AMI-edit-siklus-SPMI') }}">Edit Siklus SPMI</a>
+                        <a class="collapse-item" href="{{ route('SPMI-AMI-edit-standar-UNSRI') }}">Edit Standar Universitas <br> Sriwijaya</a>
+                        <a class="collapse-item" href="{{ route('SPMI-AMI-edit-AMI') }}">Edit Audit Mutu Internal</a>
                     </div>
                 </div>
             </li>
