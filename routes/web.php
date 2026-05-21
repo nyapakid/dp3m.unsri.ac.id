@@ -83,6 +83,10 @@ Route::get('/belakang', function () {
     return view('belakang.index');
 })->name('belakang');
 
+Route::get('/belakang/pintu', function () {
+    return view('belakang.pintu');
+})->name('belakang-pintu');
+
 //home
     //home-edit-banner
     Route::get('/belakang/website/home/edit-banner', function () {
