@@ -68,8 +68,7 @@
                         <div class="unit-body">
                             <h5 class="box-icon-classic-title"><a href="{{ route('perbaikan') }}">Survey Kepuasan Penggunaan Lulusan</a></h5>
                             <p class="box-icon-classic-text">Survey untuk mengevaluasi kepuasan penggunaan lulusan dalam dunia kerja.</p>
-                            <button><a href="https://forms.gle/zW72CzhQnUXAtefz8" target="_blank">Form Survey</a></button>
-                            <button><a href="https://alumni.unsri.ac.id/datasurvey/survey_industri.php" target="_blank">Hasil Survey</a></button>
+                            <button><a href="https://alumni.unsri.ac.id/listusersurvey" target="_blank">Hasil Survey</a></button>
                         </div>
                     </div>
                 </article>

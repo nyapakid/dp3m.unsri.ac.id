@@ -21,7 +21,7 @@
             <br>    
         </h5>
 
-        <div><img src="assets/depan/images/siklus-ami.png" width="80%" height="100%"></div><br>
+        <div><img src="assets/depan/images/siklus-ami-baru.png" width="80%" height="100%"></div><br>
 
         <h5 class="text-block text-justify">
             Pelaksanaan mekanisme AMI yang terstruktur dan konsisten, merupakan salah satu wujud komitmen Rektor UNSRI untuk terus meningkatkan kapabilitas dan 
