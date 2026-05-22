@@ -2,7 +2,9 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <div><img src="{{ asset('assets/belakang/img/penjelasan-home-banner.png') }}" width="100%" height="100%"></div>
+                    <div class="container mt-6 center">
+                        <div><img src="{{ asset('assets/belakang/img/penjelasan-home-banner.png') }}" width="100%" height="100%"></div>
+                    </div>
                     <br>
 
                     <!-- Video Banner -->
