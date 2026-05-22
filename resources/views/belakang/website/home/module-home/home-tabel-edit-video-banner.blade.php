@@ -87,7 +87,7 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>No</th>
+                                            <th style="width: 5%; white-space: nowrap;">No</th>
                                             <th>Nama Button</th>
                                             <th>Link</th>
                                             <th style="width: 16%; white-space: nowrap;">Aksi</th>
