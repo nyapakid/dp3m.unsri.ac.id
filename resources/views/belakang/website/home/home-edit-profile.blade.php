@@ -26,28 +26,44 @@
 
                 @include('belakang.main-module-view.bartop')
 
-                <div class="container mt-4">
-                    <h3>Edit Profile</h3>
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
 
-                    <table class="table table-bordered table-striped table-hover">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>Judul</th>
-                                <th>Konten</th>
-                                <th>Aksi</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Judul dari db</td>
-                                <td>Konten dari db</td>
-                                <td>
-                                    <button class="btn btn-warning btn-sm">Edit</button>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                    <!-- Page Heading -->
+                    <div><img src="{{ asset('assets/belakang/img/penjelasan-home-profile.png') }}" width="100%" height="100%"></div>
+                    <br>
+
+                    <!-- Edit Profile -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h3 class="m-0 font-weight-bold text-primary">Edit Profile</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th style="width: 20%; white-space: nowrap;">Judul</th>
+                                            <th>Konten</th>
+                                            <th style="width: 16%; white-space: nowrap;">Aksi</th>
+                                        </tr>
+                                    </thead>
+                        
+                                    <tbody>
+                                        <tr>
+                                            <td>Profile Singkat dan Sejarah DP3M</td>
+                                            <td>Konten dari DB</td>
+                                            <td>
+                                                <a href="#" class="btn btn-warning btn-icon-split">
+                                                    <span class="text">Edit Konten/Judul</span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
 
             </div>    
 
