@@ -14,8 +14,30 @@
             <article class="box-icon-classic">
                 <div class="unit-body">
                     <h4 class="box-icon-classic-title">Auditor AMAI dan EMI UNSRI</h4>
-
+                    <!--
                     @include('depan.spmi-siklus-view-module.tabelauditor')
+                    -->
+
+                    <table id="akreditasi"
+                        class="table table-striped table-hover table-bordered align-middle">
+
+                        <thead class="table-dark">
+                            <tr>
+                                <th>No</th>
+                                <th>Nama</th>
+                                <th>Fakultas</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr>
+                                <td colspan="3" class="text-center">
+                                    Memuat data...
+                                </td>
+                            </tr>
+                        </tbody>
+
+                    </table>
 
                     <div class="hero-buttons mt-4">
                         <a href="#" target="_blank" class="btn btn-primary">SK Auditor</a>
