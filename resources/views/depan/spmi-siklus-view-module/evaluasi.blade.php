@@ -14,61 +14,9 @@
             <article class="box-icon-classic">
                 <div class="unit-body">
                     <h4 class="box-icon-classic-title">Auditor AMAI dan EMI UNSRI</h4>
-                    <table class="table table-bordered table-striped table-hover">
-                        <thead class="table-dark">
-                            <tr>
-                                <th>No</th>
-                                <th>Nama Auditor</th>
-                                <th>Status AMAI</th>
-                                <th>Status EMI</th>
-                            </tr>
-                        </thead>
-                        <tbody>
 
-                            <tr>
-                                <td>1</td>
-                                <td>Prof. Si INI bin Si ITU, P.Hd</td>
-                                <td>Auditor AMAI</td>
-                                <td>Evaluator SPMI</td>
-                            </tr>
+                    @include('depan.spmi-siklus-view-module.tabelauditor')
 
-                            <tr>
-                                <td>2</td>
-                                <td>Drs. Si A binti Si B, P.Hd</td>
-                                <td>Auditor AMAI</td>
-                                <td>Evaluator SPMI</td>
-                            </tr>
-
-                            <tr>
-                                <td>3</td>
-                                <td>Prof. Si INI bin Si ITU, P.Hd</td>
-                                <td>Auditor AMAI</td>
-                                <td>Evaluator SPMI</td>
-                            </tr>
-
-                            <tr>
-                                <td>4</td>
-                                <td>Drs. Si A binti Si B, P.Hd</td>
-                                <td>Auditor AMAI</td>
-                                <td>Evaluator SPMI</td>
-                            </tr>
-
-                            <tr>
-                                <td>5</td>
-                                <td>Prof. Si INI bin Si ITU, P.Hd</td>
-                                <td>Auditor AMAI</td>
-                                <td>Evaluator SPMI</td>
-                            </tr>
-
-                            <tr>
-                                <td>6</td>
-                                <td>Drs. Si A binti Si B, P.Hd</td>
-                                <td>Auditor AMAI</td>
-                                <td>Evaluator SPMI</td>
-                            </tr>
- 
-                        </tbody>
-                    </table>
                     <div class="hero-buttons mt-4">
                         <a href="#" target="_blank" class="btn btn-primary">SK Auditor</a>
                     </div>
