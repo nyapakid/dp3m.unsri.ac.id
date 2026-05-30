@@ -3,4 +3,6 @@
     <script src="{{ asset('assets/depan/js/script.js') }}"></script>
     <script src="{{ asset('assets/depan/js/navbar.min.js') }}"></script>
     <script src="{{ asset('assets/depan/js/bar-tab.js') }}"></script>
+    <script src="{{ asset('assets/depan/js/bar-tab-sub.js') }}"></script>
     <script>document.getElementById("defaultOpen").click();</script>
+    <script>document.getElementById("defaultCountry").click();</script>

@@ -13,9 +13,9 @@
 
             <article class="box-icon-classic">
                 <div class="unit-body">
-                    <h4 class="box-icon-classic-title">Auditor AMAI dan EMI UNSRI</h4>
+                    <h4 class="box-icon-classic-title">Auditor Aktif AMAI dan EMI UNSRI</h4>
                     <!--
-                    @include('depan.spmi-siklus-view-module.tabelauditor')
+                    @include('depan.spmi-siklus-view-module.tabel.tabelauditor')
                     -->
 
                     <table id="akreditasi"
@@ -38,14 +38,25 @@
                         </tbody>
 
                     </table>
-
-                    <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">SK Auditor</a>
-                    </div>
-                    <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">SK Evaluator</a>
-                    </div>
                 </div>
+                
+            </article>
+
+            <article class="box-icon-classic">
+                
+                <div class="country-tab">
+                    <button class="country-links" onclick="openCountry(event, 'SKAMAI')" id="defaultCountry">SK-AMAI</button>
+                    <button class="country-links" onclick="openCountry(event, 'SKEMI')">SK-EMI</button>
+                </div>
+
+                <div id="SKAMAI" class="country-content">
+                    @include('depan.spmi-siklus-view-module.tabel.tabel-sk-amai')
+                </div>
+
+                <div id="SKEMI" class="country-content">
+                    @include('depan.spmi-siklus-view-module.tabel.tabel-sk-emi')
+                </div>
+
             </article>
 
             <article class="box-icon-classic">
@@ -72,19 +83,10 @@
                     <div class="container">
                         <div class="row justify-content-center g-4">
 
-                            <!-- Tombol 3 -->
-                            <div class="col-6 col-md-6 text-center">
-                                <a href="#" target="_blank" class="btn btn-primary w-100 py-3 rounded-pill">
-                                    Prodi
-                                </a>
+                            <div class="hero-buttons mt-4">
+                                <a href="#" target="_blank" class="btn btn-primary">Download File *.doc Prodi</a>
                             </div>
 
-                            <!-- Tombol 4 -->
-                            <div class="col-6 col-md-6 text-center">
-                                <a href="#" target="_blank" class="btn btn-primary w-100 py-3 rounded-pill">
-                                    Download File *.doc Prodi
-                                </a>
-                            </div>
 
                         </div>
                     </div>

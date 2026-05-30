@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="{{ asset('assets/depan/css/style.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/depan/css/navbar.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/depan/css/bar-tab.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/depan/css/bar-tab-sub.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/depan/css/button.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/depan/css/bannervid.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/depan/css/dokumen-view.css') }}">
