@@ -21,3 +21,27 @@ function openCountry(evt, countryName) {
 
     evt.currentTarget.className += " active";
 }
+
+function bukaNegara(evt, negaraNama) {
+
+    var j;
+    var negaraKonten;
+    var negaraTautan;
+
+    negaraKonten = document.getElementsByClassName("country-content");
+
+    for (j = 0; j < negaraKonten.length; j++) {
+        negaraKonten[j].style.display = "none";
+    }
+
+    negaraTautan = document.getElementsByClassName("country-links");
+
+    for (j = 0; j < negaraTautan.length; j++) {
+        negaraTautan[j].className =
+            negaraTautan[j].className.replace(" active", "");
+    }
+
+    document.getElementById(negaraNama).style.display = "block";
+
+    evt.currentTarget.className += " active";
+}

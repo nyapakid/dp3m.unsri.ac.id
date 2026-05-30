@@ -39,6 +39,10 @@ Route::get('/', function () {
         return view('depan.spmi-siklus');
     })->name('spmi-siklus');
 
+     Route::get('/siklus-spmi-laporan-prodi', function () {
+        return view('depan.spmi-siklus-view-module.page.laporan-prodi');
+    })->name('spmi-siklus-laporan-prodi');
+
     Route::get('/standar-unsri', function () {
         return view('depan.spmi-standar-unsri');
     })->name('spmi-standar-unsri');

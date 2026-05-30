@@ -86,12 +86,16 @@
                             <div class="hero-buttons mt-4">
                                 <a href="#" target="_blank" class="btn btn-primary">Download File *.doc Prodi</a>
                             </div>
-
+                            <div class="hero-buttons mt-4">
+                                <a href="{{ route('spmi-siklus-laporan-prodi') }}" target="_blank" class="btn btn-primary">Laporan Hasil Evaluasi Prodi</a>
+                            </div>
 
                         </div>
                     </div>
                 </div>
             </article>
+    
+            
 
             <article class="box-icon-classic">
                 <div class="unit-body">
