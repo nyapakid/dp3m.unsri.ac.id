@@ -72,20 +72,6 @@
                     <div class="container">
                         <div class="row justify-content-center g-4">
 
-                            <!-- Tombol 1 -->
-                            <div class="col-6 col-md-6 text-center">
-                                <a href="#" target="_blank" class="btn btn-primary w-100 py-3 rounded-pill">
-                                    Fakultas / sekolah
-                                </a>
-                            </div>
-
-                            <!-- Tombol 2 -->
-                            <div class="col-6 col-md-6 text-center">
-                                <a href="#" target="_blank" class="btn btn-primary w-100 py-3 rounded-pill">
-                                    Download File *.doc Fakultas
-                                </a>
-                            </div>
-
                             <!-- Tombol 3 -->
                             <div class="col-6 col-md-6 text-center">
                                 <a href="#" target="_blank" class="btn btn-primary w-100 py-3 rounded-pill">
