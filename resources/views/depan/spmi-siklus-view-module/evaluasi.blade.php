@@ -62,7 +62,7 @@
                         <a href="#" target="_blank" class="btn btn-primary">Panduan Pengukuran Ketercapaian CPL</a>
                     </div>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">Instrumen Ketercapaian CPL</a>
+                        <a href="#" target="_blank" class="btn btn-primary">Instrumen Pengkuran Ketercapaian CPL</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
