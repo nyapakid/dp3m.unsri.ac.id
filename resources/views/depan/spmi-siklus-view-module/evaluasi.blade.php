@@ -59,10 +59,10 @@
 
                     <h4 class="box-icon-classic-title">Evaluasi Kurikulum</h4>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">Evaluasi Kurikulum Model CIPP</a>
+                        <a href="#" target="_blank" class="btn btn-primary">Panduan Pengukuran Ketercapaian CPL</a>
                     </div>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">Evaluasi Kurikulum Model PROVUS</a>
+                        <a href="#" target="_blank" class="btn btn-primary">Instrumen Ketercapaian CPL</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -75,7 +75,7 @@
                             <!-- Tombol 1 -->
                             <div class="col-6 col-md-6 text-center">
                                 <a href="#" target="_blank" class="btn btn-primary w-100 py-3 rounded-pill">
-                                    Fakultas
+                                    Fakultas / sekolah
                                 </a>
                             </div>
 
