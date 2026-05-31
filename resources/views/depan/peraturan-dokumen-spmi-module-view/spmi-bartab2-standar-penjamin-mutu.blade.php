@@ -47,6 +47,16 @@
                 </tr>
                 <tr>
                     <td>4</td>
+                    <td>Peraturan Rektor Universitas Sriwijaya Tentang Penyelenggaraan Penelitian Dan Pengabdian Kepada Masyarakat Universitas Sriwijaya.</td>
+                    <td>Pertor</td>
+                    <td>Nomor 11 Tahun 2024</td>
+                    <td>2024</td>
+                    <td>Berlaku</td>
+                    <td>Indonesia</td>
+                    <td><a href="#" class="btn btn-sm btn-primary">Download</a></td>
+                </tr>
+                <tr>
+                    <td>5</td>
                     <td>Peraturan Rektor Universitas Sriwijaya Tentang Penyelenggaraan Pendidikan di Lingkungan Universitas Sriwijaya.</td>
                     <td>Pertor</td>
                     <td>Nomor 14 Tahun 2025</td>
