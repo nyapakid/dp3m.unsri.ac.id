@@ -6,16 +6,7 @@
                 <div class="unit-body">
                     <h4 class="box-icon-classic-title">Implementasi Sistem Penjamin Mutu Internal</h4>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">Input Data Disini</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="box-icon-classic">
-                <div class="unit-body">
-                    <h4 class="box-icon-classic-title">Singkronisasi Data</h4>
-                    <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">Singkronisasi Data</a>
+                        <a href="https://spmi.unsri.ac.id" target="_blank" class="btn btn-primary">Input Data Disini</a>
                     </div>
                 </div>
             </article>
