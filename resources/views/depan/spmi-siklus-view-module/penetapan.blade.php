@@ -174,7 +174,7 @@
                         Penetapan Personalia Dewan Pengawas Pengelolaan Keuangan Badan Layanan Umum Universitas Sriwijaya Masa Bakti 2016-2021<br>
                     </strong></p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="https://repository.unsri.ac.id/199856/" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
                 </div>
             </article>
@@ -183,7 +183,7 @@
                 <div class="unit-body">
                     <h4 class="box-icon-classic-title">Dokumen Pendukung Akreditasi</h4>
                     <div class="hero-buttons mt-4">
-                        <a href="https://repository.unsri.ac.id/198903/1/SK%20PPID%202026_compressed.pdf" target="_blank" class="btn btn-primary">PPID (Pejabat Pengelola Informasi dan Dokumentasi) UNSRI</a>
+                        <a href="https://repository.unsri.ac.id/198903/" target="_blank" class="btn btn-primary">PPID (Pejabat Pengelola Informasi dan Dokumentasi) UNSRI</a>
                     </div>
                     <div class="hero-buttons mt-4">
                         <a href="#" target="_blank" class="btn btn-primary">Kuisioner Survey Kepuasan Kerjasama dengan UNSRI</a>

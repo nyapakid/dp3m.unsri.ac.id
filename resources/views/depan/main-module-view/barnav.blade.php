@@ -50,6 +50,7 @@
                         <li><a class="dropdown-item" href="{{ route('spmi') }}">Dokumen SPMI</a></li>
                         <li><a class="dropdown-item" href="{{ route('peraturan-uu') }}">Peraturan dan Undang-Undang</a></li>
                         <li><a class="dropdown-item" href="{{ route('peraturan-statuta-turunan') }}">Statuta dan Peraturan Turunan Statuta</a></li>
+                        <li><a class="dropdown-item" href="https://jdih.unsri.ac.id/">Sumber Lainya : JDIH UNSRI</a></li>
                     </ul>
                 </li>
 
