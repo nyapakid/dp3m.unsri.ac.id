@@ -98,7 +98,7 @@
                         Buku Pedoman Akademik dan Kemahasiswaan Universitas Sriwijaya Tahun Akademik 2020/2021<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="https://unsri.ac.id/akademik/pedoman-akademik" target="_blank" class="btn btn-primary">DOWNLOAD BUKU</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
