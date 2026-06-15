@@ -47,6 +47,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Peraturan dan Dokumen</a>
                     <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="{{ route('pos') }}">POS Universitas Sriwijaya</a></li>
                         <li><a class="dropdown-item" href="{{ route('spmi') }}">Dokumen SPMI</a></li>
                         <li><a class="dropdown-item" href="{{ route('peraturan-uu') }}">Peraturan dan Undang-Undang</a></li>
                         <li><a class="dropdown-item" href="{{ route('peraturan-statuta-turunan') }}">Statuta dan Peraturan Turunan Statuta</a></li>

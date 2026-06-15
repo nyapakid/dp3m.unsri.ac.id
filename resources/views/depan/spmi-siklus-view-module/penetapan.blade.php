@@ -148,7 +148,7 @@
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
                     <h2 class="box-icon-classic-title"><strong>Panduan Kurikulum Universitas Sriwijaya</strong></h2>
                     <div class="hero-buttons mt-4">
-                        <a href="http://repository.unsri.ac.id/id/eprint/197827" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="https://repository.unsri.ac.id/200271/1/Panduan%20Pengembangan%20Kurikulum%20Program%20Studi%20Unsri%202026%2013%20juni%202026%20lengkap.pdf" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
                 </div>
             </article>
@@ -259,7 +259,7 @@
                 <div class="unit-body">
                     <h4 class="box-icon-classic-title">Formulir Mutu</h4>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">Download File</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/200270" target="_blank" class="btn btn-primary">Download File</a>
                     </div>
                 </div>
             </article>

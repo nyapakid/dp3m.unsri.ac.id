@@ -69,6 +69,10 @@ Route::get('/', function () {
     })->name('akreditasi-instrumen');
 
     //peraturan dan dokumen
+    Route::get('/peraturan-dokumen-POS', function () {
+        return view('depan.peraturan-dokumen-pos');
+    })->name('pos');
+
     Route::get('/peraturan-dokumen-spmi', function () {
         return view('depan.peraturan-dokumen-spmi');
     })->name('spmi');
