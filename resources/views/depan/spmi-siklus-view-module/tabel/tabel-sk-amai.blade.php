@@ -11,11 +11,7 @@
                         </thead>
 
                         <tbody>
-                            <tr>
-                                <td colspan="4" class="text-center">
-                                    Memuat data...
-                                </td>
-                            </tr>
+                            <tr><td>1</td><td>NOMOR 0024/UN9.R/SK.R1.DP3M/2026</td><td>18 Mei 2026</td><td><a href="https://repository.unsri.ac.id/199860/1/0024-SK%20Panitia%20dan%20Tim%20Audtor%20Visitasi%20AMAI%20Unsri%202026.pdf" target="_blank" class="btn btn-sm btn-primary">Download</a></td></tr>
                         </tbody>
 
                     </table>

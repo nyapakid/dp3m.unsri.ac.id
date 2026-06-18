@@ -244,7 +244,7 @@
                                     <div class="unit-body">
                                         <h5 class="box-icon-classic-title">Prosedur Operasional Standar</h5>
                                         <div class="hero-buttons mt-4">
-                                            <a href="#" target="_blank" class="btn btn-primary">Download File</a>
+                                            <a href="{{ route('pos') }}" target="_blank" class="btn btn-primary">Download File</a>
                                         </div>
                                     </div>
                                 </div>
