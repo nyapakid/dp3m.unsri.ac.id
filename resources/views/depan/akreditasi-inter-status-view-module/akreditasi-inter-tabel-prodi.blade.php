@@ -22,6 +22,7 @@
                         <th>Penyelenggara Akreditasi</th>
                         <th>Jenis Akreditasi</th>
                         <th>Kadaluarsa</th>
+                        <th>download</th>
                     </tr>
 
                 </thead>

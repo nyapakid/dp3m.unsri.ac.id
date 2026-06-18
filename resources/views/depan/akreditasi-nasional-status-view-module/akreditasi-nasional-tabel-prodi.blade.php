@@ -24,6 +24,7 @@
                         <th>Peringkat</th>
                         <th>Jenis Akreditasi</th>
                         <th>Kadaluarsa</th>
+                        <th>download</th>
                     </tr>
 
                 </thead>

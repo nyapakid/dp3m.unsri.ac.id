@@ -55,6 +55,15 @@ document.addEventListener("DOMContentLoaded", function () {
                     <td>${item.penyelenggara_akreditasi_internasional ?? '-'}</td>
                     <td>${item.jenis_akreditasi ?? '-'}</td>
                     <td>${formatTanggal(item.tanggal_kadaluarsa)}</td>
+                    <td>
+                        ${
+                            item.link_repo
+                                ? `<a href="${item.link_repo}" target="_blank" class="btn btn-success btn-sm">
+                                        <i class="fa fa-link"></i> Repository
+                                </a>`
+                                : '-'
+                        }
+                    </td>
                 </tr>
             `;
 
