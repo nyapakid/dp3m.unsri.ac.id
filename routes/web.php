@@ -6,6 +6,7 @@ Route::get('/api/akreditasi', [AkreditasiController::class, 'akreditasi']);
 //API Akreditasi end
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\depan_controller;
 
 //under constructon
 Route::get('/underconstruction', function () {
