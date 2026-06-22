@@ -17,16 +17,6 @@
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td>Kebijakan Sistem Penjaminan Mutu Internal Universitas Sriwijaya</td>
-                    <td>Buku</td>
-                    <td>KM/UNSRI/SPMI-01</td>
-                    <td>2013</td>
-                    <td>Tidak Berlaku</td>
-                    <td>Indonesia</td>
-                    <td><a href="#" class="btn btn-sm btn-primary">Download</a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
                     <td>Peraturan Rektor Universitas Sriwijaya Tentang Kebijakan Sistem Penjaminan Mutu Internal Universitas Sriwijaya</td>
                     <td>Pertor</td>
                     <td>Nomor 07 Tahun 2020</td>
@@ -36,7 +26,7 @@
                     <td><a href="#" class="btn btn-sm btn-primary">Download</a></td>
                 </tr>
                 <tr>
-                    <td>3</td>
+                    <td>2</td>
                     <td>Peraturan Rektor Universitas Sriwijaya Tentang Sistem Penjaminan Mutu Internal Universitas Sriwijaya</td>
                     <td>Pertor</td>
                     <td>Nomor 18 tahun 2024</td>

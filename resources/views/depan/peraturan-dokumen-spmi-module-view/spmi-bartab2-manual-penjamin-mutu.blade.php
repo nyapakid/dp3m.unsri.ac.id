@@ -15,16 +15,9 @@
             </thead>
 
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Manual Mutu Universitas Sriwijaya</td>
-                    <td>Buku</td>
-                    <td>MM/UNSRI/SPMI-02</td>
-                    <td>2014</td>
-                    <td>Berlaku</td>
-                    <td>Indonesia</td>
-                    <td><a href="#" class="btn btn-sm btn-primary">Download</a></td>
-                </tr>
+                <td colspan="8" class="text-center">
+                    Memuat data...
+                </td>
             </tbody>
 
         </table>
