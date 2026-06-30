@@ -29,10 +29,10 @@
                 <article class="box-icon-classic">
                     <div class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
                         <div class="unit-body">
-                            <h5 class="box-icon-classic-title"><a href="#">Survey Kepuasan Layanan</a></h5>
+                            <h5 class="box-icon-classic-title"><a>Survey Kepuasan Layanan</a></h5>
                             <p class="box-icon-classic-text">Survey kepuasan layanan untuk meningkatkan kualitas dan pengalaman pelanggan.</p>
-                            <button><a href="{{ route('perbaikan') }}" target="_blank">Form Survey</a></button>
-                            <button><a href="{{ route('perbaikan') }}" target="_blank">Hasil Survey</a></button>
+                            <button><a href="https://forms.gle/bwjDosSWjMPZSygG7" target="_blank">Form Survey</a></button>
+                            <button><a href="https://alumni.unsri.ac.id/datasurvey/layan_mahasiswa.php" target="_blank">Hasil Survey</a></button>
                         </div>
                     </div>
                 </article>
@@ -42,9 +42,9 @@
                 <article class="box-icon-classic">
                     <div class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
                         <div class="unit-body">
-                            <h5 class="box-icon-classic-title"><a href="#">Survey Kepuasan Layanan SPM</a></h5>
+                            <h5 class="box-icon-classic-title"><a>Survey Kepuasan Layanan SPM</a></h5>
                             <p class="box-icon-classic-text">Survey kepuasan layanan untuk meningkatkan kualitas dan pengalaman pelanggan.</p>
-                            <button><a href="{{ route('perbaikan') }}" target="_blank">Form Survey</a></button>
+                            <button><a href="https://forms.gle/Lm6TvtPkpmCJpr8u9" target="_blank">Form Survey</a></button>
                         </div>
                     </div>
                 </article>
@@ -54,9 +54,9 @@
                 <article class="box-icon-classic">
                     <div class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
                         <div class="unit-body">
-                            <h5 class="box-icon-classic-title"><a href="#">Survey Lulusan</a></h5>
+                            <h5 class="box-icon-classic-title"><a>Survey Lulusan</a></h5>
                             <p class="box-icon-classic-text">Survey untuk alumni guna mengevaluasi kualitas pendidikan dan program studi D3, D4, S1, S2 dan S3.</p>
-                            <button><a href="{{ route('perbaikan') }}" target="_blank">Hasil Survey</a></button>
+                            <button><a href="https://alumni.unsri.ac.id/listtracerstudy" target="_blank">Hasil Survey</a></button>
                         </div>
                     </div>
                 </article>
@@ -66,9 +66,9 @@
                 <article class="box-icon-classic">
                     <div class="unit box-icon-classic-body flex-column flex-md-row text-md-left flex-lg-column text-lg-center flex-xl-row text-xl-left">
                         <div class="unit-body">
-                            <h5 class="box-icon-classic-title"><a href="#">Survey Kepuasan Penggunaan Lulusan</a></h5>
+                            <h5 class="box-icon-classic-title"><a>Survey Kepuasan Penggunaan Lulusan</a></h5>
                             <p class="box-icon-classic-text">Survey untuk mengevaluasi kepuasan penggunaan lulusan dalam dunia kerja.</p>
-                            <button><a href="{{ route('perbaikan') }}" target="_blank">Hasil Survey</a></button>
+                            <button><a href="https://alumni.unsri.ac.id/listusersurvey" target="_blank">Hasil Survey</a></button>
                         </div>
                     </div>
                 </article>
