@@ -1,19 +1,9 @@
 <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
     <div class="container-fluid">
         <div>
-            
             <article class="box-icon-classic">
                 <div class="unit-body">
-                    <h4 class="box-icon-classic-title">Evaluasi Mutu Internal</h4>
-                    <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">Evaluasi Data SPMI</a>
-                    </div>
-                </div>
-            </article>
-
-            <article class="box-icon-classic">
-                <div class="unit-body">
-                    <h4 class="box-icon-classic-title">Auditor Aktif AMAI dan EMI UNSRI</h4>
+                    <h4 class="box-icon-classic-title">Auditor Aktif AMAI UNSRI</h4>
                     <!--
                     @include('depan.spmi-siklus-view-module.tabel.tabelauditor')
                     -->
@@ -110,9 +100,9 @@
 
             <article class="box-icon-classic">
                 <div class="unit-body">
-                    <h4 class="box-icon-classic-title">Evaluasi Dokumen SPMI</h4>
+                    <h4 class="box-icon-classic-title">Evaluasi SPMI</h4>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">Evaluasi Dokumen SPMI</a>
+                        <a href="#" target="_blank" class="btn btn-primary">Evaluasi SPMI</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">

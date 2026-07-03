@@ -21,13 +21,11 @@
                 <div class="unit-body">
                     <h4 class="box-icon-classic-title">Statuta Universitas Sriwijaya</h4>
                     <p class="box-icon-classic-text">
-                        Peraturan Menteri Riset, Teknologi, dan Pendidikan Tinggi Republik Indonesia<br>
-                        Nomor 17 Tahun 2018<br>
-                        Tentang<br> 
-                        Statuta Universitas Sriwijaya<br>
+                        Peraturan Pemerintah (PP) Nomor 32 Tahun 2024 tentang <br>
+                        Perguruan Tinggi Negeri Badan Hukum Universitas Sriwijaya
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="http://repository.unsri.ac.id/id/eprint/197792" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -40,7 +38,9 @@
                         Organisasi dan Tata Kerja Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="http://repository.unsri.ac.id/id/eprint/197787" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <!-- <a href="http://repository.unsri.ac.id/id/eprint/197787" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a> -->
+                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+
                     </div>
                 </div>
             </article>
@@ -65,12 +65,12 @@
                     <h4 class="box-icon-classic-title">Standard Pendidikan</h4>
                     <p class="box-icon-classic-text">
                         Peraturan Rektor Universitas Sriwijaya<br>
-                        Nomor 5 Tahun 2020<br>
+                        Nomor 14 Tahun 2025<br>
                         Tentang<br> 
-                        Standard Pendidikan Universitas Sriwijaya<br>
+                        Penyelenggaraan Pendidikan di Lingkungan Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="http://repository.unsri.ac.id/id/eprint/197800" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -92,13 +92,10 @@
                 <div class="unit-body">
                     <h4 class="box-icon-classic-title">Pedoman Akademik</h4>
                     <p class="box-icon-classic-text">
-                        Keputusan Rektor Universitas Sriwijaya<br>
-                        No. 0111/UN9/SK.BAK.Ak/2020<br>
-                        Tentang<br> 
-                        Buku Pedoman Akademik dan Kemahasiswaan Universitas Sriwijaya Tahun Akademik 2020/2021<br>
+                        -
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="https://unsri.ac.id/akademik/pedoman-akademik" target="_blank" class="btn btn-primary">DOWNLOAD BUKU</a>
+                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD BUKU</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -106,25 +103,22 @@
                     <h4 class="box-icon-classic-title">Kurikulum</h4>
                     <p class="box-icon-classic-text">
                         Peraturan Rektor Universitas Sriwijaya<br>
-                        Nomor 8 Tahun 2020<br>
+                        Nomor 16 Tahun 2025<br>
                         Tentang<br> 
-                        Kurikulum Program Studi Universitas Sriwijaya<br>
+                        Kurikulum<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="http://repository.unsri.ac.id/id/eprint/197813" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
 
                     <h4 class="box-icon-classic-title">Tahun Akademik dan Kalender Akademik</h4>
                     <p class="box-icon-classic-text">
-                        Peraturan Rektor Universitas Sriwijaya<br>
-                        Nomor 9 Tahun 2020<br>
-                        Tentang<br> 
-                        Tahun Akademik dan Kalender Akademik Universitas Sriwijaya<br>
+                        -
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="http://repository.unsri.ac.id/id/eprint/197818" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -168,13 +162,10 @@
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
 
                     <p class="box-icon-classic-text"><strong>
-                        Keputusan Rektor Universitas Sriwijaya<br>
-                        Nomor : 030/UN9/SK.BUK.KU/2018<br>
-                        Tentang<br> 
-                        Penetapan Personalia Dewan Pengawas Pengelolaan Keuangan Badan Layanan Umum Universitas Sriwijaya Masa Bakti 2016-2021<br>
+                        -
                     </strong></p>
                     <div class="hero-buttons mt-4">
-                        <a href="https://repository.unsri.ac.id/199856/" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
                 </div>
             </article>
@@ -205,7 +196,7 @@
                                     <div class="unit-body">
                                         <h5 class="box-icon-classic-title">Kebijakan Mutu Universitas Sriwijaya</h5>
                                         <div class="hero-buttons mt-4">
-                                            <a href="http://repository.unsri.ac.id/id/eprint/197871" target="_blank" class="btn btn-primary">Download File</a>
+                                            <a href="#" target="_blank" class="btn btn-primary">Download File</a>
                                         </div>
                                     </div>
                                 </div>
@@ -218,7 +209,7 @@
                                     <div class="unit-body">
                                         <h5 class="box-icon-classic-title">Manual Mutu Universitas Sriwijaya</h5>
                                         <div class="hero-buttons mt-4">
-                                            <a href="http://repository.unsri.ac.id/id/eprint/197878" target="_blank" class="btn btn-primary">Download File</a>
+                                            <a href="#" target="_blank" class="btn btn-primary">Download File</a>
                                         </div>
                                     </div>
                                 </div>
@@ -231,7 +222,7 @@
                                     <div class="unit-body">
                                         <h5 class="box-icon-classic-title">Standard Mutu Universitas Sriwijaya</h5>
                                         <div class="hero-buttons mt-4">
-                                            <a href="http://repository.unsri.ac.id/id/eprint/197882" target="_blank" class="btn btn-primary">Download File</a>
+                                            <a href="#" target="_blank" class="btn btn-primary">Download File</a>
                                         </div>
                                     </div>
                                 </div>
