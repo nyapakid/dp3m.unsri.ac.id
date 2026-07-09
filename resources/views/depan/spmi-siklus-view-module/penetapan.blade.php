@@ -25,7 +25,7 @@
                         Perguruan Tinggi Negeri Badan Hukum Universitas Sriwijaya
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/201692" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -38,8 +38,7 @@
                         Organisasi dan Tata Kerja Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <!-- <a href="http://repository.unsri.ac.id/id/eprint/197787" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a> -->
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="https://repository.unsri.ac.id/201846/1/Permenristekdikti%20Nomor%2012%20Tahun%202015.pdf" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
 
                     </div>
                 </div>
@@ -50,12 +49,12 @@
                     <h4 class="box-icon-classic-title">Kebijakan SPMI</h4>
                     <p class="box-icon-classic-text">
                         Peraturan Rektor Universitas Sriwijaya<br>
-                        Nomor 7 Tahun 2020<br>
+                        Nomor 18 Tahun 2024<br>
                         Tentang<br> 
-                        Kebijakan Sistem Manajemen Mutu Internal Universitas Sriwijaya<br>
+                        Sistem Manajemen Mutu Internal Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="http://repository.unsri.ac.id/id/eprint/197799" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="https://repository.unsri.ac.id/201847/1/Peraturan%20Rektor%20Universitas%20Sriwijaya%20Nomor%2018%20Tahun%202024%20tentang%20Sistem%20Penjaminan%20Mutu%20Internal%20Universitas%20Sriwijaya_download.pdf" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
                 </div>
             </article>
@@ -70,7 +69,7 @@
                         Penyelenggaraan Pendidikan di Lingkungan Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="https://repository.unsri.ac.id/201848/1/Peraturan%20Rektor%20Universitas%20Sriwijaya%20Nomor%2014%20Tahun%202025%20tentang%20Penyelenggaraan%20Pendidikan%20di%20Lingkungan%20Universitas%20Sriwijaya._download.pdf" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -78,12 +77,12 @@
                     <h4 class="box-icon-classic-title">Standard Penelitian dan Pengabdian Masyarakat</h4>
                     <p class="box-icon-classic-text">
                         Peraturan Rektor Universitas Sriwijaya<br>
-                        Nomor 6 Tahun 2020<br>
+                        Nomor 11 Tahun 2024<br>
                         Tentang<br> 
-                        Standard Penelitian dan Pengabdian Masyarakat Universitas Sriwijaya<br>
+                        Penyelenggaraan Penelitian Dan Pengabdian Kepada Masyarakat Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="http://repository.unsri.ac.id/id/eprint/197805" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="https://repository.unsri.ac.id/201849/1/Peraturan%20Rektor%20Universitas%20Sriwijaya%20Nomor%2011%20Tahun%202024%20tentang%20Penyelenggaraan%20Penelitian%20Dan%20Pengabdian%20Kepada%20Masyarakat%20Universitas%20Sriwijaya_download.pdf" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
                 </div>
             </article>
@@ -95,7 +94,7 @@
                         -
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD BUKU</a>
+                        <a href="https://repository.unsri.ac.id/201843/1/Buku%20Pedoman%20Akademik%20dan%20Kemahasiswaan%202025-2026_NEW.pdf" target="_blank" class="btn btn-primary">DOWNLOAD BUKU</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -108,7 +107,7 @@
                         Kurikulum<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="https://repository.unsri.ac.id/201850/1/Peraturan%20Rektor%20Universitas%20Sriwijaya%20Nomor%2016%20Tahun%202025%20tentang%20Kurikulum_download.pdf" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -118,7 +117,7 @@
                         -
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="https://unsri.ac.id/akademik/kalender-akademik" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
@@ -147,7 +146,7 @@
                 </div>
             </article>
 
-            <article class="box-icon-classic">
+            <!-- <article class="box-icon-classic">
                 <div class="unit-body">
                     <h5><strong>
                         Keputusan Rektor Rektor Universitas Sriwijaya<br>
@@ -168,7 +167,7 @@
                         <a href="#" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
                 </div>
-            </article>
+            </article> -->
 
             <article class="box-icon-classic">
                 <div class="unit-body">
