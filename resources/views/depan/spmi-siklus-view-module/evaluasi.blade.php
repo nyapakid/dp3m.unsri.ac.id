@@ -20,8 +20,8 @@
                         </thead>
 
                         <tbody>
-                            <!-- <tr><td>1</td><td>Ahmad Fikriyansyah, S.E., M.Ak</td><td>EKONOMI</td></tr>
-                            <tr><td>2</td><td>Ahmad Khoirun Najib, S.Fil., M.B.A.</td><td>EKONOMI</td></tr> -->
+                            <tr><td>1</td><td>Ahmad Fikriyansyah, S.E., M.Ak</td><td>EKONOMI</td></tr>
+                            <tr><td>2</td><td>Ahmad Khoirun Najib, S.Fil., M.B.A.</td><td>EKONOMI</td></tr>
                             <tr><td>3</td><td>Muhammad Ridho Sahputra, S.T., M.M.</td><td>EKONOMI</td></tr>
                             <tr><td>4</td><td>Dolly Tanzil, M.Si.</td><td>EKONOMI</td></tr>
                             <tr><td>5</td><td>Dr. Sri Handayani, S.H., M.Hum</td><td>HUKUM</td></tr>
