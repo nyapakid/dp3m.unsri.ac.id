@@ -15,12 +15,12 @@
 
             <!-- Thumbnail Classic-->
             <article>
-                <div><img src="{{ asset('assets/depan/images/rank601-800.png') }}" width="620" height="400"></div>
+                <div><img src="{{ asset('assets/depan/images/impact-rating.jpeg') }}" width="620" height="400"></div>
             </article>
 
             <!-- Thumbnail Classic-->
             <article>
-                <div><img src="{{ asset('assets/depan/images/rank-19.png') }}" width="620" height="400"></div>
+                <div><img src="{{ asset('assets/depan/images/sdg.jpeg') }}" width="620" height="400"></div>
             </article>
             
         </div>
