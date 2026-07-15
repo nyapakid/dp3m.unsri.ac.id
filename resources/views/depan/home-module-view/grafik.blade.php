@@ -10,7 +10,7 @@
             
             <!-- Thumbnail Classic-->
             <article>
-                <div><img src="{{ asset('assets/depan/images/persentasi-akred-univ.jpg') }}" width="620" height="400"></div>
+                <div><img src="{{ asset('assets/depan/images/akreditasinew.png') }}" width="620" height="400"></div>
             </article>
 
             <!-- Thumbnail Classic-->
