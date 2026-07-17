@@ -83,26 +83,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
         peringkatBody.innerHTML = "";
 
-        const urutanPeringkat = [
-            "UNGGUL",
-            "BAIK SEKALI",
-            "B",
-            "BAIK"
-        ];
+        Object.keys(peringkatCount).forEach(function(peringkat){
 
-        urutanPeringkat.forEach(function(peringkat){
-
-            if(peringkatCount[peringkat] !== undefined){
-
-                peringkatBody.innerHTML += `
-                    <tr>
-                        <td class="label">${peringkat}</td>
-                        <td class="separator">:</td>
-                        <td class="value">${peringkatCount[peringkat]}</td>
-                    </tr>
-                `;
-
-            }
+            peringkatBody.innerHTML += `
+                <tr>
+                    <td class="label">${peringkat}</td>
+                    <td class="separator">:</td>
+                    <td class="value">${peringkatCount[peringkat]}</td>
+                </tr>
+            `;
 
         });
 
