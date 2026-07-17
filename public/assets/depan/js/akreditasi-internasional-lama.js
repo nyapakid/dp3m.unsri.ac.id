@@ -104,23 +104,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let totalSemua = 0;
 
-        // Urutan jenjang yang diinginkan
-        const urutanJenjang = ["S3", "S2", "S1"];
+        Object.keys(jenjangCount).forEach(function(jenjang){
 
-        urutanJenjang.forEach(function(jenjang){
+            totalSemua += jenjangCount[jenjang];
 
-            if (jenjangCount[jenjang] !== undefined) {
-
-                totalSemua += jenjangCount[jenjang];
-
-                jenjangBody.innerHTML += `
-                    <tr>
-                        <td class="label">${jenjang}</td>
-                        <td class="separator">:</td>
-                        <td class="value">${jenjangCount[jenjang]}</td>
-                    </tr>
-                `;
-            }
+            jenjangBody.innerHTML += `
+                <tr>
+                    <td class="label">${jenjang}</td>
+                    <td class="separator">:</td>
+                    <td class="value">${jenjangCount[jenjang]}</td>
+                </tr>
+            `;
 
         });
 
