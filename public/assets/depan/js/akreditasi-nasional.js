@@ -110,34 +110,69 @@ document.addEventListener("DOMContentLoaded", function () {
         // TABEL JENJANG
         // =========================
 
-        let jenjangBody =
-            document.getElementById("jenjang-body");
-
+        let jenjangBody = document.getElementById("jenjang-body");
         jenjangBody.innerHTML = "";
 
         let totalSemua = 0;
 
-        Object.keys(jenjangCount).forEach(function(jenjang){
+        // Urutan jenjang yang diinginkan
+        const urutanJenjang = [
+            "S3",
+            "Sp-2",
+            "S2",
+            "Sp-1",
+            "S1",
+            "Profesi",
+            "D4",
+            "D3",
+            "D2",
+            "D1",
+            "S0"
+        ];
 
-            totalSemua += jenjangCount[jenjang];
+        // Tampilkan sesuai urutan
+        urutanJenjang.forEach(function(jenjang){
 
-            jenjangBody.innerHTML += `
-                <tr>
-                    <td class="label">${jenjang}</td>
-                    <td class="separator">:</td>
-                    <td class="value">${jenjangCount[jenjang]}</td>
-                </tr>
-            `;
+            if(jenjangCount[jenjang] !== undefined){
+
+                totalSemua += jenjangCount[jenjang];
+
+                jenjangBody.innerHTML += `
+                    <tr>
+                        <td class="label">${jenjang}</td>
+                        <td class="separator">:</td>
+                        <td class="value">${jenjangCount[jenjang]}</td>
+                    </tr>
+                `;
+
+            }
 
         });
 
-        // TOTAL DATA
+        // Jika ada jenjang lain yang tidak ada dalam daftar
+        Object.keys(jenjangCount)
+            .filter(jenjang => !urutanJenjang.includes(jenjang))
+            .forEach(function(jenjang){
+
+                totalSemua += jenjangCount[jenjang];
+
+                jenjangBody.innerHTML += `
+                    <tr>
+                        <td class="label">${jenjang}</td>
+                        <td class="separator">:</td>
+                        <td class="value">${jenjangCount[jenjang]}</td>
+                    </tr>
+                `;
+
+            });
+
+        // Total
         jenjangBody.innerHTML += `
-            <tr>
-                <td class="label"><b>Total</b></td>
-                <td class="separator">:</td>
-                <td class="value"><b>${totalSemua}</b></td>
-            </tr>
+        <tr>
+            <td class="label"><b>Total</b></td>
+            <td class="separator">:</td>
+            <td class="value"><b>${totalSemua}</b></td>
+        </tr>
         `;
 
         // JIKA DATA KOSONG
