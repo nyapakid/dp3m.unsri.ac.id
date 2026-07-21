@@ -17,37 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
         console.log(result);
 
-        // Filter hanya internasional
-        let data = (result.data || []).filter(item =>
+        // FILTER HANYA AKREDITASI NASIONAL
+        let data = (result.data || []).filter(item => 
             item.jenis_akreditasi &&
             item.jenis_akreditasi.toLowerCase() === "internasional"
         );
-
-        // Hilangkan data double berdasarkan kode_prodi,
-        // pilih yang tanggal_kadaluarsa paling lama
-        let dataUnique = {};
-
-        data.forEach(item => {
-
-            let kode = item.kode_prodi;
-
-            if (!dataUnique[kode]) {
-                dataUnique[kode] = item;
-            } else {
-
-                let tglLama = new Date(dataUnique[kode].tanggal_kadaluarsa);
-                let tglBaru = new Date(item.tanggal_kadaluarsa);
-
-                if (tglBaru > tglLama) {
-                    dataUnique[kode] = item;
-                }
-
-            }
-
-        });
-
-// Ubah kembali menjadi array
-data = Object.values(dataUnique);
 
         let tbody = document.querySelector("#akreditasi tbody");
 
