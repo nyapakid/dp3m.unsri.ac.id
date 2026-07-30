@@ -4,24 +4,16 @@
         <h3>Infografis</h3>
           
         <!-- Owl Carousel-->
-        <div><img src="{{ asset('assets/depan/images/akred-nas-inter.jpg') }}" width="900" height="700"></div>
+        <div><img src="data:image/jpeg;base64,{{ base64_encode($HOME_INFOGRAFIS_UTAMA->home_infografis_utama_konten) }}" width="900"></div>
 
         <div class="owl-carousel owl-classic owl-dots-secondary" data-items="1" data-sm-items="2" data-md-items="3" data-margin="5">
             
+            @foreach($HOME_INFOGRAFIS as $home_infografis_as)
             <!-- Thumbnail Classic-->
             <article>
-                <div><img src="{{ asset('assets/depan/images/akreditasinew.png') }}" width="620" height="400"></div>
+                <div><img src="data:image/jpeg;base64,{{ base64_encode($home_infografis_as->home_infografis_konten) }}" width="620"></div>
             </article>
-
-            <!-- Thumbnail Classic-->
-            <article>
-                <div><img src="{{ asset('assets/depan/images/impact-rating.jpeg') }}" width="620" height="400"></div>
-            </article>
-
-            <!-- Thumbnail Classic-->
-            <article>
-                <div><img src="{{ asset('assets/depan/images/sdg.jpeg') }}" width="620" height="400"></div>
-            </article>
+            @endforeach
             
         </div>
     </div>

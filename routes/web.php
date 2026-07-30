@@ -8,24 +8,21 @@ Route::get('/api/akreditasi', [AkreditasiController::class, 'akreditasi']);
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\depan_controller;
 
+// ==========================================
+// ROUTE FRONTEND (DEPAN) - PUBLIC
+// ==========================================
+
 //under constructon
 Route::get('/underconstruction', function () {
     return view('underconstruction');
 })->name('perbaikan');
 
 //depan
-Route::get('/', function () {
-    return view('depan.index');
-})->name('index');
+Route::get('/', [depan_controller::class, 'tampil_home'])->name('index');
 
     //tentang
-    Route::get('/visi-misi', function () {
-        return view('depan.visi-misi');
-    })->name('visi-misi');
-
-    Route::get('/struktur-organisasi', function () {
-        return view('depan.struktur-organisasi');
-    })->name('struktur-organisasi');
+    Route::get('/visi-misi', [depan_controller::class, 'tampil_visi_misi'])->name('visi-misi');
+    Route::get('/struktur-organisasi', [depan_controller::class, 'tampil_struktur_organisasi'])->name('struktur-organisasi');
 
     //SPMI
     Route::get('/tentang-spmi', function () {
@@ -86,7 +83,9 @@ Route::get('/', function () {
         return view('depan.peraturan-statuta-turunan');
     })->name('peraturan-statuta-turunan');
 
-
+// ==========================================
+// ROUTE FRONTEND (belakang) - dudu login
+// ==========================================
 //belakang
 Route::get('/belakang', function () {
     return view('belakang.index');

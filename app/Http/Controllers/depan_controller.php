@@ -3,7 +3,16 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use illuminate\Support\Facades\DB;
+use App\models\home_profil_dp3m;
+use App\models\home_infografis_utama;
+use App\models\home_infografis;
+use App\models\home_galeri;
+use App\models\tentang_visimisi_sekapursirih;
+use App\models\tentang_visimisi_visi;
+use App\models\tentang_visimisi_misi;
+use App\models\tentang_visimisi_tujuan;
+use App\models\tentang_visimisi_strategis;
+use App\models\tentang_strukturorganisasi;
 
 class depan_controller extends Controller
 {
@@ -15,13 +24,18 @@ class depan_controller extends Controller
         //tambah dibawah ini
 
         //tambah terus kebawah untuk module berikutnya copy dari sebelumnya
-        //$"variable" = DB::table('nama_tabel')->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
-        //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
-        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
-        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        //$"variable" = nama_model->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
+        //$"variable" = nama_model->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
+        //$"variable" = nama_model->where('nama_kolom', 'nilai')->first();
+        //$"variable" = nama_model->where('nama_kolom', 'nilai')->get();
+        $HOME_PROFIL = home_profil_dp3m::first();
+        $HOME_INFOGRAFIS_UTAMA = home_infografis_utama::first();
+        $HOME_INFOGRAFIS = home_infografis::get();
+        $HOME_GALERI = home_galeri::get();
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.index', compact('HOME_PROFIL', 'HOME_INFOGRAFIS_UTAMA', 'HOME_INFOGRAFIS', 'HOME_GALERI'));
 
     }
     //end fungsi tampil halaman home
@@ -34,13 +48,19 @@ class depan_controller extends Controller
         //tambah dibawah ini
 
         //tambah terus kebawah untuk module berikutnya copy dari sebelumnya
-        //$"variable" = DB::table('nama_tabel')->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
-        //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
-        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
-        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        //$"variable" = nama_model->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
+        //$"variable" = nama_model->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
+        //$"variable" = nama_model->where('nama_kolom', 'nilai')->first();
+        //$"variable" = nama_model->where('nama_kolom', 'nilai')->get();
+        $TENTANG_VISIMISI_SEKAPURSIRIH = tentang_visimisi_sekapursirih::first();
+        $TENTANG_VISIMISI_VISI = tentang_visimisi_visi::first();
+        $TENTANG_VISIMISI_MISI = tentang_visimisi_misi::first();
+        $TENTANG_VISIMISI_TUJUAN = tentang_visimisi_tujuan::first();
+        $TENTANG_VISIMISI_STRATEGIS = tentang_visimisi_strategis::first();
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.visi-misi', compact('TENTANG_VISIMISI_SEKAPURSIRIH', 'TENTANG_VISIMISI_VISI', 'TENTANG_VISIMISI_MISI', 'TENTANG_VISIMISI_TUJUAN', 'TENTANG_VISIMISI_STRATEGIS'));
 
     }
     //end fungsi tampil halaman tentang visi misi
@@ -53,13 +73,15 @@ class depan_controller extends Controller
         //tambah dibawah ini
 
         //tambah terus kebawah untuk module berikutnya copy dari sebelumnya
-        //$"variable" = DB::table('nama_tabel')->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
-        //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
-        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
-        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        //$"variable" = nama_model->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
+        //$"variable" = nama_model->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
+        //$"variable" = nama_model->where('nama_kolom', 'nilai')->first();
+        //$"variable" = nama_model->where('nama_kolom', 'nilai')->get();
+        $TENTANG_STRUKTURORGANISASI = tentang_strukturorganisasi::first();
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.struktur-organisasi', compact('TENTANG_STRUKTURORGANISASI'));
 
     }
     //end fungsi tampil halaman tentang struktur organisasi
@@ -76,10 +98,10 @@ class depan_controller extends Controller
         //tambah dibawah ini
 
         //tambah terus kebawah untuk module berikutnya copy dari sebelumnya
-        //$"variable" = DB::table('nama_tabel')->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
-        //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
-        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
-        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        //$"variable" = nama_model->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
+        //$"variable" = nama_model->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
+        //$"variable" = nama_model->where('nama_kolom', 'nilai')->first();
+        //$"variable" = nama_model->where('nama_kolom', 'nilai')->get();
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
@@ -95,10 +117,10 @@ class depan_controller extends Controller
         //tambah dibawah ini
 
         //tambah terus kebawah untuk module berikutnya copy dari sebelumnya
-        //$"variable" = DB::table('nama_tabel')->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
-        //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
-        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
-        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        //$"variable" = nama_model->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
+        //$"variable" = nama_model->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
+        //$"variable" = nama_model->where('nama_kolom', 'nilai')->first();
+        //$"variable" = nama_model->where('nama_kolom', 'nilai')->get();
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));

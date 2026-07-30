@@ -18,9 +18,9 @@
             <section class="section section-sm section-top-0 section-fluid section-relative bg-gray-4">
                 <div class="container-fluid">
                     <br>
-                    <h3>Struktur Organisasi</h3>
+                    <h3>{!! $TENTANG_STRUKTURORGANISASI->tentang_struktur_judul !!}</h3>
                 
-                    <div><img src="assets/depan/images/dp3m-struktur.png" width="1300" height="1300"></div>
+                    <div><img src="data:image/jpeg;base64,{{ base64_encode($TENTANG_STRUKTURORGANISASI->tentang_struktur_konten) }}" width="1300" height="1300"></div>
 
                 </div>
             </section>
