@@ -6,55 +6,19 @@
             <tr>
                 <th>No</th>
                 <th>Lembaga Akreditasi</th>
+                <th>Berdasarkan</th>
                 <th>Download File</th>
             </tr>
         </thead>
         <tbody>
+            @foreach($AKREDITASI_NASIONAL_INSTRUMEN as $akreditasi_nasional_instrumen_as)
             <tr>
-                <td>1</td>
-                <td>Ban-PT</td>
-                <td><a href="https://www.banpt.or.id/prosedur-dan-instrumen/unduh-instrumen/" target="_blank">Download</a></td>
+                <td style="text-align: center">{!! $loop->iteration !!}</td>
+                <td style="text-align: center">{!! $akreditasi_nasional_instrumen_as->akreditasi_instrumen_lembaga !!}</td>
+                <td style="width: 16%; text-align: center">{!! $akreditasi_nasional_instrumen_as->akreditasi_instrumen_berdasarkan !!}</td>
+                <td style="width: 16%; text-align: center"><a href="{!! $akreditasi_nasional_instrumen_as->akreditasi_instrumen_link !!}" target="_blank">Download</a></td>
             </tr>
-            <tr>
-                <td>2</td>
-                <td>LAM-PTKes</td>
-                <td><a href="https://lamptkes.org/File-Unduhan-Instrumen-9-kriteria" target="_blank">Download</a></td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>LAM-EMBA</td>
-                <td><a href="https://lamemba.or.id/instrumen-akreditasi/" target="_blank">Download</a></td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>LAM-TEKNIK</td>
-                <td><a href="https://lamteknik.or.id/akreditasi/instrumen-akreditasi" target="_blank">Download</a></td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>LAM-SAMA</td>
-                <td><a href="https://lamsama.or.id/unduh-instrumen/" target="_blank">Download</a></td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>LAM-Infokom</td>
-                <td><a href="https://laminfokom.or.id/official/instrumen1.html" target="_blank">Download</a></td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>LAM-DIK</td>
-                <td><a href="https://lamdik.or.id/instrumen-akreditasi/" target="_blank">Download</a></td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>LAM-PTIP</td>
-                <td><a href="{{ route('perbaikan') }}" target="_blank">Download</a></td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>LAM-SPAK</td>
-                <td><a href="https://www.lamspak.id/akreditasi/instrumen/" target="_blank">Download</a></td>
-            </tr>
+            @endforeach
         </tbody>
     </table>
 </div>

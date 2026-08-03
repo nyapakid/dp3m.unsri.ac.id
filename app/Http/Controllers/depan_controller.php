@@ -3,16 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\models\home_profil_dp3m;
-use App\models\home_infografis_utama;
-use App\models\home_infografis;
-use App\models\home_galeri;
-use App\models\tentang_visimisi_sekapursirih;
-use App\models\tentang_visimisi_visi;
-use App\models\tentang_visimisi_misi;
-use App\models\tentang_visimisi_tujuan;
-use App\models\tentang_visimisi_strategis;
-use App\models\tentang_strukturorganisasi;
+use App\Models\home_profil_dp3m;
+use App\Models\home_infografis_utama;
+use App\Models\home_infografis;
+use App\Models\home_galeri;
+use App\Models\tentang_visimisi_sekapursirih;
+use App\Models\tentang_visimisi_visi;
+use App\Models\tentang_visimisi_misi;
+use App\Models\tentang_visimisi_tujuan;
+use App\Models\tentang_visimisi_strategis;
+use App\Models\tentang_strukturorganisasi;
+use App\Models\akreditasi_aipt;
+use App\Models\akreditasi_instrumen;
 
 class depan_controller extends Controller
 {
@@ -102,9 +104,11 @@ class depan_controller extends Controller
         //$"variable" = nama_model->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
         //$"variable" = nama_model->where('nama_kolom', 'nilai')->first();
         //$"variable" = nama_model->where('nama_kolom', 'nilai')->get();
+        $AKREDITASI_AIPT = akreditasi_aipt::orderBy('akreditasi_aipt_berlaku_selesai', 'desc')->get();
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.akreditasi-AIPT', compact('AKREDITASI_AIPT'));
 
     }
     //end fungsi tampil halaman akreditasi status akreditasi AIPT
@@ -124,6 +128,7 @@ class depan_controller extends Controller
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.akreditasi-inter-status');
 
     }
     //end fungsi tampil halaman akreditasi status akreditasi internasional
@@ -143,6 +148,7 @@ class depan_controller extends Controller
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.akreditasi-nasional-status');
 
     }
     //end fungsi tampil halaman akreditasi status akreditasi nasional
@@ -159,9 +165,12 @@ class depan_controller extends Controller
         //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        $AKREDITASI_NASIONAL_INSTRUMEN = akreditasi_instrumen::where('akreditasi_instrumen_jenis', 'Nasional')->get();
+        $AKREDITASI_INTERNASIONAL_INSTRUMEN = akreditasi_instrumen::where('akreditasi_instrumen_jenis', 'Internasional')->get();
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.akreditasi-instrumen', compact('AKREDITASI_NASIONAL_INSTRUMEN', 'AKREDITASI_INTERNASIONAL_INSTRUMEN'));
 
     }
     //end fungsi tampil halaman akreditasi instrumen akreditasi

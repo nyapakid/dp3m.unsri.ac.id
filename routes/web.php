@@ -50,21 +50,10 @@ Route::get('/', [depan_controller::class, 'tampil_home'])->name('index');
     })->name('spmi-ami');
 
     //akreditasi
-    Route::get('/akreditas-aipt', function () {
-        return view('depan.akreditasi-AIPT');
-    })->name('akreditasi-AIPT');
-
-    Route::get('/akreditas-status', function () {
-        return view('depan.akreditasi-nasional-status');
-    })->name('akreditasi-nasional-status');
-
-    Route::get('/akreditas-inter-status', function () {
-        return view('depan.akreditasi-inter-status');
-    })->name('akreditasi-inter-status');
-
-    Route::get('/akreditas-instrumen', function () {
-        return view('depan.akreditasi-instrumen');
-    })->name('akreditasi-instrumen');
+    Route::get('/akreditas-aipt', [depan_controller::class, 'tampil_akreditasi_status_aipt'])->name('akreditasi-AIPT');
+    Route::get('/akreditas-status', [depan_controller::class, 'tampil_akreditasi_status_nasional'])->name('akreditasi-nasional-status');
+    Route::get('/akreditas-inter-status', [depan_controller::class, 'tampil_akreditasi_status_internasional'])->name('akreditasi-inter-status');
+    Route::get('/akreditas-instrumen', [depan_controller::class, 'tampil_akreditasi_instrumen_akreditasi'])->name('akreditasi-instrumen');
 
     //peraturan dan dokumen
     Route::get('/peraturan-dokumen-POS', function () {

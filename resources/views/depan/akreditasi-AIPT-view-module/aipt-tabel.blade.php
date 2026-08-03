@@ -16,37 +16,17 @@
                 </tr>
             </thead>
             <tbody>
-
+                @foreach($AKREDITASI_AIPT as $akreditasi_aipt_as)
                 <tr>
-                    <td>1</td>
-                    <td>Ban-PT</td>
-                    <td>No.028/SK/BAN-PT/Akred/PT/I/2014</td>
-                    <td>B</td>
-                    <td>2014-01-16</td>
-                    <td>2019-01-16</td>
-                    <td><a href="https://drive.google.com/file/d/1GYNtLQ7lW4AuX3J3PL2GXqnIBcPL6qxv/view?usp=sharing" target="_blank">Download</a></td>
+                    <td>{!! $loop->iteration !!}</td>
+                    <td>{!! $akreditasi_aipt_as->akreditasi_aipt_lembaga !!}</td>
+                    <td>{!! $akreditasi_aipt_as->akreditasi_aipt_no_surat !!}</td>
+                    <td>{!! $akreditasi_aipt_as->akreditasi_aipt_peringkat !!}</td>
+                    <td>{!! $akreditasi_aipt_as->akreditasi_aipt_berlaku_mulai !!}</td>
+                    <td>{!! $akreditasi_aipt_as->akreditasi_aipt_berlaku_selesai !!}</td>
+                    <td><a href="{!! $akreditasi_aipt_as->akreditasi_aipt_link_repo !!}" target="_blank">Download</a></td>
                 </tr>
-
-                <tr>
-                    <td>2</td>
-                    <td>Ban-PT</td>
-                    <td>No.2996/SK/BAN-PT/Akred/PT/XII/2016</td>
-                    <td>A</td>
-                    <td>2016-12-20</td>
-                    <td>2021-12-20</td>
-                    <td><a href="https://drive.google.com/file/d/15ugZUqPzf8BqUTSBzvgohjv0Eg9z9mYK/view?usp=sharing" target="_blank">Download</a></td>
-                </tr>
-
-                <tr>
-                    <td>3</td>
-                    <td>Ban-PT</td>
-                    <td>No.1056/SK/BAN-PT/Ak-PPJ/PT/XII/2021</td>
-                    <td>Unggul</td>
-                    <td>2021-12-21</td>
-                    <td>2026-12-20</td>
-                    <td><a href="https://drive.google.com/file/d/1j5poqvZHzHOnyc-OVpO0wBzXBIQ5380m/view?usp=sharing" target="_blank">Download</a></td>
-                </tr>
-                
+                @endforeach
             </tbody>
         </table>
     </div>
