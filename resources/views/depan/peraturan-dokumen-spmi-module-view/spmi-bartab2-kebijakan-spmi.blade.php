@@ -9,32 +9,26 @@
                     <th style="width: fit-content; white-space: nowrap;">Nomor</th>
                     <th style="width: fit-content; white-space: nowrap;">Tahun</th>
                     <th style="width: fit-content; white-space: nowrap;">Status</th>
-                    <th style="width: fit-content; white-space: nowrap;">Bahasa</th>
                     <th style="width: fit-content; white-space: nowrap;">Link Download</th>
                 </tr>
             </thead>
 
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Peraturan Rektor Universitas Sriwijaya Tentang Kebijakan Sistem Penjaminan Mutu Internal Universitas Sriwijaya</td>
-                    <td>Pertor</td>
-                    <td>Nomor 07 Tahun 2020</td>
-                    <td>2020</td>
-                    <td>Berlaku</td>
-                    <td>Indonesia</td>
-                    <td><a href="#" class="btn btn-sm btn-primary">Download</a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Peraturan Rektor Universitas Sriwijaya Tentang Sistem Penjaminan Mutu Internal Universitas Sriwijaya</td>
-                    <td>Pertor</td>
-                    <td>Nomor 18 tahun 2024</td>
-                    <td>2024</td>
-                    <td>Berlaku</td>
-                    <td>Indonesia</td>
-                    <td><a href="#" class="btn btn-sm btn-primary">Download</a></td>
-                </tr>
+                @forelse($PERATURAN_DOKUMEN_SPMI_KEBIJAKAN as $peraturan_dokumen_spmi_kebijakan_as)
+                    <tr>
+                        <td style="text-align: center">{{ $loop->iteration }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_kebijakan_as->peraturan_dokumen_spmi_nama_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_kebijakan_as->peraturan_dokumen_spmi_bentuk_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_kebijakan_as->peraturan_dokumen_spmi_nomor_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_kebijakan_as->peraturan_dokumen_spmi_tahun_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_kebijakan_as->peraturan_dokumen_spmi_status_dokumen }}</td>
+                        <td style="text-align: center"><a href="{!! $peraturan_dokumen_spmi_kebijakan_as->peraturan_dokumen_spmi_link_dokumen !!}" target="_blank">Download</a></td>
+                    </tr>
+                        @empty
+                        <tr>
+                            <td colspan="7" style="text-align: center">Belum Ada Data</td>
+                        </tr>
+                @endforelse
             </tbody>
 
         </table>

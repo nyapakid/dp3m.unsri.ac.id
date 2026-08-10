@@ -15,6 +15,8 @@ use App\Models\tentang_visimisi_strategis;
 use App\Models\tentang_strukturorganisasi;
 use App\Models\akreditasi_aipt;
 use App\Models\akreditasi_instrumen;
+use App\Models\peraturan_dokumen_pos;
+use App\Models\peraturan_dokumen_spmi;
 
 class depan_controller extends Controller
 {
@@ -187,9 +189,11 @@ class depan_controller extends Controller
         //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        $PERATURAN_DOKUMEN_POS = peraturan_dokumen_pos::orderBy('peraturan_dokumen_pos_nama_dokumen', 'asc')->get();
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.peraturan-dokumen-pos', compact('PERATURAN_DOKUMEN_POS'));
 
     }
     //end fungsi tampil halaman peraturan dan dokumen pos
@@ -206,9 +210,13 @@ class depan_controller extends Controller
         //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        $PERATURAN_DOKUMEN_SPMI_KEBIJAKAN = peraturan_dokumen_spmi::where('peraturan_dokumen_spmi_jenis_dokumen', 'Kebijakan')->orderBy('peraturan_dokumen_spmi_tahun_dokumen', 'desc')->get();
+        $PERATURAN_DOKUMEN_SPMI_STANDAR = peraturan_dokumen_spmi::where('peraturan_dokumen_spmi_jenis_dokumen', 'Standar')->orderBy('peraturan_dokumen_spmi_tahun_dokumen', 'desc')->get();
+        $PERATURAN_DOKUMEN_SPMI_MANUAL = peraturan_dokumen_spmi::where('peraturan_dokumen_spmi_jenis_dokumen', 'Manual')->orderBy('peraturan_dokumen_spmi_tahun_dokumen', 'desc')->get();
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.peraturan-dokumen-spmi', compact('PERATURAN_DOKUMEN_SPMI_KEBIJAKAN', 'PERATURAN_DOKUMEN_SPMI_STANDAR', 'PERATURAN_DOKUMEN_SPMI_MANUAL'));
 
     }
     //end fungsi tampil halaman peraturan dan dokumen spmi
@@ -228,12 +236,13 @@ class depan_controller extends Controller
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.peraturan-uu');
 
     }
     //end fungsi tampil halaman peraturan dan dokumen UU
 
     //start fungsi tampil halaman peraturan dan dokumen statuta
-    public function tampil_peraturan_dan_dokumen_()
+    public function tampil_peraturan_dan_dokumen_statuta()
     //satu halaman 1 fungsi, jadi buat fungsi baru untuk setiap halaman
     //buat fungsi baru kalau untuk halaman berikutnya
     {
@@ -247,6 +256,7 @@ class depan_controller extends Controller
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.peraturan-statuta-turunan');
 
     }
     //end fungsi tampil halaman peraturan dan dokumen statuta

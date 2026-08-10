@@ -37,7 +37,7 @@ Route::get('/', [depan_controller::class, 'tampil_home'])->name('index');
         return view('depan.spmi-siklus');
     })->name('spmi-siklus');
 
-     Route::get('/siklus-spmi-laporan-prodi', function () {
+    Route::get('/siklus-spmi-laporan-prodi', function () {
         return view('depan.spmi-siklus-view-module.page.laporan-prodi');
     })->name('spmi-siklus-laporan-prodi');
 
@@ -56,21 +56,10 @@ Route::get('/', [depan_controller::class, 'tampil_home'])->name('index');
     Route::get('/akreditas-instrumen', [depan_controller::class, 'tampil_akreditasi_instrumen_akreditasi'])->name('akreditasi-instrumen');
 
     //peraturan dan dokumen
-    Route::get('/peraturan-dokumen-POS', function () {
-        return view('depan.peraturan-dokumen-pos');
-    })->name('pos');
-
-    Route::get('/peraturan-dokumen-spmi', function () {
-        return view('depan.peraturan-dokumen-spmi');
-    })->name('spmi');
-
-    Route::get('/peraturan-dan-undang-undang', function () {
-        return view('depan.peraturan-uu');
-    })->name('peraturan-uu');
-
-    Route::get('/statuta-dan-peraturan-turunan-statuta', function () {
-        return view('depan.peraturan-statuta-turunan');
-    })->name('peraturan-statuta-turunan');
+    Route::get('/peraturan-dokumen-POS', [depan_controller::class, 'tampil_peraturan_dan_dokumen_pos'])->name('pos');
+    Route::get('/peraturan-dokumen-spmi', [depan_controller::class, 'tampil_peraturan_dan_dokumen_spmi'])->name('spmi');
+    Route::get('/peraturan-dan-undang-undang', [depan_controller::class, 'tampil_peraturan_dan_dokumen_uu'])->name('peraturan-uu');
+    Route::get('/statuta-dan-peraturan-turunan-statuta', [depan_controller::class, 'tampil_peraturan_dan_dokumen_statuta'])->name('peraturan-statuta-turunan');
 
 // ==========================================
 // ROUTE FRONTEND (belakang) - dudu login

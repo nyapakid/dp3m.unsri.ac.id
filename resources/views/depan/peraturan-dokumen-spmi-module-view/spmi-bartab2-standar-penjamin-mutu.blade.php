@@ -9,52 +9,26 @@
                     <th style="width: fit-content; white-space: nowrap;">Nomor</th>
                     <th style="width: fit-content; white-space: nowrap;">Tahun</th>
                     <th style="width: fit-content; white-space: nowrap;">Status</th>
-                    <th style="width: fit-content; white-space: nowrap;">Bahasa</th>
                     <th style="width: fit-content; white-space: nowrap;">Link Download</th>
                 </tr>
             </thead>
 
             <tbody>
-                <tr>
-                    <td>1</td>
-                    <td>Peraturan Rektor Universitas Sriwijaya Tentang Standar Pendidikan Universitas Sriwijaya</td>
-                    <td>Pertor</td>
-                    <td>Nomor 5 Tahun 2020</td>
-                    <td>2020</td>
-                    <td>Berlaku</td>
-                    <td>Indonesia</td>
-                    <td><a href="#" class="btn btn-sm btn-primary">Download</a></td>
-                </tr>
-                <tr>
-                    <td>2</td>
-                    <td>Peraturan Rektor Universitas Sriwijaya Tentang Standar Penelitian dan Pengabdian kepada Masyarakat Universitas Sriwijaya</td>
-                    <td>Pertor</td>
-                    <td>Nomor 6 Tahun 2020</td>
-                    <td>2020</td>
-                    <td>Berlaku</td>
-                    <td>Indonesia</td>
-                    <td><a href="#" class="btn btn-sm btn-primary">Download</a></td>
-                </tr>
-                <tr>
-                    <td>3</td>
-                    <td>Peraturan Rektor Universitas Sriwijaya Tentang Penyelenggaraan Penelitian Dan Pengabdian Kepada Masyarakat Universitas Sriwijaya.</td>
-                    <td>Pertor</td>
-                    <td>Nomor 11 Tahun 2024</td>
-                    <td>2024</td>
-                    <td>Berlaku</td>
-                    <td>Indonesia</td>
-                    <td><a href="#" class="btn btn-sm btn-primary">Download</a></td>
-                </tr>
-                <tr>
-                    <td>4</td>
-                    <td>Peraturan Rektor Universitas Sriwijaya Tentang Penyelenggaraan Pendidikan di Lingkungan Universitas Sriwijaya.</td>
-                    <td>Pertor</td>
-                    <td>Nomor 14 Tahun 2025</td>
-                    <td>2025</td>
-                    <td>Berlaku</td>
-                    <td>Indonesia</td>
-                    <td><a href="#" class="btn btn-sm btn-primary">Download</a></td>
-                </tr>
+                @forelse($PERATURAN_DOKUMEN_SPMI_STANDAR as $peraturan_dokumen_spmi_standar_as)
+                    <tr>
+                        <td style="text-align: center">{{ $loop->iteration }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_standar_as->peraturan_dokumen_spmi_nama_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_standar_as->peraturan_dokumen_spmi_bentuk_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_standar_as->peraturan_dokumen_spmi_nomor_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_standar_as->peraturan_dokumen_spmi_tahun_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_standar_as->peraturan_dokumen_spmi_status_dokumen }}</td>
+                        <td style="text-align: center"><a href="{!! $peraturan_dokumen_spmi_standar_as->peraturan_dokumen_spmi_link_dokumen !!}" target="_blank">Download</a></td>
+                    </tr>
+                        @empty
+                        <tr>
+                            <td colspan="7" style="text-align: center">Belum Ada Data</td>
+                        </tr>
+                @endforelse
             </tbody>
 
         </table>

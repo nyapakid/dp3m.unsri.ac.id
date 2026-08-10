@@ -9,15 +9,26 @@
                     <th style="width: fit-content; white-space: nowrap;">Nomor</th>
                     <th style="width: fit-content; white-space: nowrap;">Tahun</th>
                     <th style="width: fit-content; white-space: nowrap;">Status</th>
-                    <th style="width: fit-content; white-space: nowrap;">Bahasa</th>
                     <th style="width: fit-content; white-space: nowrap;">Link Download</th>
                 </tr>
             </thead>
 
             <tbody>
-                <td colspan="8" class="text-center">
-                    Memuat data...
-                </td>
+                @forelse($PERATURAN_DOKUMEN_SPMI_MANUAL as $peraturan_dokumen_spmi_manual_as)
+                    <tr>
+                        <td style="text-align: center">{{ $loop->iteration }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_manual_as->peraturan_dokumen_spmi_nama_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_manual_as->peraturan_dokumen_spmi_bentuk_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_manual_as->peraturan_dokumen_spmi_nomor_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_manual_as->peraturan_dokumen_spmi_tahun_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_spmi_manual_as->peraturan_dokumen_spmi_status_dokumen }}</td>
+                        <td style="text-align: center"><a href="{!! $peraturan_dokumen_spmi_manual_as->peraturan_dokumen_spmi_link_dokumen !!}" target="_blank">Download</a></td>
+                    </tr>
+                        @empty
+                        <tr>
+                            <td colspan="7" style="text-align: center">Belum Ada Data</td>
+                        </tr>
+                @endforelse
             </tbody>
 
         </table>
