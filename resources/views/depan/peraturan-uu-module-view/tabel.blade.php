@@ -3,51 +3,36 @@
     <div class="container mt-4">
         <h3>Peraturan dan Undang-Undang</h3>
 
-        <table class="table table-bordered table-striped table-hover">
+        <table class="table table-striped table-hover table-bordered align-middle">
+
             <thead class="table-dark">
                 <tr>
-                    <th>No</th>
-                    <th>jenis Peraturan</th>
-                    <th>Nama File</th>
-                    <th>Tentang</th>
-                    <th>Nomor Peraturan</th>
-                    <th>Tanggal Ditetapkan</th>
-                    <th>Download File</th>
+                    <th style="width: fit-content; white-space: nowrap;">No</th>
+                    <th style="width: fit-content; white-space: nowrap;">Nama File</th>
+                    <th style="width: fit-content; white-space: nowrap;">Bentuk</th>
+                    <th style="width: fit-content; white-space: nowrap;">Nomor</th>
+                    <th style="width: fit-content; white-space: nowrap;">Tanggal Penetapan</th>
+                    <th style="width: fit-content; white-space: nowrap;">Link Download</th>
                 </tr>
             </thead>
+
             <tbody>
-
-                <tr>
-                    <td>1</td>
-                    <td>PERTOR</td>
-                    <td>PERATURAN REKTOR UNIVERSITAS SRIWIJAYA NOMOR 8 TAHUN 2020</td>
-                    <td>PERATURAN REKTOR UNIVERSITAS SRIWIJAYATENTANG KURIKULUM PROGRAM STUDI UNIVERSITAS SRIWIJAYA</td>
-                    <td>8 TAHUN 2020</td>
-                    <td>2020-07-14</td>
-                    <td><a href="https://drive.google.com/file/d/1bPaNzkbVXuv4OGWuc2yuWT-uVHzABMal/view?usp=sharing" target="_blank">Download</a></td>
-                </tr>
-
-                <tr>
-                    <td>2</td>
-                    <td>PERTOR</td> 
-                    <td>PERATURAN REKTOR UNIVERSITAS SRIWIJAYA NOMOR 9 TAHUN 2020</td>
-                    <td>PERATURAN REKTOR UNIVERSITAS SRIWIJAYA TENTANG TAHUN AKADEMIK DAN KALENDER AKADEMIK UNIVERSITAS SRIWIJAYA</td>
-                    <td>9 TAHUN 2020</td>
-                    <td>2020-07-14</td>
-                    <td><a href="https://drive.google.com/file/d/1OT5i5itDSbzrY_d1hMpeZXGWWXWgNqK6/view?usp=sharing" target="_blank">Download</a></td>
-                </tr>
-
-                <tr>
-                    <td>3</td>
-                    <td>PERTOR</td>
-                    <td>PERATURAN REKTOR UNIVERSITAS SRIWIJAYA NOMOR 10 TAHUN 2020</td>
-                    <td>PERATURAN REKTOR UNIVERSITAS SRIWIJAYA TENTANG PENYELENGGARAAN E-LEARNING di UNIVERSITAS SRIWIJAYA</td>
-                    <td>10 TAHUN 2020</td>
-                    <td>2020-07-14</td>
-                    <td><a href="https://drive.google.com/file/d/1GN4kOMJB5LVGOSnrhhv5pFR7shjMZjk_/view?usp=sharing" target="_blank">Download</a></td>
-                </tr>
-                
+                @forelse($PERATURAN_DOKUMEN_UU as $peraturan_dokumen_uu_as)
+                    <tr>
+                        <td style="text-align: center">{{ $loop->iteration }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_uu_as->peraturan_dokumen_uu_nama_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_uu_as->peraturan_dokumen_uu_bentuk_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_uu_as->peraturan_dokumen_uu_nomor_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_uu_as->peraturan_dokumen_uu_tanggal_dokumen }}</td>
+                        <td style="text-align: center"><a href="{!! $peraturan_dokumen_uu_as->peraturan_dokumen_uu_link_dokumen !!}" target="_blank">Download</a></td>
+                    </tr>
+                        @empty
+                        <tr>
+                            <td colspan="7" style="text-align: center">Belum Ada Data</td>
+                        </tr>
+                @endforelse
             </tbody>
+
         </table>
     </div>
 

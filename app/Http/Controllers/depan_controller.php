@@ -17,6 +17,7 @@ use App\Models\akreditasi_aipt;
 use App\Models\akreditasi_instrumen;
 use App\Models\peraturan_dokumen_pos;
 use App\Models\peraturan_dokumen_spmi;
+use App\Models\peraturan_dokumen_uu;
 
 class depan_controller extends Controller
 {
@@ -233,10 +234,12 @@ class depan_controller extends Controller
         //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        $PERATURAN_DOKUMEN_UU = peraturan_dokumen_uu::orderBy('peraturan_dokumen_uu_tanggal_dokumen', 'desc')->get();
+
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
-        return view('depan.peraturan-uu');
+        return view('depan.peraturan-uu', compact('PERATURAN_DOKUMEN_UU'));
 
     }
     //end fungsi tampil halaman peraturan dan dokumen UU

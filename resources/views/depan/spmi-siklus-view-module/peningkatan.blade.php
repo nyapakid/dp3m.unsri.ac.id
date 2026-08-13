@@ -21,7 +21,7 @@
 
         <article class="box-icon-classic">
             <div class="unit-body">
-                <h4 class="box-icon-classic-title">Akreditasi Seluruh Prodi di Universitass Sriwijaya</h4>
+                <h4 class="box-icon-classic-title">Akreditasi Seluruh Prodi di Universitas Sriwijaya</h4>
                 <div class="hero-buttons mt-4">
                     <a href="{{ route('akreditasi-nasional-status') }}" target="_blank" class="btn btn-primary">Akreditasi Nasional</a>
                 </div>

@@ -109,10 +109,10 @@
 
                     <h4 class="box-icon-classic-title">Evaluasi Kurikulum</h4>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">Panduan Pengukuran Ketercapaian CPL</a>
+                        <a href="https://repository.unsri.ac.id/208666/1/Panduan%20pemngukuran%20capaian%20CPMK%20dan%20CPL%20final%20%20%281%29.pdf" target="_blank" class="btn btn-primary">Panduan Pengukuran Ketercapaian CPL</a>
                     </div>
                     <div class="hero-buttons mt-4">
-                        <a href="#" target="_blank" class="btn btn-primary">Instrumen Pengkuran Ketercapaian CPL</a>
+                        <a href="http://repository.unsri.ac.id/id/eprint/208669" target="_blank" class="btn btn-primary">Instrumen Pengkuran Ketercapaian CPL</a>
                     </div>
 
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
