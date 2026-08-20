@@ -10,22 +10,24 @@
                     <th>Nama File</th>
                     <th>Tentang</th>
                     <th>Nomor Peraturan</th>
-                    <th>Tanggal Ditetapkan</th>
                     <th>Download File</th>
                 </tr>
             </thead>
             <tbody>
-
-                <tr>
-                    <td>1</td>
-                    <td>Berita Negara</td>
-                    <td>ORGANISASI DAN TATA KERJA UNIVERSITAS SRIWIJAYA</td>
-                    <td>PERATURAN MENTERI RISET, TEKNOLOGI, DAN PENDIDIKAN TINGGI TENTANG ORGANISASI DAN TATA KERJA UNIVERSITAS SRIWIJAYA.</td>
-                    <td>12 TAHUN 2015</td>
-                    <td>2015-04-23</td>
-                    <td><a href="https://drive.google.com/file/d/1ui_4Wbm-iockjpRNZ7QHFRN7e-tEDmBu/view?usp=sharing" target="_blank">Download</a></td>
-                </tr>
-                
+                @forelse($PERATURAN_DOKUMEN_STATUTA_TABEL as $peraturan_dokumen_statuta_tabel_as)
+                    <tr>
+                        <td style="text-align: center">{{ $loop->iteration }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_statuta_tabel_as->peraturan_dokumen_statuta_tabel_jenis_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_statuta_tabel_as->peraturan_dokumen_statuta_tabel_nama_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_statuta_tabel_as->peraturan_dokumen_statuta_tabel_nomor_dokumen }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_statuta_tabel_as->peraturan_dokumen_statuta_tabel_tanggal_dokumen }}</td>
+                        <td style="text-align: center"><a href="{!! $peraturan_dokumen_statuta_tabel_as->peraturan_dokumen_statuta_tabel_link_repo !!}" target="_blank">Download</a></td>
+                    </tr>
+                        @empty
+                        <tr>
+                            <td colspan="7" style="text-align: center">Belum Ada Data</td>
+                        </tr>
+                @endforelse
             </tbody>
         </table>
     </div>

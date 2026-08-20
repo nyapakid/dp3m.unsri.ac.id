@@ -18,6 +18,8 @@ use App\Models\akreditasi_instrumen;
 use App\Models\peraturan_dokumen_pos;
 use App\Models\peraturan_dokumen_spmi;
 use App\Models\peraturan_dokumen_uu;
+use App\Models\peraturan_dokumen_statuta_view;
+use App\Models\peraturan_dokumen_statuta_tabel;
 
 class depan_controller extends Controller
 {
@@ -256,10 +258,12 @@ class depan_controller extends Controller
         //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        $PERATURAN_DOKUMEN_STATUTA_VIEW = peraturan_dokumen_statuta_view::first();
+        $PERATURAN_DOKUMEN_STATUTA_TABEL = peraturan_dokumen_statuta_tabel::orderBy('peraturan_dokumen_statuta_tabel_tanggal_dokumen', 'desc')->get();
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
-        return view('depan.peraturan-statuta-turunan');
+        return view('depan.peraturan-statuta-turunan', compact('PERATURAN_DOKUMEN_STATUTA_VIEW', 'PERATURAN_DOKUMEN_STATUTA_TABEL'));
 
     }
     //end fungsi tampil halaman peraturan dan dokumen statuta
