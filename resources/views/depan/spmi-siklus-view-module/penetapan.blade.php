@@ -141,7 +141,7 @@
                     <hr style="border: 2px solid blue; width: 100%; border-radius: 5px;">
                     <h2 class="box-icon-classic-title"><strong>Panduan Kurikulum Universitas Sriwijaya</strong></h2>
                     <div class="hero-buttons mt-4">
-                        <a href="https://repository.unsri.ac.id/200271/1/Panduan%20Pengembangan%20Kurikulum%20Program%20Studi%20Unsri%202026%2013%20juni%202026%20lengkap.pdf" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="https://repository.unsri.ac.id/208957/1/Panduan%20Pengembangan%20Kurikulum%20Program%20Studi%20260826%20final.pdf" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
                     </div>
                 </div>
             </article>
