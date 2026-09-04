@@ -32,13 +32,13 @@
 
                     <h4 class="box-icon-classic-title">OTK Universitas Sriwijaya</h4>
                     <p class="box-icon-classic-text">
-                        Peraturan Menteri Riset, Teknologi, dan Pendidikan Tinggi Republik Indonesia<br>
-                        Nomor 12 Tahun 2015<br>
+                        Peraturan Rektor Universitas Sriwijaya<br>
+                        Nomor 12 Tahun 2025<br>
                         Tentang<br> 
-                        Organisasi dan Tata Kerja Universitas Sriwijaya<br>
+                        Organisasi dan Tata Kerja Organ Rektor Universitas Sriwijaya<br>
                     </p>
                     <div class="hero-buttons mt-4">
-                        <a href="https://repository.unsri.ac.id/201846/1/Permenristekdikti%20Nomor%2012%20Tahun%202015.pdf" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
+                        <a href="https://repository.unsri.ac.id/208953/1/12.%20Salinan%20Pertor%20UNSRI%2012-2025%20Organ%20Tata%20Kerja%20Rektor%20UNSRI.pdf" target="_blank" class="btn btn-primary">DOWNLOAD FILE</a>
 
                     </div>
                 </div>
