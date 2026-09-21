@@ -53,8 +53,8 @@
                         
                                     <tbody>
                                         <tr>
-                                            <td>Judul dari DB</td>
-                                            <td>Konten dari DB</td>
+                                            <td>{!! $TENTANG_VISIMISI_SEKAPURSIRIH->tentang_sekapursirih_judul !!}</td>
+                                            <td>{!! $TENTANG_VISIMISI_SEKAPURSIRIH->tentang_sekapursirih_konten !!}</td>
                                             <td>
                                                 <a href="#" class="btn btn-warning btn-icon-split">
                                                     <span class="text">Edit</span>
@@ -82,14 +82,18 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
+                                            <th>Judul</th>
                                             <th>Konten Text</th>
+                                            <th>Direktorat</th>
                                             <th style="width: 16%; white-space: nowrap;">Aksi</th>
                                         </tr>
                                     </thead>
                         
                                     <tbody>
                                         <tr>
-                                            <td>Konten dari DB</td>
+                                            <td>{!! $TENTANG_VISIMISI_VISI->tentang_visi_judul !!}</td>
+                                            <td>{!! $TENTANG_VISIMISI_VISI->tentang_visi_konten !!}</td>
+                                            <td>{!! $TENTANG_VISIMISI_VISI->tentang_visi_direktorat !!}</td>
                                             <td>
                                                 <a href="#" class="btn btn-warning btn-icon-split">
                                                     <span class="text">Edit</span>
@@ -117,6 +121,7 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
+                                            <th>Judul</th>
                                             <th>Konten Text</th>
                                             <th style="width: 16%; white-space: nowrap;">Aksi</th>
                                         </tr>
@@ -124,7 +129,8 @@
                         
                                     <tbody>
                                         <tr>
-                                            <td>Konten dari DB</td>
+                                            <td>{!! $TENTANG_VISIMISI_MISI->tentang_misi_judul !!}</td>
+                                            <td>{!! $TENTANG_VISIMISI_MISI->tentang_misi_konten !!}</td>
                                             <td>
                                                 <a href="#" class="btn btn-warning btn-icon-split">
                                                     <span class="text">Edit</span>

@@ -5,7 +5,7 @@
             <div class="unit-body">
                 <h4 class="box-icon-classic-title">Inovasi Penjamin Mutu Berbasis ICT</h4>
                 <div class="hero-buttons mt-4">
-                    <a href="https://satudata.unsri.ac.id" target="_blank" class="btn btn-primary">Satudata UNSRI</a>
+                    <a href="https://satudata.unsri.ac.id/dashboard" target="_blank" class="btn btn-primary">Satudata UNSRI</a>
                 </div>
             </div>
         </article>

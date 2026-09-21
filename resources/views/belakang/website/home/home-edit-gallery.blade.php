@@ -55,98 +55,25 @@
                                     <thead>
                                         <tr>
                                             <th style="width: 5%; white-space: nowrap;">No</th>
-                                            <th style="width: 16%; white-space: nowrap;">Judul Gambar</th>
                                             <th>Preview</th>
                                             <th style="width: 16%; white-space: nowrap;">Aksi</th>
                                         </tr>
                                     </thead>
                         
                                     <tbody>
+                                        @foreach($HOME_GALERI as $home_galeri_as)
                                         <tr>
-                                            <td>1</td>
-                                            <td>Judul Gambar dari DB</td>
+                                            <td>{!! $loop->iteration !!}</td>
                                             <td>
-                                                <img src="{{ asset('assets/depan/images/01.jpg') }}" width="50%">
-                                            </td>
+                                               <img src="data:image/jpeg;base64,{{ base64_encode($home_galeri_as->home_galeri_konten) }}" width="50%">
+                                            </td>   
                                             <td>
-                                                <a href="#" class="btn btn-warning btn-icon-split">
-                                                    <span class="text">ganti gambar</span>
-                                                </a>
-                                                <br>
-                                                <br>
                                                 <a href="#" class="btn btn-danger btn-icon-split">
                                                     <span class="text">Hapus gambar</span>
                                                 </a>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Judul Gambar dari DB</td>
-                                            <td>
-                                                <img src="{{ asset('assets/depan/images/02.jpg') }}" width="50%">
-                                            </td>
-                                            <td>
-                                                <a href="#" class="btn btn-warning btn-icon-split">
-                                                    <span class="text">ganti gambar</span>
-                                                </a>
-                                                <br>
-                                                <br>
-                                                <a href="#" class="btn btn-danger btn-icon-split">
-                                                    <span class="text">Hapus gambar</span>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Judul Gambar dari DB</td>
-                                            <td>
-                                                <img src="{{ asset('assets/depan/images/03.jpg') }}" width="50%">
-                                            </td>
-                                            <td>
-                                                <a href="#" class="btn btn-warning btn-icon-split">
-                                                    <span class="text">ganti gambar</span>
-                                                </a>
-                                                <br>
-                                                <br>
-                                                <a href="#" class="btn btn-danger btn-icon-split">
-                                                    <span class="text">Hapus gambar</span>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>4</td>
-                                            <td>Judul Gambar dari DB</td>
-                                            <td>
-                                                <img src="{{ asset('assets/depan/images/04.jpg') }}" width="50%">
-                                            </td>
-                                            <td>
-                                                <a href="#" class="btn btn-warning btn-icon-split">
-                                                    <span class="text">ganti gambar</span>
-                                                </a>
-                                                <br>
-                                                <br>
-                                                <a href="#" class="btn btn-danger btn-icon-split">
-                                                    <span class="text">Hapus gambar</span>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>5</td>
-                                            <td>Judul Gambar dari DB</td>
-                                            <td>
-                                                <img src="{{ asset('assets/depan/images/05.jpg') }}" width="50%">
-                                            </td>
-                                            <td>
-                                                <a href="#" class="btn btn-warning btn-icon-split">
-                                                    <span class="text">ganti gambar</span>
-                                                </a>
-                                                <br>
-                                                <br>
-                                                <a href="#" class="btn btn-danger btn-icon-split">
-                                                    <span class="text">Hapus gambar</span>
-                                                </a>
-                                            </td>
-                                        </tr>
+                                        @endforeach
                                     </tbody>
                                 </table>
                             </div>

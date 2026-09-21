@@ -46,7 +46,6 @@
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th style="width: 16%; white-space: nowrap;">Judul Gambar</th>
                                             <th>Preview</th>
                                             <th style="width: 17%; white-space: nowrap;">Aksi</th>
                                         </tr>
@@ -54,13 +53,12 @@
                         
                                     <tbody>
                                         <tr>
-                                            <td>Judul Gambar dari DB</td>
                                             <td>
-                                                <img src="{{ asset('assets/depan/images/akred-nas-inter.jpg') }}" width="50%">
+                                                <img src="data:image/jpeg;base64,{{ base64_encode($HOME_INFOGRAFIS_UTAMA->home_infografis_utama_konten) }}" width="70%">
                                             </td>
                                             <td>
                                                 <a href="#" class="btn btn-warning btn-icon-split">
-                                                    <span class="text">Edit Gambar Infografis Utama</span>
+                                                    <span class="text">Edit Infografis Utama</span>
                                                 </a>
                                             </td>
                                         </tr>
@@ -92,18 +90,17 @@
                                     <thead>
                                         <tr>
                                             <th style="width: 5%; white-space: nowrap;">No</th>
-                                            <th style="width: 16%; white-space: nowrap;">Judul Gambar</th>
                                             <th>Preview</th>
                                             <th style="width: 16%; white-space: nowrap;">Aksi</th>
                                         </tr>
                                     </thead>
                         
                                     <tbody>
+                                        @foreach($HOME_INFOGRAFIS as $home_infografis_as)
                                         <tr>
-                                            <td>1</td>
-                                            <td>Judul Gambar dari DB</td>
+                                            <td>{!! $loop->iteration !!}</td>
                                             <td>
-                                                <img src="{{ asset('assets/depan/images/persentasi-akred-univ.jpg') }}" width="50%">
+                                                <img src="data:image/jpeg;base64,{{ base64_encode($home_infografis_as->home_infografis_konten) }}" width="620">
                                             </td>
                                             <td>
                                                 <a href="#" class="btn btn-warning btn-icon-split">
@@ -111,30 +108,7 @@
                                                 </a>
                                             </td>
                                         </tr>
-                                        <tr>
-                                            <td>2</td>
-                                            <td>Judul Gambar dari DB</td>
-                                            <td>
-                                                <img src="{{ asset('assets/depan/images/rank601-800.png') }}" width="50%">
-                                            </td>
-                                            <td>
-                                                <a href="#" class="btn btn-warning btn-icon-split">
-                                                    <span class="text">Edit Infografis</span>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>3</td>
-                                            <td>Judul Gambar dari DB</td>
-                                            <td>
-                                                <img src="{{ asset('assets/depan/images/rank-19.png') }}" width="50%">
-                                            </td>
-                                            <td>
-                                                <a href="#" class="btn btn-warning btn-icon-split">
-                                                    <span class="text">Edit Infografis</span>
-                                                </a>
-                                            </td>
-                                        </tr>
+                                        @endforeach
                                     </tbody>
                                 </table>
                             </div>

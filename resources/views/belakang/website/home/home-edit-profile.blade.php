@@ -53,8 +53,8 @@
                         
                                     <tbody>
                                         <tr>
-                                            <td>Profile Singkat dan Sejarah DP3M</td>
-                                            <td>Konten dari DB</td>
+                                            <td>{!! $HOME_PROFIL->home_profil_dp3m_judul !!}</td>
+                                            <td>{!! $HOME_PROFIL->home_profil_dp3m_konten !!}</td>
                                             <td>
                                                 <a href="#" class="btn btn-warning btn-icon-split">
                                                     <span class="text">Edit Konten/Judul</span>

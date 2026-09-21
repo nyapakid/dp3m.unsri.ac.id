@@ -7,6 +7,7 @@ Route::get('/api/akreditasi', [AkreditasiController::class, 'akreditasi']);
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\depan_controller;
+use App\Http\Controllers\belakang_controller;
 
 // ==========================================
 // ROUTE FRONTEND (DEPAN) - PUBLIC
@@ -80,25 +81,17 @@ Route::get('/belakang/pintu', function () {
     })->name('home-edit-banner');
 
     //home-edit-profile
-    Route::get('/belakang/website/home/edit-profile', function () {
-    return view('belakang.website.home.home-edit-profile');
-    })->name('home-edit-profile');
+    Route::get('/belakang/website/home/edit-profile', [belakang_controller::class, 'edit_home_profile'])->name('home-edit-profile');
 
     //home-edit-infografis
-    Route::get('/belakang/website/home/edit-infografis', function () {
-    return view('belakang.website.home.home-edit-infografis');
-    })->name('home-edit-infografis');
+    Route::get('/belakang/website/home/edit-infografis', [belakang_controller::class, 'edit_home_infografis'])->name('home-edit-infografis');
 
     //home-edit-gallery
-    Route::get('/belakang/website/home/edit-gallery', function () {
-    return view('belakang.website.home.home-edit-gallery');
-    })->name('home-edit-gallery');
+    Route::get('/belakang/website/home/edit-gallery', [belakang_controller::class, 'edit_home_gallery'])->name('home-edit-gallery');
 
 //tentang start
     //tentant-edit-visi-misi
-    Route::get('/belakang/website/tentang/edit-visi-misi-tujuan-startegi', function () {
-    return view('belakang.website.tentang.tentang-edit-visi-misi');
-    })->name('tentang-edit-visi-misi');
+    Route::get('/belakang/website/tentang/edit-visi-misi-tujuan-startegi', [belakang_controller::class, 'edit_visi_misi'])->name('tentang-edit-visi-misi');
 
     //tentant-edit-struktur-organisasi
     Route::get('/belakang/website/tentang/edit-struktur-organisasi', function () {
