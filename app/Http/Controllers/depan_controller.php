@@ -20,6 +20,7 @@ use App\Models\peraturan_dokumen_spmi;
 use App\Models\peraturan_dokumen_uu;
 use App\Models\peraturan_dokumen_statuta_view;
 use App\Models\peraturan_dokumen_statuta_tabel;
+use App\Models\siklus_spmi_laporan_prodi;
 
 class depan_controller extends Controller
 {
@@ -89,6 +90,37 @@ class depan_controller extends Controller
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
         return view('depan.struktur-organisasi', compact('TENTANG_STRUKTURORGANISASI'));
+
+    }
+    //end fungsi tampil halaman tentang struktur organisasi
+
+    //start fungsi tampil halaman tentang struktur organisasi
+    public function tampil_laporan_prodi()
+    //satu halaman 1 fungsi, jadi buat fungsi baru untuk setiap halaman
+    //buat fungsi baru kalau untuk halaman berikutnya
+    {
+        //tambah dibawah ini
+
+        //tambah terus kebawah untuk module berikutnya copy dari sebelumnya
+        //$"variable" = nama_model->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
+        //$"variable" = nama_model->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
+        //$"variable" = nama_model->where('nama_kolom', 'nilai')->first();
+        //$"variable" = nama_model->where('nama_kolom', 'nilai')->get();
+        $SIKLUS_SPMI_LAPORAN_PRODI_FE = siklus_spmi_laporan_prodi::where('siklus_spmi_laporan_prodi_fakultas_id', '1')->orderBy('siklus_spmi_laporan_prodi_tahun_periode_spmi', 'desc')->get();
+        $SIKLUS_SPMI_LAPORAN_PRODI_FH = siklus_spmi_laporan_prodi::where('siklus_spmi_laporan_prodi_fakultas_id', '2')->orderBy('siklus_spmi_laporan_prodi_tahun_periode_spmi', 'desc')->get();
+        $SIKLUS_SPMI_LAPORAN_PRODI_FT = siklus_spmi_laporan_prodi::where('siklus_spmi_laporan_prodi_fakultas_id', '3')->orderBy('siklus_spmi_laporan_prodi_tahun_periode_spmi', 'desc')->get();
+        $SIKLUS_SPMI_LAPORAN_PRODI_FK = siklus_spmi_laporan_prodi::where('siklus_spmi_laporan_prodi_fakultas_id', '4')->orderBy('siklus_spmi_laporan_prodi_tahun_periode_spmi', 'desc')->get();
+        $SIKLUS_SPMI_LAPORAN_PRODI_FP = siklus_spmi_laporan_prodi::where('siklus_spmi_laporan_prodi_fakultas_id', '5')->orderBy('siklus_spmi_laporan_prodi_tahun_periode_spmi', 'desc')->get();
+        $SIKLUS_SPMI_LAPORAN_PRODI_FKIP = siklus_spmi_laporan_prodi::where('siklus_spmi_laporan_prodi_fakultas_id', '6')->orderBy('siklus_spmi_laporan_prodi_tahun_periode_spmi', 'desc')->get();
+        $SIKLUS_SPMI_LAPORAN_PRODI_FISIP = siklus_spmi_laporan_prodi::where('siklus_spmi_laporan_prodi_fakultas_id', '7')->orderBy('siklus_spmi_laporan_prodi_tahun_periode_spmi', 'desc')->get();
+        $SIKLUS_SPMI_LAPORAN_PRODI_FMIPA = siklus_spmi_laporan_prodi::where('siklus_spmi_laporan_prodi_fakultas_id', '8')->orderBy('siklus_spmi_laporan_prodi_tahun_periode_spmi', 'desc')->get();
+        $SIKLUS_SPMI_LAPORAN_PRODI_FASILKOM = siklus_spmi_laporan_prodi::where('siklus_spmi_laporan_prodi_fakultas_id', '9')->orderBy('siklus_spmi_laporan_prodi_tahun_periode_spmi', 'desc')->get();
+        $SIKLUS_SPMI_LAPORAN_PRODI_FKM = siklus_spmi_laporan_prodi::where('siklus_spmi_laporan_prodi_fakultas_id', '10')->orderBy('siklus_spmi_laporan_prodi_tahun_periode_spmi', 'desc')->get();
+        $SIKLUS_SPMI_LAPORAN_PRODI_PASCA = siklus_spmi_laporan_prodi::where('siklus_spmi_laporan_prodi_fakultas_id', '20')->orderBy('siklus_spmi_laporan_prodi_tahun_periode_spmi', 'desc')->get();
+
+        //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
+        // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.spmi-siklus-view-module.page.laporan-prodi', compact('SIKLUS_SPMI_LAPORAN_PRODI_FE', 'SIKLUS_SPMI_LAPORAN_PRODI_FH', 'SIKLUS_SPMI_LAPORAN_PRODI_FT', 'SIKLUS_SPMI_LAPORAN_PRODI_FK', 'SIKLUS_SPMI_LAPORAN_PRODI_FP', 'SIKLUS_SPMI_LAPORAN_PRODI_FKIP', 'SIKLUS_SPMI_LAPORAN_PRODI_FISIP', 'SIKLUS_SPMI_LAPORAN_PRODI_FMIPA', 'SIKLUS_SPMI_LAPORAN_PRODI_FASILKOM', 'SIKLUS_SPMI_LAPORAN_PRODI_FKM', 'SIKLUS_SPMI_LAPORAN_PRODI_PASCA'));
 
     }
     //end fungsi tampil halaman tentang struktur organisasi

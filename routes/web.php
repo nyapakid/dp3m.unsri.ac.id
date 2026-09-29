@@ -38,9 +38,7 @@ Route::get('/', [depan_controller::class, 'tampil_home'])->name('index');
         return view('depan.spmi-siklus');
     })->name('spmi-siklus');
 
-    Route::get('/siklus-spmi-laporan-prodi', function () {
-        return view('depan.spmi-siklus-view-module.page.laporan-prodi');
-    })->name('spmi-siklus-laporan-prodi');
+    Route::get('/siklus-spmi-laporan-prodi', [depan_controller::class, 'tampil_laporan_prodi'])->name('spmi-siklus-laporan-prodi');
 
     Route::get('/standar-unsri', function () {
         return view('depan.spmi-standar-unsri');
