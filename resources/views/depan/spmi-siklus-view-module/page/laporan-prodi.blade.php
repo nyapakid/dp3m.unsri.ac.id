@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
-    <title>DP3M UNSRI</title>
+    <title>DP3M UNSRI - Laporan SPMI/AMAI Setiap Prodi</title>
       @include('depan.main-module-view.meta')
     
       @include('depan.main-module-view.css')
