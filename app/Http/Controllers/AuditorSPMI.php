@@ -11,7 +11,6 @@ class AuditorSPMI extends Controller
         $username = 'spmi_api';
         $password = 'spmi_api@!!098';
 
-
         try {
 
             $response = Http::timeout(60)
@@ -22,7 +21,6 @@ class AuditorSPMI extends Controller
                         'username' => $username,
                         'password' => $password,
                         'per_page' => 100,
-
                     ]
                 );
 
@@ -35,8 +33,18 @@ class AuditorSPMI extends Controller
 
             $result = $response->json();
 
-            // Data auditor berada di dalam key "data"
+            // Ambil data auditor
             $auditors = $result['data'] ?? [];
+
+            // ==========================================
+            // SORTING NAMA AUDITOR A-Z
+            // ==========================================
+            $auditors = collect($auditors)
+                ->sortBy(function ($auditor) {
+                    return $auditor['dosen']['nama'] ?? '';
+                })
+                ->values()
+                ->all();
 
             return view('depan.spmi-siklus', [
                 'auditors' => $auditors,
