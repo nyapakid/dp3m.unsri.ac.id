@@ -55,6 +55,7 @@ Route::get('/', [depan_controller::class, 'tampil_home'])->name('index');
 
     //peraturan dan dokumen
     Route::get('/peraturan-dokumen-POS', [depan_controller::class, 'tampil_peraturan_dan_dokumen_pos'])->name('pos');
+    Route::get('/peraturan-dokumen-studi-banding', [depan_controller::class, 'tampil_peraturan_dan_dokumen_studi_banding'])->name('studi-banding');
     Route::get('/peraturan-dokumen-spmi', [depan_controller::class, 'tampil_peraturan_dan_dokumen_spmi'])->name('spmi');
     Route::get('/peraturan-dan-undang-undang', [depan_controller::class, 'tampil_peraturan_dan_dokumen_uu'])->name('peraturan-uu');
     Route::get('/statuta-dan-peraturan-turunan-statuta', [depan_controller::class, 'tampil_peraturan_dan_dokumen_statuta'])->name('peraturan-statuta-turunan');

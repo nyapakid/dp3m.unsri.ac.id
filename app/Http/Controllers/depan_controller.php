@@ -20,6 +20,7 @@ use App\Models\peraturan_dokumen_spmi;
 use App\Models\peraturan_dokumen_uu;
 use App\Models\peraturan_dokumen_statuta_view;
 use App\Models\peraturan_dokumen_statuta_tabel;
+use App\Models\peraturan_dokumen_studi_banding;
 use App\Models\siklus_spmi_laporan_prodi;
 
 class depan_controller extends Controller
@@ -232,6 +233,27 @@ class depan_controller extends Controller
 
     }
     //end fungsi tampil halaman peraturan dan dokumen pos
+
+    //start fungsi tampil halaman peraturan dan dokumen studi banding
+    public function tampil_peraturan_dan_dokumen_studi_banding()
+    //satu halaman 1 fungsi, jadi buat fungsi baru untuk setiap halaman
+    //buat fungsi baru kalau untuk halaman berikutnya
+    {
+        //tambah dibawah ini
+
+        //tambah terus kebawah untuk module berikutnya copy dari sebelumnya
+        //$"variable" = DB::table('nama_tabel')->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
+        //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
+        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
+        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        $PERATURAN_DOKUMEN_STUDI_BANDING = peraturan_dokumen_studi_banding::orderBy('peraturan_dokumen_laporan_studi_banding_tahun', 'desc')->get();
+
+        //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
+        // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.peraturan-dokumen-studi-banding', compact('PERATURAN_DOKUMEN_STUDI_BANDING'));
+
+    }
+    //end fungsi tampil halaman peraturan dan dokumen studi banding
 
     //start fungsi tampil halaman peraturan dan dokumen spmi
     public function tampil_peraturan_dan_dokumen_spmi()
