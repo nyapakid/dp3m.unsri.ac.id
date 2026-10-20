@@ -17,6 +17,9 @@
                 </p>
             </div>
         </article>
+        <br>
+        <h3><a href="https://drive.google.com/file/d/1kmRBG3sUpTkPy5tKKiIr7UKebOugh1Rb/view" target="_blank">Buku Pedoman Penerapan Siklus PPEPP Std-SPMI-UNSRI-2023</a></h3>
+
 
     </div>
 <section>
