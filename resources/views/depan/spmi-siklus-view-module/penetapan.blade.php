@@ -208,7 +208,7 @@
                                     <div class="unit-body">
                                         <h5 class="box-icon-classic-title">Manual Mutu Universitas Sriwijaya</h5>
                                         <div class="hero-buttons mt-4">
-                                            <a href="#" target="_blank" class="btn btn-primary">Download File</a>
+                                            <a href="{{ route('pos') }}" target="_blank" class="btn btn-primary">Download File</a>
                                         </div>
                                     </div>
                                 </div>
@@ -221,7 +221,7 @@
                                     <div class="unit-body">
                                         <h5 class="box-icon-classic-title">Standard Mutu Universitas Sriwijaya</h5>
                                         <div class="hero-buttons mt-4">
-                                            <a href="#" target="_blank" class="btn btn-primary">Download File</a>
+                                            <a href="{{ route('pos') }}" target="_blank" class="btn btn-primary">Download File</a>
                                         </div>
                                     </div>
                                 </div>
