@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
     <head>
-        <title>DP3M UNSRI - Studi Banding</title>
+        <title>DP3M UNSRI - Dokumen Laporan Lainnya</title>
         @include('depan.main-module-view.meta')
         
         @include('depan.main-module-view.css')
@@ -17,7 +17,7 @@
             <section class="section section-sm bg-default">
                 <div class="container">
 
-                    @include('depan.peraturan-dokumen-studi-banding-module-view.studi-banding-tabel')
+                    @include('depan.peraturan-dokumen-laporan-lainnya-module-view.laporan-lainnya-tabel')
 
                 </div>
             </section>

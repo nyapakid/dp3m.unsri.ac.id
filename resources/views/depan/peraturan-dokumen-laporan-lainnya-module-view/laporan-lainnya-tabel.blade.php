@@ -11,12 +11,12 @@
             </thead>
 
             <tbody>
-                @forelse($PERATURAN_DOKUMEN_STUDI_BANDING as $peraturan_dokumen_studi_banding_as)
+                @forelse($PERATURAN_DOKUMEN_LAPORAN_LAINNYA as $peraturan_dokumen_laporan_lainnya_as)
                     <tr>
                         <td style="text-align: center">{{ $loop->iteration }}</td>
-                        <td style="text-align: center">{{ $peraturan_dokumen_studi_banding_as->peraturan_dokumen_laporan_studi_banding_nama }}</td>
-                        <td style="text-align: center">{{ $peraturan_dokumen_studi_banding_as->peraturan_dokumen_laporan_studi_banding_tahun }}</td>
-                        <td style="text-align: center"><a href="{!! $peraturan_dokumen_studi_banding_as->peraturan_dokumen_laporan_studi_banding_link !!}" target="_blank">Download</a></td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_laporan_lainnya_as->peraturan_dokumen_laporan_studi_banding_nama }}</td>
+                        <td style="text-align: center">{{ $peraturan_dokumen_laporan_lainnya_as->peraturan_dokumen_laporan_studi_banding_tahun }}</td>
+                        <td style="text-align: center"><a href="{!! $peraturan_dokumen_laporan_lainnya_as->peraturan_dokumen_laporan_studi_banding_link !!}" target="_blank">Download</a></td>
                     </tr>
                         @empty
                         <tr>
