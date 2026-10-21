@@ -14,7 +14,7 @@
                 @forelse($PERATURAN_DOKUMEN_BUKU_STANDAR_MANUAL as $peraturan_dokumen_buku_standar_manual_as)
                     <tr>
                         <td style="text-align: center">{{ $loop->iteration }}</td>
-                        <td style="text-align: center">{{ $peraturan_dokumen_buku_standar_manual_as->peraturan_dokumen_buku_standar_manual_nama }}</td>
+                        <td style="text-align: left">{{ $peraturan_dokumen_buku_standar_manual_as->peraturan_dokumen_buku_standar_manual_nama }}</td>
                         <td style="text-align: center">{{ $peraturan_dokumen_buku_standar_manual_as->peraturan_dokumen_buku_standar_manual_tahun }}</td>
                         <td style="text-align: center"><a href="{!! $peraturan_dokumen_buku_standar_manual_as->peraturan_dokumen_buku_standar_manual_link !!}" target="_blank">Download</a></td>
                     </tr>
