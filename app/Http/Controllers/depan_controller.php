@@ -16,6 +16,7 @@ use App\Models\tentang_strukturorganisasi;
 use App\Models\akreditasi_aipt;
 use App\Models\akreditasi_instrumen;
 use App\Models\peraturan_dokumen_pos;
+use App\Models\peraturan_dokumen_buku_standar_manual;
 use App\Models\peraturan_dokumen_spmi;
 use App\Models\peraturan_dokumen_uu;
 use App\Models\peraturan_dokumen_statuta_view;
@@ -251,6 +252,26 @@ class depan_controller extends Controller
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
         return view('depan.peraturan-dokumen-laporan_lainnya', compact('PERATURAN_DOKUMEN_LAPORAN_LAINNYA'));
+
+    }
+    //end fungsi tampil halaman peraturan dan dokumen studi banding
+
+    public function tampil_peraturan_dan_dokumen_buku_standar_manual()
+    //satu halaman 1 fungsi, jadi buat fungsi baru untuk setiap halaman
+    //buat fungsi baru kalau untuk halaman berikutnya
+    {
+        //tambah dibawah ini
+
+        //tambah terus kebawah untuk module berikutnya copy dari sebelumnya
+        //$"variable" = DB::table('nama_tabel')->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
+        //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
+        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
+        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        $PERATURAN_DOKUMEN_BUKU_STANDAR_MANUAL = peraturan_dokumen_buku_standar_manual::orderBy('peraturan_dokumen_buku_standar_manual_tahun', 'desc')->orderBy('peraturan_dokumen_buku_standar_manual_nama', 'asc')->get();
+
+        //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
+        // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.peraturan-dokumen-buku-standar-manual', compact('PERATURAN_DOKUMEN_BUKU_STANDAR_MANUAL'));
 
     }
     //end fungsi tampil halaman peraturan dan dokumen studi banding
