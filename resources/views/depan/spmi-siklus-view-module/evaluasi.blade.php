@@ -138,24 +138,69 @@
                 
             </article>
 
-            <!--
-            <article class="box-icon-classic">
-                
-                <div class="country-tab">
-                    <button class="country-links" onclick="openCountry(event, 'SKAMAI')" id="defaultCountry">SK-AMAI</button>
-                    <button class="country-links" onclick="openCountry(event, 'SKEMI')">ST-AMAI</button>
-                </div>
+            <section class="section section-sm bg-default">
+                    <table class="table table-striped table-hover table-bordered align-middle">
 
-                <div id="SKAMAI" class="country-content">
-                    @include('depan.spmi-siklus-view-module.tabel.tabel-sk-amai')
-                </div>
+                        <thead class="table-dark">
+                            <tr>
+                                <th style="width: 40px; white-space: nowrap;">No</th>
+                                <th style="width: fit-content; white-space: nowrap;">Nama File</th>
+                                <th style="width: fit-content; white-space: nowrap;">Nomor</th>
+                                <th style="width: fit-content; white-space: nowrap;">Tahun</th>
+                                <th style="width: fit-content; white-space: nowrap;">Link Download</th>
+                            </tr>
+                        </thead>
 
-                <div id="SKEMI" class="country-content">
-                    @include('depan.spmi-siklus-view-module.tabel.tabel-st-amai')
-                </div>
+                        <tbody>
+                            @forelse($tampil_data_sk as $tampil_data_sk_as)
+                                <tr>
+                                    <td style="text-align: center">{{ $loop->iteration }}</td>
+                                    <td style="text-align: left">{{ $tampil_data_sk_as->siklus_spmi_sk_lampau_nama }}</td>
+                                    <td style="text-align: center">{{ $tampil_data_sk_as->siklus_spmi_sk_lampau_nomor }}</td>
+                                    <td style="text-align: center">{{ $tampil_data_sk_as->siklus_spmi_sk_lampau_tahun }}</td>
+                                    <td style="text-align: center"><a href="{!! $tampil_data_sk_as->siklus_spmi_sk_lampau_link !!}" target="_blank">Download</a></td>
+                                </tr>
+                                    @empty
+                                    <tr>
+                                        <td colspan="6" style="text-align: center">SK Belum Ada Data</td>
+                                    </tr>
+                            @endforelse
+                        </tbody>
 
-            </article>
-            -->
+                    </table>
+            </section>
+
+            <section class="section section-sm bg-default">
+                    <table class="table table-striped table-hover table-bordered align-middle">
+
+                        <thead class="table-dark">
+                            <tr>
+                                <th style="width: 40px; white-space: nowrap;">No</th>
+                                <th style="width: fit-content; white-space: nowrap;">Nama File</th>
+                                <th style="width: fit-content; white-space: nowrap;">Nomor</th>
+                                <th style="width: fit-content; white-space: nowrap;">Tahun</th>
+                                <th style="width: fit-content; white-space: nowrap;">Link Download</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @forelse($tampil_data_st as $tampil_data_st_as)
+                                <tr>
+                                    <td style="text-align: center">{{ $loop->iteration }}</td>
+                                    <td style="text-align: left">{{ $tampil_data_st_as->siklus_spmi_sk_lampau_nama }}</td>
+                                    <td style="text-align: center">{{ $tampil_data_st_as->siklus_spmi_sk_lampau_nomor }}</td>
+                                    <td style="text-align: center">{{ $tampil_data_st_as->siklus_spmi_sk_lampau_tahun }}</td>
+                                    <td style="text-align: center"><a href="{!! $tampil_data_st_as->siklus_spmi_sk_lampau_link !!}" target="_blank">Download</a></td>
+                                </tr>
+                                    @empty
+                                    <tr>
+                                        <td colspan="6" style="text-align: center">ST Belum Ada Data</td>
+                                    </tr>
+                            @endforelse
+                        </tbody>
+
+                    </table>
+            </section>
 
             <article class="box-icon-classic">
                 <div class="unit-body">
