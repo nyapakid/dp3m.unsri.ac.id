@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Http;
 use App\Models\spmi_sk_lampau;
 
-class AuditorSPMI extends Controller
+class siklusSPMI extends Controller
 {
     // Mengambil data SK dan ST dari database
     public function tampil_sk_lampau()

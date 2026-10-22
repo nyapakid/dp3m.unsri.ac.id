@@ -34,8 +34,8 @@ Route::get('/', [depan_controller::class, 'tampil_home'])->name('index');
         return view('depan.spmi-startegi-lingkup');
     })->name('spmi-strategi-lingkup');
 
-    use App\Http\Controllers\AuditorSPMI;
-    Route::get('/siklus-spmi', [AuditorSPMI::class, 'index'])->name('spmi-siklus');
+    use App\Http\Controllers\siklusSPMI;
+    Route::get('/siklus-spmi', [siklusSPMI::class, 'index'])->name('spmi-siklus');
 
     Route::get('/siklus-spmi-laporan-prodi', [depan_controller::class, 'tampil_laporan_prodi'])->name('spmi-siklus-laporan-prodi');
 
