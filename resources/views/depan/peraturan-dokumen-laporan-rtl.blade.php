@@ -33,9 +33,9 @@
                                 @forelse($PERATURAN_DOKUMEN_RTL as $peraturan_dokumen_rtl_as)
                                     <tr>
                                         <td style="text-align: center">{{ $loop->iteration }}</td>
-                                        <td style="text-align: center">{{ $peraturan_dokumen_rtl_as->peraturan_dokumen_rtl_nama }}</td>
-                                        <td style="text-align: center">{{ $peraturan_dokumen_rtl_as->peraturan_dokumen_rtl_tahun }}</td>
-                                        <td style="text-align: center"><a href="{!! $peraturan_dokumen_rtl_as->peraturan_dokumen_rtl_link !!}" target="_blank">Download</a></td>
+                                        <td style="text-align: center">{{ $peraturan_dokumen_rtl_as->peraturan_dokumen_laporan_rtl_nama }}</td>
+                                        <td style="text-align: center">{{ $peraturan_dokumen_rtl_as->peraturan_dokumen_laporan_rtl_tahun }}</td>
+                                        <td style="text-align: center"><a href="{!! $peraturan_dokumen_rtl_as->peraturan_dokumen_laporan_rtl_link !!}" target="_blank">Download</a></td>
                                     </tr>
                                         @empty
                                         <tr>
