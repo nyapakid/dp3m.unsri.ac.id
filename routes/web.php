@@ -18,6 +18,16 @@ Route::get('/underconstruction', function () {
     return view('underconstruction');
 })->name('perbaikan');
 
+//kebutuhan iframe ke unsri.ac.id
+Route::get('/tabel-nasional', function () {
+        return view('nasional-status');
+    })->name('tabel-nasional');
+
+Route::get('/tabel-internasional', function () {
+        return view('inter-status');
+    })->name('tabel-internasional');
+
+
 //depan
 Route::get('/', [depan_controller::class, 'tampil_home'])->name('index');
 
