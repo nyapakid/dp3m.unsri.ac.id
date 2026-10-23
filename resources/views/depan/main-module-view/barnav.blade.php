@@ -50,6 +50,8 @@
                         <li><a class="dropdown-item" href="{{ route('pos') }}">POS DP3M</a></li>
                         <li><a class="dropdown-item" href="{{ route('buku-standar-manual') }}">Buku Standar dan Manual</a></li>
                         <li><a class="dropdown-item" href="{{ route('spmi') }}">Dokumen SPMI</a></li>
+                        <li><a class="dropdown-item" href="{{ route('laporan-rtl') }}">Dokumen Laporan RTL</a></li>
+                        <li><a class="dropdown-item" href="{{ route('laporan-rtm') }}">Dokumen Laporan RTM</a></li>
                         <li><a class="dropdown-item" href="{{ route('peraturan-uu') }}">Peraturan dan Undang-Undang</a></li>
                         <li><a class="dropdown-item" href="{{ route('peraturan-statuta-turunan') }}">Statuta dan Peraturan Turunan Statuta</a></li>
                         <li><a class="dropdown-item" href="{{ route('laporan-lainnya') }}">Dokumen Laporan Lainnya</a></li>

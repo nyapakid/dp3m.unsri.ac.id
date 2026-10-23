@@ -58,6 +58,8 @@ Route::get('/', [depan_controller::class, 'tampil_home'])->name('index');
     Route::get('/peraturan-dokumen-buku-standar-manual', [depan_controller::class, 'tampil_peraturan_dan_dokumen_buku_standar_manual'])->name('buku-standar-manual');
     Route::get('/peraturan-dokumen-laporan-lainnya', [depan_controller::class, 'tampil_peraturan_dan_dokumen_laporan_lainnya'])->name('laporan-lainnya');
     Route::get('/peraturan-dokumen-spmi', [depan_controller::class, 'tampil_peraturan_dan_dokumen_spmi'])->name('spmi');
+    Route::get('/peraturan-dokumen-laporan-rtl', [depan_controller::class, 'tampil_peraturan_dan_dokumen_rtl'])->name('laporan-rtl');
+    Route::get('/peraturan-dokumen-laporan-rtm', [depan_controller::class, 'tampil_peraturan_dan_dokumen_rtm'])->name('laporan-rtm');
     Route::get('/peraturan-dan-undang-undang', [depan_controller::class, 'tampil_peraturan_dan_dokumen_uu'])->name('peraturan-uu');
     Route::get('/statuta-dan-peraturan-turunan-statuta', [depan_controller::class, 'tampil_peraturan_dan_dokumen_statuta'])->name('peraturan-statuta-turunan');
 

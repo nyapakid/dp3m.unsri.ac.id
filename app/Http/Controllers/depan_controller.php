@@ -19,6 +19,8 @@ use App\Models\peraturan_dokumen_pos;
 use App\Models\peraturan_dokumen_buku_standar_manual;
 use App\Models\peraturan_dokumen_spmi;
 use App\Models\peraturan_dokumen_uu;
+use App\Models\peraturan_dokumen_rtl;
+use App\Models\peraturan_dokumen_rtm;
 use App\Models\peraturan_dokumen_statuta_view;
 use App\Models\peraturan_dokumen_statuta_tabel;
 use App\Models\peraturan_dokumen_laporan_lainnya;
@@ -298,6 +300,48 @@ class depan_controller extends Controller
 
     }
     //end fungsi tampil halaman peraturan dan dokumen spmi
+
+    //start fungsi tampil halaman peraturan dan dokumen RTL
+    public function tampil_peraturan_dan_dokumen_rtl()
+    //satu halaman 1 fungsi, jadi buat fungsi baru untuk setiap halaman
+    //buat fungsi baru kalau untuk halaman berikutnya
+    {
+        //tambah dibawah ini
+
+        //tambah terus kebawah untuk module berikutnya copy dari sebelumnya
+        //$"variable" = DB::table('nama_tabel')->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
+        //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
+        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
+        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        $PERATURAN_DOKUMEN_RTL = peraturan_dokumen_rtl::orderBy('peraturan_dokumen_laporan_rtl_tahun', 'desc')->get();
+
+        //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
+        // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.peraturan-dokumen-laporan-rtl', compact('PERATURAN_DOKUMEN_RTL'));
+
+    }
+    //end fungsi tampil halaman peraturan dan dokumen RTL
+
+    //start fungsi tampil halaman peraturan dan dokumen RTM
+    public function tampil_peraturan_dan_dokumen_rtm()
+    //satu halaman 1 fungsi, jadi buat fungsi baru untuk setiap halaman
+    //buat fungsi baru kalau untuk halaman berikutnya
+    {
+        //tambah dibawah ini
+
+        //tambah terus kebawah untuk module berikutnya copy dari sebelumnya
+        //$"variable" = DB::table('nama_tabel')->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
+        //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
+        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
+        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        $PERATURAN_DOKUMEN_RTM = peraturan_dokumen_rtm::orderBy('peraturan_dokumen_laporan_rtm_tahun', 'desc')->get();
+
+        //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
+        // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.peraturan-dokumen-laporan-rtm', compact('PERATURAN_DOKUMEN_RTM'));
+
+    }
+    //end fungsi tampil halaman peraturan dan dokumen RTM
 
     //start fungsi tampil halaman peraturan dan dokumen UU
     public function tampil_peraturan_dan_dokumen_uu()
