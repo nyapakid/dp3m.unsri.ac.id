@@ -73,6 +73,11 @@ Route::get('/', [depan_controller::class, 'tampil_home'])->name('index');
     Route::get('/peraturan-dan-undang-undang', [depan_controller::class, 'tampil_peraturan_dan_dokumen_uu'])->name('peraturan-uu');
     Route::get('/statuta-dan-peraturan-turunan-statuta', [depan_controller::class, 'tampil_peraturan_dan_dokumen_statuta'])->name('peraturan-statuta-turunan');
 
+    //berita
+    Route::get('/berita', [depan_controller::class, 'tampil_berita'])->name('berita');
+    Route::get('/berita-detail/{id}', [depan_controller::class, 'tampil_berita_detail'])->name('berita-detail');
+
+
 // ==========================================
 // ROUTE FRONTEND (belakang) - dudu login
 // ==========================================

@@ -25,6 +25,7 @@ use App\Models\peraturan_dokumen_statuta_view;
 use App\Models\peraturan_dokumen_statuta_tabel;
 use App\Models\peraturan_dokumen_laporan_lainnya;
 use App\Models\siklus_spmi_laporan_prodi;
+use App\Models\berita;
 
 class depan_controller extends Controller
 {
@@ -386,6 +387,46 @@ class depan_controller extends Controller
 
     }
     //end fungsi tampil halaman peraturan dan dokumen statuta
+
+    //start fungsi tampil halaman berita
+    public function tampil_berita()
+    //satu halaman 1 fungsi, jadi buat fungsi baru untuk setiap halaman
+    //buat fungsi baru kalau untuk halaman berikutnya
+    {
+        //tambah dibawah ini
+
+        //tambah terus kebawah untuk module berikutnya copy dari sebelumnya
+        //$"variable" = DB::table('nama_tabel')->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
+        //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
+        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
+        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+
+        //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
+        // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.berita');
+    }
+    //end fungsi tampil halaman berita
+
+    //start fungsi tampil halaman berita-detail
+    public function tampil_berita_detail($id)
+    //satu halaman 1 fungsi, jadi buat fungsi baru untuk setiap halaman
+    //buat fungsi baru kalau untuk halaman berikutnya
+    {
+        //tambah dibawah ini
+
+        //tambah terus kebawah untuk module berikutnya copy dari sebelumnya
+        //$"variable" = DB::table('nama_tabel')->first(); <-- kondisi apabila dalam 1 div hanya menampilkan 1 data
+        //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
+        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
+        //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        $BERITA_DETAIL = berita::where('id_berita', $id)->first();
+
+
+        //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
+        // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
+        return view('depan.berita-detail', compact('BERITA_DETAIL'));
+    }
+    //end fungsi tampil halaman berita-detail
 
     
 }
