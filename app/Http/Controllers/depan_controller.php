@@ -250,7 +250,7 @@ class depan_controller extends Controller
         //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
-        $PERATURAN_DOKUMEN_LAPORAN_LAINNYA = peraturan_dokumen_laporan_lainnya::orderBy('peraturan_dokumen_laporan_studi_banding_nama', 'desc')->orderBy('peraturan_dokumen_laporan_studi_banding_tahun', 'desc')->get();
+        $PERATURAN_DOKUMEN_LAPORAN_LAINNYA = peraturan_dokumen_laporan_lainnya::orderBy('peraturan_dokumen_laporan_studi_banding_tahun', 'desc')->get();
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
