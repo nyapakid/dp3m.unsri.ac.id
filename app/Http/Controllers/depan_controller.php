@@ -400,10 +400,11 @@ class depan_controller extends Controller
         //$"variable" = DB::table('nama_tabel')->get(); <-- kondisi apabila dalam 1 div menampilkan banyak data
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->first();
         //$"variable" = DB::table('nama_tabel')->where('nama_kolom', 'nilai')->get();
+        $BERITA_LIST = berita::orderBy('tanggal_berita', 'desc')->get();
 
         //dibagian compac setelah variabel sebelumnya tambahkan dengan "," koma lalu spasi lalu nama variabel baru
         // return view('depan.index', compact('variable1', 'variable2', 'variable3'));
-        return view('depan.berita');
+        return view('depan.berita', compact('BERITA_LIST'));
     }
     //end fungsi tampil halaman berita
 
